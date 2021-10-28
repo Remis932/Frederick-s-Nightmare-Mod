@@ -1,0 +1,5 @@
+name = "Frederick's Nightmare"
+path = "mod/Frederick's Nightmare"
+user_dir = "Frederick's Nightmare"
+replace_path = "history/provinces"
+replace_path = "decisions"
