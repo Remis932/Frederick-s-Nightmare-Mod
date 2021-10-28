@@ -638,7 +638,13 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1150
+        size = 9050
+    }
+	
+	craftsmen = {
+        culture = north_italian
+        religion = catholic
+        size = 18050
     }
 
     farmers = {

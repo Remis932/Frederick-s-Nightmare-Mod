@@ -1,5 +1,5 @@
-owner = BTL
-controller = BTL
+owner = RUS
+controller = RUS
 add_core = TUR
 add_core = ARM
 add_core = BTL

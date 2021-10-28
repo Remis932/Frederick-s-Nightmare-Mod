@@ -1,5 +1,6 @@
-owner = OLD
-controller = OLD
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = OLD
 add_core = GER
 trade_goods = fish

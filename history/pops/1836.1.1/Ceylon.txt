@@ -100,25 +100,25 @@
 
     clergymen = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 25
     }
 
     artisans = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 750
     }
 
     soldiers = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 25
     }
 
     labourers = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 1200
     }
 
@@ -183,38 +183,38 @@
     }
 
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 25
     }
 
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 50
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 1100
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = spanish
+        religion = catholic
         size = 675
     }
 }
@@ -376,25 +376,25 @@
 
     clergymen = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 25
     }
 
     artisans = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 250
     }
 
     soldiers = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 25
     }
 
     labourers = {
         culture = sinhala
-        religion = protestant
+        religion = catholic
         size = 700
     }
 

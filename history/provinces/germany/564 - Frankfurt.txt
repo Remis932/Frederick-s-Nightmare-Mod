@@ -1,5 +1,6 @@
-owner = FRM
-controller = FRM
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = FRM
 add_core = GER
 trade_goods = fruit

@@ -1,4 +1,26 @@
 # Country unit colors.
+BRN = {
+	color1= { 175 15 15  }
+    color2= { 70 70 70  }
+    color3= { 255 255 255  }
+}
+BIT = {
+	color1 = {87 217 160}
+    color2 = {87 217 160}
+    color3 = {87 217 160}
+}	
+ROM =  {
+	color1= {30 92 227}
+	color2= {30 92 227}
+	color3= {30 92 227}
+}
+IBE = {
+	color1= {179 145 61}
+	color2= {179 145 61}
+	color3= {179 145 61}
+
+
+}
 DNN = {
 	color1= { 122 57 43 }
 	color2= { 122 57 43 }

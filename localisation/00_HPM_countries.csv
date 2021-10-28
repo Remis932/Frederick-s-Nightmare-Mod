@@ -2584,7 +2584,8 @@ UZB_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;
 UZB_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;
 UZB_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;
 UZB_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;
-VEN_democracy;Republic of San Marco;;;;;;;;;;;;;
+VEN_democracy;Republic of Venice;;;;;;;;;;;;;
+VEN;Venice;x
 VEN_reactionary;Monarchici;Monarchici;Monarchici;;Monarchici;;;;;;;;;
 VEN_liberal;Intransigenti;Intransigenti;Intransige nti;;Intransigenti;;;;;;;;;
 VEN_conservative;Transigenti;Transigenti;Transigen ti;;Transigenti;;;;;;;;;

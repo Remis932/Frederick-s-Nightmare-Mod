@@ -2,15 +2,17 @@ political_decisions = {
 	secede_land_mex = {
 	picture = theatre
 	effect = {
-	SPA={country_event = {id=196000}}
+	THIS={country_event = {id=196000}}
 	}
 	potential = {
-	tag = SPA
-	OR={
-	MEX = {substate_of=SPA}
-	MEX = {vassal_of=SPA}
+	OR={tag = IBE
+	tag= SPA
 	}
-	SPA = {neighbour = MEX}
+	OR={
+	MEX = {substate_of=THIS}
+	MEX = {vassal_of=THIS}
+	}
+	THIS = {neighbour = MEX}
 	any_owned_province = {
 	limit={
 	continent=north_america

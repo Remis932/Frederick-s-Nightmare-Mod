@@ -5,7 +5,7 @@
 #Iquitos (60000/15000 POPS)
 2286 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 100
     }
@@ -616,7 +616,7 @@
 #Jauja (60000/15000 POPS)
 2296 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 325
     }
@@ -672,7 +672,7 @@
 #Ayacucho (108000/27000 POPS)
 2299 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 575
     }
@@ -742,7 +742,7 @@
 #Lima (324000/81000 POPS)
 2295 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 1675
     }
@@ -864,7 +864,7 @@
 #Ica (60000/15000 POPS)
 2297 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 325
     }
@@ -945,7 +945,7 @@
 #Huaraz (100000/25000 POPS)
 2298 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 525
     }
@@ -1027,7 +1027,7 @@
 #Pucallpa (20000/5000 POPS)
 2300 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 14
     }
@@ -1117,7 +1117,7 @@
 #Cusco (228000/57000 POPS)
 2302 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 1150
     }
@@ -1203,7 +1203,7 @@
 #Puno (104000/26000 POPS)
 2303 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 575
     }
@@ -1259,7 +1259,7 @@
 #Arequipa (72000/18000 POPS)
 2304 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 375
     }
@@ -1317,7 +1317,7 @@
 #Tacna (100000/25000 POPS)
 2578 = {
     aristocrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 550
     }

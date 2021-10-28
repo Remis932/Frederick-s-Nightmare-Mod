@@ -22,8 +22,10 @@ LOU_prussian_constitutionalism;Kingdom of Louisiana;;;;;;;;;;;;;
 IRO;Iroquois Confederation;;;;;;;;;;;;;
 IRO_ADJ;Iroquois;;;;;;;;;;;;;
 seminoles;Seminoles;;;;;;;;;;;;;
+BRN;Brandenburg;x
+BRN;Brandenburger;x
 HRE;Holy Roman Empire;;;;;;;;;;;;;
-HRE_adj;Holy Roman;;;;;;;;;;;;;
+HRE_ADJ;Holy Roman;;;;;;;;;;;;;
 DNN;Denmark-Norway;;;;;;;;;;;;;
 DNN_democracy;Republic of Denmark-Norway;;;;;;;;;;;;;
 DNN_ADJ;Danish-Norwegian;;;;;;;;;;;;;
@@ -35,3 +37,21 @@ EVTDESC196000;These territories will be better administrated by a colonial gover
 EVTOPTA196000;They better.;x
 secede_land_mex_title;Cede North American Colonies;x
 secede_land_mex_desc;Cede our newly acquired colonial territories to our North American colonial subject.;x
+peruvian;Peruvian;x
+carpato_german;Carpato-German;x
+ROM;Dacia;x
+ROM_ADJ;Dacian;x
+romanian;Dacian;x
+ROM_absolute_monarchy;Kingdom of Dacia;x
+ROM_hms_government;Kingdom of Dacia;x
+ROM_prussian_constitutionalism;Kingdom of Dacia;x
+IBE;Iberia;x
+IBE_ADJ;Iberian;x
+IBE_absolute_monarchy;Iberian Union;x
+IBE_hms_government;Iberian Union;x
+IBE_prussian_constitutionalism;Iberian Union;x
+BIT;Bourbon Italy;x
+BIT_ADJ;Italian;x
+BIT_absolute_monarchy;Bourbon Italy;x
+BIT_hms_government;Bourbon Italy;x
+BIT_prussian_constitutionalism;Bourbon Italy;x

@@ -1,6 +1,7 @@
-owner = RUS
-controller = RUS
+owner = CIR
+controller = CIR
 add_core = RUS
 add_core = DON
+add_core = CIR
 trade_goods = cattle
 life_rating = 35

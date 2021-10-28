@@ -1,5 +1,6 @@
-owner = SAR
-controller = SAR
+owner = IBE
+controller = IBE
+add_core = IBE
 add_core = SAR
 add_core = SRD
 add_core = ITA

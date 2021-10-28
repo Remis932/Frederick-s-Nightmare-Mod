@@ -149,8 +149,8 @@
 #Polygyros (100000/25000 POPS) #now part of Greece
 822 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 400
     }
 
@@ -161,8 +161,8 @@
     }
 
     artisans = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 750
     }
 
@@ -175,7 +175,7 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 7500
+        size = 1500
     }
 
     soldiers = {
@@ -223,7 +223,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33300
+        size = 39300
     }
 }
 #Kavala (160000/40000 POPS) #now part of Greece
@@ -2004,44 +2004,44 @@
 #Hania or CHANIA (72000/18000 POPS)
 847 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 375
     }
 
     bureaucrats = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 50
     }
 
     officers = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 50
     }
 
     clergymen = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 1300
     }
 
     soldiers = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 200
     }
 
     farmers = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 5950
     }
 
@@ -2078,35 +2078,40 @@
 #Iraklion (68000/17000 POPS)
 848 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 250
     }
 
     clergymen = {
-        culture = turkish
-        religion = sunni
+        culture = north_italian
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 550
     }
 
     soldiers = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 175
     }
 
     farmers = {
+        culture = greek
+        religion = orthodox
+        size = 5000
+    }
+	
+	farmers = {
         culture = turkish
         religion = sunni
-        size = 5850
+        size = 850
     }
-
     aristocrats = {
         culture = greek
         religion = orthodox

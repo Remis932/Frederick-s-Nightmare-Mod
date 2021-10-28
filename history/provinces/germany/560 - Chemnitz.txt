@@ -1,5 +1,6 @@
-owner = SAX
-controller = SAX
+owner = HRE
+controller = HRE
+add_core = HRE
 add_core = SAX
 add_core = GER
 trade_goods = iron

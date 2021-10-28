@@ -57,12 +57,12 @@ alliance = {
 }
 
 #Treaty of Hunkar Iskelesi - Russian-Ottoman Alliance
-alliance = {
-    first = TUR
-    second = RUS
-    start_date = 1833.8.8
-    end_date = 1840.1.1
-}
+#alliance = {
+#    first = TUR
+#    second = RUS
+#    start_date = 1833.8.8
+#    end_date = 1840.1.1
+#}
 
 
 #Circassia and Caucasian Imamate
@@ -73,13 +73,28 @@ alliance = {
     end_date = 1857.1.1
 }
 
-#Circassia and Caucasian Imamate
+#Russia-Dacia
 alliance = {
-        first = CIR
-        second = DAG
-        start_date = 1835.1.1
-        end_date = 1838.1.1
+    first = RUS
+    second = ROM
+    start_date = 1790.1.1
+    end_date = 1857.1.1
 }
+#Russia-Byz
+alliance = {
+    first = RUS
+    second = BYZ
+    start_date = 1790.1.1
+    end_date = 1857.1.1
+}
+
+##Circassia and Caucasian Imamate
+#alliance = {
+#        first = CIR
+#        second = DAG
+#        start_date = 1835.1.1
+#        end_date = 1838.1.1
+#}
 
 #Moroccan-Algerian
 alliance = {

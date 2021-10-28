@@ -1,5 +1,6 @@
-owner = AUS
-controller = AUS
+owner = BIT
+controller = BIT
+add_core = BIT
 add_core = LOM
 add_core = ITA
 trade_goods = silk

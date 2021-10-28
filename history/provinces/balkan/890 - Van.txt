@@ -1,5 +1,5 @@
-owner = BDN
-controller = BDN
+owner = RUS
+controller = RUS
 add_core = TUR
 add_core = BDN
 add_core = ARM

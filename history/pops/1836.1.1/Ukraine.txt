@@ -221,6 +221,12 @@
         religion = jewish
         size = 5450
     }
+	
+	farmers = {
+        culture = russian
+        religion = orthodox
+        size = 5450
+    }
 
     clergymen = {
         culture = bulgarian

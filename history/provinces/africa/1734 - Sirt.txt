@@ -1,5 +1,6 @@
-owner = TRI
-controller = TUR
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = TRI
 trade_goods = wool
 life_rating = 35

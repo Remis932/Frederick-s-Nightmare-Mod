@@ -1,4 +1,4 @@
-capital = 549
+capital = 695
 primary_culture = north_german
 culture = south_german
 religion = protestant
@@ -10,9 +10,7 @@ non_state_culture_literacy = 0.25
 civilized = yes
 is_releasable_vassal = no
 
-
-#GreaterPowers = prestige
-prestige = 80
+prestige = 25
 
 # Political reforms
 slavery = no_slavery
@@ -42,8 +40,8 @@ citizens_rights = culture_voting_only
 border_policy = open_borders
 
 set_country_flag = protestant_country
-set_country_flag = claiming_neuchatel
-set_country_flag = prussian_germany
+#set_country_flag = claiming_neuchatel
+#set_country_flag = prussian_germany
 
 decision = literacy_PRU
 
@@ -96,15 +94,15 @@ nonstate_consciousness = 1
 
 schools = army_tech_school
 
-foreign_investment = {
-    NEH = 10000
-    SGM = 10000
-    OLD = 10000
-    MEC = 7500
-    SAX = 7500
-    HAN = 10000
-    SIC = 2000
-}
+#foreign_investment = {
+#    NEH = 10000
+#    SGM = 10000
+#    OLD = 10000
+#    MEC = 7500
+#    SAX = 7500
+#    HAN = 10000
+#    SIC = 2000
+#}
 
 oob = "PRU_oob.txt"
 1861.1.1 = {

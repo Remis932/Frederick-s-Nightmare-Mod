@@ -1,6 +1,17 @@
 #Sphere of Influence
 
 #Europe
+ROM = {
+    value = 200
+    level = 5
+    influence_value = 100
+}
+BYZ = {
+    value = 200
+    level = 5
+    influence_value = 100
+}
+
 MON = {
     value = -10
     level = 5

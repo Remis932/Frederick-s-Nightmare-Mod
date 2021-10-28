@@ -100,6 +100,9 @@ UNM        = "countries/New Mexico.txt"
 UOR        = "countries/Oregon.txt"
 
 #Europe
+BRN        = "countries/Brandenburg.txt"
+BIT 	   = "countries/Bourbon Italy.txt"
+IBE		   = "countries/Iberia.txt"
 DNN		   = "countries/Denmark-Norway.txt"
 ALS        = "countries/Elsass.txt"
 ATR        = "countries/Asturias.txt"

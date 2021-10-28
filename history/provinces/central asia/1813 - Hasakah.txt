@@ -1,6 +1,6 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = HTY
 add_core = SYR
 add_core = KDS

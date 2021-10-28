@@ -1,5 +1,6 @@
-owner = PAR
-controller = PAR
+owner = BIT
+controller = BIT
+add_core = BIT
 add_core = PAR
 add_core = ITA
 trade_goods = iron

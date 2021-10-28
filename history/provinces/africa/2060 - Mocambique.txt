@@ -1,5 +1,5 @@
-owner = SPA
-controller = SPA
+owner = IBE
+controller = IBE
 add_core = AGC
 trade_goods = cotton
 life_rating = 35

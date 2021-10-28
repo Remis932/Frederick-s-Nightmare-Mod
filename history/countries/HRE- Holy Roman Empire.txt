@@ -9,7 +9,7 @@ literacy = 0.45
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 100
+prestige = 90
 
 # Political reforms
 slavery = no_slavery
@@ -40,9 +40,9 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-decision = AUS_setup_1836
+#decision = AUS_setup_1836
 
-ruling_party = AUS_conservative
+ruling_party = GER_conservative
 upper_house = {
     fascist = 0
     liberal = 25
@@ -91,6 +91,15 @@ foreign_investment = {
         #BAV = 7500
         #WUR = 5000
         #BAD = 5000
+}
+
+govt_flag = {
+    government = hms_government
+    flag = theocracy
+}
+govt_flag = {
+    government = prussian_constitutionalism
+    flag = theocracy
 }
 
 oob = "HRE_oob.txt"
