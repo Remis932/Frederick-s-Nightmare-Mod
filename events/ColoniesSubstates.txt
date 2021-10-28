@@ -1,0 +1,26 @@
+country_event = {
+
+    id = 196000
+    title = "EVTNAME196000" #Territory Ceded
+    desc = "EVTDESC196000"
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "EVTOPTA196000" #Grant Province
+        any_owned = {
+		limit={AND={
+		continent = north_america
+				NOT={
+				is_core = SPA
+				}
+			}
+        }
+		secede_province = MEX
+		}
+      }
+        
+    }

@@ -1,0 +1,5 @@
+owner = RUS
+controller = RUS
+terrain = new_world_montane_tundra
+trade_goods = fish
+life_rating = 31

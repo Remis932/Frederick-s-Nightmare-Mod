@@ -1,0 +1,37 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+will_receive_title;Request a Grant;x
+will_receive_desc;Times in our nation are not the best, let us pray for international aid.;x
+will_not_receive_title;Disable Recieving Grants;x
+will_not_receive_desc;Disable Recieving Grants;x
+will_give_title;Enable Giving Grants;x
+will_give_desc;Let the world know that $COUNRTY_ADJ$ are a generous people.;x
+will_not_give_title;Disable Giving Grants;x
+will_not_give_desc;Our generosity has run its course.;x
+negotiated_transfer;Negotiated Transfer;x
+negotiated_transfer_short;Negotiated Transfer;x
+take_capital;Take Capital;x
+take_capital_short;Take Capital;x
+louisianian;Louisianais;x
+creole;Creole;x
+iroquois;Iroquois;x
+LOU;Louisiana;;;;;;;;;;;;;
+LOU_ADJ;Louisianais;;;;;;;;;;;;;
+LOU_absolute_monarchy;Kingdom of Louisiana;;;;;;;;;;;;;
+LOU_hms_government;Kingdom of Louisiana;;;;;;;;;;;;;
+LOU_prussian_constitutionalism;Kingdom of Louisiana;;;;;;;;;;;;;
+IRO;Iroquois Confederation;;;;;;;;;;;;;
+IRO_ADJ;Iroquois;;;;;;;;;;;;;
+seminoles;Seminoles;;;;;;;;;;;;;
+HRE;Holy Roman Empire;;;;;;;;;;;;;
+HRE_adj;Holy Roman;;;;;;;;;;;;;
+DNN;Denmark-Norway;;;;;;;;;;;;;
+DNN_democracy;Republic of Denmark-Norway;;;;;;;;;;;;;
+DNN_ADJ;Danish-Norwegian;;;;;;;;;;;;;
+language_reform;Language Reform;x
+language_reform_title;Language Reform;x
+language_reform_desc;Various dialects in our country could be taught the correct form of our language to increase efficency.;x
+EVTNAME196000;Secede Land to Our Colony;x
+EVTDESC196000;These territories will be better administrated by a colonial government;x
+EVTOPTA196000;They better.;x
+secede_land_mex_title;Cede North American Colonies;x
+secede_land_mex_desc;Cede our newly acquired colonial territories to our North American colonial subject.;x

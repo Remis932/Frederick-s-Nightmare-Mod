@@ -1,0 +1,76 @@
+political_decisions = {
+	language_reform = {
+        picture = dissolve_the_parliament
+        potential = {
+           tag = FRA
+		   NOT={has_country_flag=language_reform}
+        }
+
+        allow = {
+            war = no
+            biologism = 1
+        }
+
+        effect = {
+            plurality = -3
+            prestige = 5
+            set_country_flag = language_reform
+            any_pop = {
+                limit = {
+                    strata = middle
+                    is_primary_culture = no
+                }
+                militancy = 1
+                consciousness = 2
+            }
+			any_pop = {
+                limit = {
+                    strata = rich
+                    is_primary_culture = no
+                }
+                militancy = 3
+                consciousness = 4
+            }
+			
+			
+			any_owned={
+			limit={
+			is_core = THIS
+			is_overseas = no
+			}
+			
+			add_province_modifier={name=language_reform duration=3650}
+			}
+			remove_accepted_culture = wallonian
+			remove_accepted_culture = breton
+			remove_accepted_culture = occitan
+			any_owned={
+			limit={
+				OR={
+					province_id = 393
+					province_id = 394
+					province_id = 392
+					province_id = 397
+					province_id = 398
+					province_id = 395
+				}
+			}
+			remove_core = BEL
+			remove_core = WLL
+			remove_core = NET
+			remove_core = LUX
+			}
+			any_owned={
+			limit={
+				is_core = BRT
+			}
+			remove_core = BRT
+			}
+			
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+
+
+}
