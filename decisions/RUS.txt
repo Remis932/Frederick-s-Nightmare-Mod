@@ -14,7 +14,7 @@ political_decisions = {
 	effect = {
 		prestige = 5
 		inherit = CIR
-	
+		add_accepted_culture = circassian
 		}
 	
 	}

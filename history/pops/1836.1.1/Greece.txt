@@ -1387,6 +1387,11 @@
 #under the rule of Greece in 1836
 #Athens (308000/77000 POPS)
 834 = {
+	craftsmen = {
+		culture = greek
+		religion = orthodox
+		size = 6000
+	}
     aristocrats = {
         culture = greek
         religion = orthodox

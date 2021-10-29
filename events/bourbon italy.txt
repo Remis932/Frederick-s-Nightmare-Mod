@@ -1,0 +1,243 @@
+country_event = {
+    id = 197000
+    title = "EVTNAME197000"
+    desc = "EVTDESC197000"
+    picture = "regency"
+
+    trigger = {
+	NOT = {has_global_flag=bourbon_italy_rip}
+	tag = BIT
+       BIT={NOT={OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		  }
+		}
+		OR={
+		BIT={substate_of = FRA}
+		BIT ={vassal_of = FRA}
+		}
+        FRA={	
+		OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197000"
+		set_global_flag = bourbon_italy_rip
+		war = {
+			target = FRA
+			defender_goal = { casus_belli = become_independent }
+			call_ally = yes
+		}
+        #government = hms_government
+    }
+}
+
+country_event = {
+    id = 197001
+    title = "EVTNAME197001" #bourbon italy will switch to italy if they're independent of france, not a monarchy and not at war with france
+    desc = "EVTDESC197001"
+    picture = "regency"
+	
+    trigger = {
+	NOT={has_global_flag = bourbon_italy_switch}
+	tag = BIT
+       BIT={NOT={OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		  }
+		}
+	NOT = {war_with = FRA}
+	NOT={
+		OR={
+		BIT={substate_of = FRA}
+		BIT = {vassal_of = FRA}
+		}
+		}
+		
+		
+	}
+
+    
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197001"
+		any_owned = {
+		limit ={AND={
+				is_core = THIS
+				NOT = {is_core = ITA}
+			   }
+			  }
+		add_core = ITA
+		}
+        change_tag = ITA
+		change_tag_no_core_switch = ITA
+		set_global_flag = bourbon_italy_switch
+    }
+}
+
+country_event = {
+    id = 197002
+    title = "EVTNAME197002"
+    desc = "EVTDESC197002"
+    picture = "regency"
+	
+    trigger = {
+	tag = BIT
+       
+		
+		
+	AND={
+		OR={
+		BIT={substate_of = FRA}
+		BIT ={vassal_of = FRA}
+		
+		}
+		NOT = {war_with = FRA}
+		has_global_flag = rip_bourbon_france
+		FRA={	
+		NOT = {OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+			}
+			}
+		}
+		
+	
+
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197002"
+		any_owned = {
+		limit ={AND={
+				is_core = THIS
+				NOT = {is_core = ITA}
+			   }
+			  }
+		add_core = ITA
+		}
+        change_tag = ITA
+		change_tag_no_core_switch = ITA
+		clr_global_flag = bourbon_italy_switch
+		government = democracy
+		clr_global_flag = rip_bourbon_france
+    }
+}
+country_event = {
+    id = 197003 #b-i declares war for independence against a non monarchist france, if france win b-i get turned into italy
+    title = "EVTNAME197003"
+    desc = "EVTDESC197003"
+    picture = "regency"
+
+    trigger = {
+	tag = BIT
+       BIT={OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		  
+		}
+		OR={
+		BIT={substate_of = FRA}
+		BIT={vassal_of = FRA}
+		}
+        FRA={	
+		NOT={OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		}
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197003"
+		
+		war = {
+			target = FRA
+			defender_goal = { casus_belli = become_independent }
+			call_ally = yes
+		}
+		set_global_flag = rip_bourbon_france
+    }
+	
+        
+    
+}
+
+country_event = {
+    id = 197004 #italy will switch back to bourbon italy if they lost their independence war with france
+    title = "EVTNAME197004"
+    desc = "EVTDESC197004"
+    picture = "regency"
+
+    trigger = {
+	tag = ITA
+		OR={
+		ITA={substate_of = FRA}
+		ITA={vassal_of = FRA}
+		}
+		NOT = {war_with = FRA}
+		has_global_flag = bourbon_italy_rip
+        FRA={	
+		OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		
+		}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197004"
+		government = absolute_monarchy
+		any_owned = {
+		limit ={AND={
+				is_core = THIS
+				NOT = {is_core = BIT}
+			   }
+			  }
+		add_core = BIT
+		}
+        change_tag = BIT
+		change_tag_no_core_switch = BIT
+		clr_global_flag = bourbon_italy_rip
+		government = hms_government
+    }
+        
+    
+}

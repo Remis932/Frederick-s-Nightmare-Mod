@@ -356,6 +356,26 @@
 #under the rule of Ottoman Empire in 1836
 #Istanbul (764000/191000 POPS)
 860 = {
+	craftsmen = {
+		culture = greek
+		religion = orthodox
+		size = 8000
+	}
+	craftsmen = {
+		culture = armenian
+		religion = orthodox
+		size = 500
+	}
+	craftsmen = {
+		culture = armenian
+		religion = coptic
+		size = 400
+	}
+	craftsmen = {
+		culture = turkish
+		religion = sunni
+		size = 100
+	}
     aristocrats = {
         culture = greek
         religion = orthodox

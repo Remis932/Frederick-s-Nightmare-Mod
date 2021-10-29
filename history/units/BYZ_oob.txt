@@ -25,8 +25,8 @@ leader = {
 }
 
 army = {
-    name = "Stratós Epeírou"
-    location = 834
+    name = "Stratós Konstantinoupóleos"
+    location = 860
     regiment = {
         name= "I. Taxiarchia Pezikou"
         type = infantry
@@ -44,6 +44,11 @@ army = {
         type = infantry
         home = 839
     }
+	regiment = {
+        name= "IV. Taxiarchia Pezikou"
+        type = infantry
+        home = 805
+    }
 	 regiment = {
         name= "I. Sýntagma Pyrovolikoú"
         type = artillery
@@ -60,6 +65,79 @@ army = {
         name= "III. Sýntagma Pyrovolikoú"
         type = artillery
         home = 859
+    }
+	regiment = {
+        name= "IV. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 805
+    }
+	regiment = {
+        name= "V. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 860
+    }
+	regiment = {
+        name= "I. Taxiarchía Ippikoú"
+        type = cavalry
+        home = 860
+    }
+}
+army = {
+    name = "Stratós tis Voulgarías"
+    location = 816
+    regiment = {
+        name= "I. Taxiarchia Pezikou"
+        type = infantry
+        home = 1780
+    }
+
+    regiment = {
+        name= "II. Taxiarchia Pezikou"
+        type = infantry
+        home = 809
+    }
+
+    regiment = {
+        name= "III. Taxiarchia Pezikou"
+        type = infantry
+        home = 818
+    }
+	regiment = {
+        name= "IV. Taxiarchia Pezikou"
+        type = infantry
+        home = 811
+    }
+	 regiment = {
+        name= "I. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 807
+    }
+
+    regiment = {
+        name= "II. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 807
+    }
+
+    regiment = {
+        name= "III. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 814
+    }
+	regiment = {
+        name= "IV. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 818
+    }
+	regiment = {
+        name= "V. Sýntagma Pyrovolikoú"
+        type = artillery
+        home = 813
+    }
+	regiment = {
+        name= "I. Taxiarchía Ippikoú"
+        type = cavalry
+        home = 812
     }
 }
 
