@@ -2,15 +2,20 @@ political_decisions = {
 	integrate_circassia= {
 	picture = "embrace_minority"
 	potential={
-	OR={
-	CIR = {vassal_of=THIS}
-	CIR = {substate_of = THIS}
+		OR={
+			CIR = {vassal_of=THIS}
+			CIR = {substate_of = THIS}
+		}
 	}
 	allow = {
-	state_n_government = 1
+		state_n_government = 1
 	}
-	}
-
+	
+	effect = {
+		prestige = 5
+		inherit = CIR
+	
+		}
 	
 	}
 }

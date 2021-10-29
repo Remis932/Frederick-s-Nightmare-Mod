@@ -1,5 +1,6 @@
 owner = RUS
 controller = RUS
+add_core = BYZ
 add_core = TUR
 add_core = ARM
 add_core = PNT

@@ -9,6 +9,11 @@ PLC = {
 	level = 5
 	influence_value = 100
 }
+CIR = {
+	value = 125
+	level = 5
+	influence_value = 100
+}
 PRU = {
 	value = 125
 	level = 5

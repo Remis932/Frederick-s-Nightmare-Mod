@@ -409,19 +409,19 @@ TUR_805 = { 805 819 820 821 822 } #Southern Macedonia
 
 TUR_806 = { 806 807 1780 } #Northern Macedonia
 
-TUR_809 = { 815 817 808 816 } #Eastern Rumelia
+TUR_815 = { 815 817 808 816 } #Eastern Rumelia
 
-TUR_810 = { 809 810 811 812 813 814 } #Bulgaria
+TUR_809 = { 809 810 811 812 813 814 } #Bulgaria
 
 TUR_823 = { 823 829 830 } #Eastern Macedonia
 
-GRE_826 = { 834 842 839 840 841 } #Peloponnese
+GRE_826 = { 842 839 840 841 827} #Peloponnese
 
 TUR_832 = { 832 831 833 825 824 826 } #Thessalia
 
-GRE_837 = { 837 836 835 838 845 827 } #Attica - Central Greece
+GRE_837 = { 834 837 836 835 838 } #Attica - Central Greece
 
-EGY_843 = { 848 843 844 846 847 } #Aegean Islands
+EGY_843 = { 848 843 844 846 847 845} #Aegean Islands
 
 TUR_853 = { 849 853 852 851 850 } #Albania
 

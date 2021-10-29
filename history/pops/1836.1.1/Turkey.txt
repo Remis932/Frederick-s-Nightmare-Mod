@@ -693,9 +693,14 @@
 #Izmit (316000/79000 POPS)
 862 = {
     aristocrats = {
+        culture = greek
+        religion = orthodox
+        size = 550
+    }
+	aristocrats = {
         culture = turkish
         religion = sunni
-        size = 1100
+        size = 550
     }
 
     clergymen = {
@@ -719,7 +724,7 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 50250
+        size = 40250
     }
 
     soldiers = {
@@ -743,7 +748,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 8475
+        size = 18475
     }
 
     soldiers = {
@@ -931,7 +936,17 @@
     aristocrats = {
         culture = turkish
         religion = sunni
-        size = 650
+        size = 325
+    }
+	aristocrats = {
+        culture = turkish
+        religion = orthodox
+        size = 325
+    }
+	aristocrats = {
+        culture = greek
+        religion = orthodox
+        size = 325
     }
 
     clergymen = {
@@ -939,11 +954,16 @@
         religion = sunni
         size = 425
     }
-
+	artisans = {
+        culture = turkish
+        religion = orthodox
+        size = 1100
+    }
+	
     artisans = {
         culture = turkish
         religion = sunni
-        size = 2100
+        size = 1000
     }
 
     soldiers = {
@@ -955,7 +975,7 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 38325
+        size = 20325
     }
 
     soldiers = {
@@ -979,7 +999,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 8475
+        size = 30475
     }
 }
 #Chanakkale (132000/33000 POPS)
@@ -2327,7 +2347,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 22825
+        size = 33825
     }
 }
 #Bolu (96000/24000 POPS)
@@ -2391,8 +2411,8 @@
 #Trabzon (208000/52000 POPS)
 882 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 550
     }
 
@@ -2403,8 +2423,8 @@
     }
 
     bureaucrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 175
     }
 
@@ -2429,7 +2449,7 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 31025
+        size = 30025
     }
 
     farmers = {
@@ -2471,7 +2491,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 12225
+        size = 13225
     }
 
     aristocrats = {
