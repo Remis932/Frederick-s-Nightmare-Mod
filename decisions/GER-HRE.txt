@@ -1,0 +1,35 @@
+political_decisions = {
+	german_boom = {
+	picture = "essen_ruhr"
+	potential = {
+	NOT={has_country_flag=german_boom}
+	OR={
+	primary_culture = south_german
+	primary_culture = north_german
+	primary_culture = carpato_german
+	}
+	
+	}
+	allow = {
+	medicine=1
+	
+	}
+	effect={
+	any_owned = {
+	limit = {
+	OR={
+	pop_majority_culture = south_german
+	pop_majority_culture = north_german
+	pop_majority_culture = carpato_german
+	}
+	}
+	add_province_modifier = { name = german_boom duration = 3650}
+	
+	}
+	set_country_flag=german_boom
+	}
+	}
+
+
+
+}

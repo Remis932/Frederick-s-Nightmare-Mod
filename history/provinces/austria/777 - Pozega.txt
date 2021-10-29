@@ -1,5 +1,6 @@
-owner = HUN
-controller = HUN
+owner = HPS
+controller = HPS
+add_core = HPS
 add_core = CRO
 add_core = HUN
 trade_goods = fruit

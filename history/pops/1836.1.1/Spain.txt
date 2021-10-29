@@ -40,7 +40,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 154350
+        size = 174350
     }
 }
 #Oviedo (448000/112000 POPS)
@@ -72,7 +72,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 10850
+        size = 11850
     }
 
     clergymen = {
@@ -92,7 +92,7 @@
     farmers = {
         culture = basque
         religion = catholic
-        size = 3900
+        size = 13900
         militancy = 8
     }
 }
@@ -125,7 +125,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 75500
+        size = 95500
     }
 
 }
@@ -171,7 +171,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 63600
+        size = 83600
     }
 }
 #Santander (178000/44500) POPS
@@ -203,7 +203,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 35700
+        size = 55700
     }
 
     clergymen = {
@@ -256,7 +256,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 50675
+        size = 70675
     }
 
     clergymen = {
@@ -302,7 +302,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 40900
+        size = 60900
     }
 
 }
@@ -348,7 +348,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 62700
+        size = 82700
     }
 }
 #Soria (216000/54000 POPS)
@@ -380,7 +380,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 48750
+        size = 68750
     }
 }
 #Salamanca (224000/56000 POPS)
@@ -412,7 +412,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 49250
+        size = 69250
     }
 
 }
@@ -458,7 +458,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 46650
+        size = 66650
     }
 }
 #Almendralejo (192000/48000 POPS)
@@ -490,7 +490,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 43700
+        size = 63700
     }
 }
 #Caceres (172000/43000 POPS)
@@ -522,7 +522,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 38725
+        size = 58725
     }
 
 }
@@ -610,7 +610,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 20100
+        size = 40100
     }
 }
 #Siguenza (204000/51000 POPS)
@@ -642,7 +642,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 45800
+        size = 65800
     }
 }
 #Toledo (302000/75500 POPS)
@@ -680,7 +680,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 62200
+        size = 82200
     }
 }
 #Cuenca (346000/86500 POPS)
@@ -712,7 +712,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 78775
+        size = 98775
     }
 }
 #Ciudad Real (288000/74000 POPS)
@@ -744,7 +744,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 65600
+        size = 85600
     }
 
 }
@@ -818,7 +818,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 18850
+        size = 38850
     }
 }
 #Pamplona (244000/61000 POPS)
@@ -874,7 +874,7 @@
     labourers = {
         culture = basque
         religion = catholic
-        size = 35025
+        size = 55025
         militancy = 8
         rebel_type = carlist_rebels
     }
@@ -950,7 +950,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 35850
+        size = 55850
     }
 
 }
@@ -1002,7 +1002,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 57100
+        size = 77100
     }
 
     clergymen = {
@@ -1076,7 +1076,7 @@
     labourers = {
         culture = catalan
         religion = catholic
-        size = 16025
+        size = 36025
     }
 }
 #Teruel (228000/57000 POPS)
@@ -1182,7 +1182,7 @@
     farmers = {
         culture = catalan
         religion = catholic
-        size = 53225
+        size = 73225
     }
 
     aristocrats = {
@@ -1256,7 +1256,7 @@
     farmers = {
         culture = catalan
         religion = catholic
-        size = 33300
+        size = 43300
         militancy = 8
         rebel_type = carlist_rebels
     }
@@ -1288,7 +1288,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 18600
+        size = 218600
     }
 }
 #Lerida (164000/41000 POPS)
@@ -1360,7 +1360,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 11275
+        size = 31275
     }
 }
 #Tarragona (244000/61000 POPS)
@@ -1434,7 +1434,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 17650
+        size = 37650
     }
 }
 #Balearics (240000/60000 POPS)
@@ -1496,7 +1496,7 @@
     labourers = {
         culture = spanish
         religion = catholic
-        size = 15900
+        size = 35900
     }
 
 }
@@ -1596,7 +1596,7 @@
     farmers = {
         culture = catalan
         religion = catholic
-        size = 39675
+        size = 59675
     }
 }
 #Castellon (212000/53000 POPS)
@@ -1628,7 +1628,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 21650
+        size = 31650
     }
 
     aristocrats = {
@@ -1658,7 +1658,7 @@
     farmers = {
         culture = catalan
         religion = catholic
-        size = 26275
+        size = 36275
     }
 }
 #Alicante (384000/96000 POPS)
@@ -1690,7 +1690,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 49825
+        size = 59825
     }
 
     aristocrats = {
@@ -1720,7 +1720,7 @@
     labourers = {
         culture = catalan
         religion = catholic
-        size = 38300
+        size = 48300
     }
 
 }
@@ -1766,7 +1766,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 42375
+        size = 62375
     }
 }
 #Murcia (92000/23000 POPS)
@@ -1798,7 +1798,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 21025
+        size = 41025
     }
 }
 #Albacete (20000/50000 POPS)
@@ -1830,7 +1830,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 45600
+        size = 65600
     }
 
 }
@@ -1888,7 +1888,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 62200
+        size = 82200
     }
 }
 #Cordoba (324000/81000 POPS)
@@ -1920,7 +1920,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 68500
+        size = 88500
     }
 }
 #Huelva (140000/35000 POPS)
@@ -1952,7 +1952,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 31375
+        size = 51375
     }
 }
 #Cadiz (336000/84000 POPS)
@@ -1990,7 +1990,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 64650
+        size = 84650
     }
 
 }
@@ -2042,7 +2042,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 72850
+        size = 92850
     }
 }
 #Malaga (402000/100500 POPS)
@@ -2080,7 +2080,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 78400
+        size = 98400
     }
 }
 #Almeria (242000/60500 POPS)
@@ -2112,7 +2112,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 52600
+        size = 72600
     }
 }
 #Jaen (270000/67500 POPS)
@@ -2144,7 +2144,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 58200
+        size = 78200
     }
 
 }
@@ -2191,7 +2191,7 @@
     farmers = {
         culture = spanish
         religion = catholic
-        size = 47025
+        size = 67025
     }
 
 }

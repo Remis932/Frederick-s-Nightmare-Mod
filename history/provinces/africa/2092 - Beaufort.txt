@@ -1,6 +1,6 @@
-owner = ENG
-controller = ENG
-add_core = SAF
+owner = NET
+controller = NET
+add_core = NET
 trade_goods = fruit
 life_rating = 30
 terrain = mountain

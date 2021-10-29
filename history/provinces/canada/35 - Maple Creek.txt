@@ -1,7 +1,6 @@
-owner = FRA
-controller = FRA
-add_core = QUE
+owner = GPN
+controller = GPN
+add_core = GPN
 trade_goods = grain
 terrain = steppe
 life_rating = 31
-colonial = 2

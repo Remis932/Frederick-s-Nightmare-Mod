@@ -59,7 +59,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 199900
+        size = 229900
     }
 
     ######Jews
@@ -155,7 +155,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 14250
+        size = 34250
     }
 
     aristocrats = {
@@ -217,7 +217,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 46525
+        size = 76525
     }
 }
 #Alessandria (326000/79000 POPS)
@@ -249,7 +249,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 65200
+        size = 95200
     }
 }
 #Liguria Region (960000)
@@ -301,7 +301,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 140000
+        size = 170000
     }
 
     ######Jews
@@ -359,7 +359,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 70700
+        size = 100700
     }
 }
 #Lombardy Region (2512000)
@@ -435,7 +435,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 275925
+        size = 305925
     }
 
     ######Jews
@@ -542,7 +542,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 76975
+        size = 96975
     }
 }
 #Brescia (708000/177000 POPS)
@@ -574,7 +574,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 159075
+        size = 179075
     }
 }
 #Venetia Region (2060000)
@@ -650,7 +650,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 60925
+        size = 80925
     }
 
     ######Jews
@@ -720,7 +720,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 111050
+        size = 131050
     }
 }
 #Padua (564000/141000 POPS)
@@ -752,7 +752,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 127775
+        size = 147775
     }
 }
 #Treviso (232000/58000 POPS)
@@ -784,7 +784,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 50300
+        size = 70300
     }
 }
 #Udine (300000/75000 POPS)
@@ -816,7 +816,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 52200
+        size = 72200
     }
 }
 #Tirol Region (368000) #see Austria.txt for balance of Region
@@ -880,7 +880,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 60075
+        size = 80075
     }
 }
 #Bozen (92000/23000 POPS) #now part of Italy
@@ -936,7 +936,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 5400
+        size = 8400
     }
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region
@@ -946,13 +946,13 @@
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 425
+        size = 430
     }
 
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 200
+        size = 205
     }
 
     bureaucrats = {
@@ -988,7 +988,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 7875
+        size = 9875
     }
 
     clergymen = {
@@ -1121,7 +1121,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 104500
+        size = 124500
     }
 }
 #under the rule of Modena in 1836
@@ -1166,7 +1166,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 108750
+        size = 128750
     }
 }
 #Massa (164000/41000 POPS)
@@ -1198,7 +1198,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 36700
+        size = 56700
     }
 }
 #Romagna Region (844000)
@@ -1250,7 +1250,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 80650
+        size = 100650
     }
 }
 #Ferrara (180000/45000 POPS)
@@ -1282,7 +1282,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 36575
+        size = 56575
     }
 }
 #Ravenna (248000/62000 POPS)
@@ -1314,7 +1314,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 54425
+        size = 74425
     }
 }
 #Tuscany Region (1808000)
@@ -1348,7 +1348,7 @@
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 1800
+        size = 2800
     }
 
     artisans = {
@@ -1378,7 +1378,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 149900
+        size = 169900
     }
 
     ######Jews
@@ -1424,7 +1424,7 @@
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 850
+        size = 1850
     }
 
     artisans = {
@@ -1448,7 +1448,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 80850
+        size = 100850
     }
 
     ######Jews
@@ -1532,7 +1532,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 84925
+        size = 104925
     }
 }
 #Grosseto (184000/46000 POPS)
@@ -1564,7 +1564,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 41225
+        size = 61225
     }
 }
 #under the rule of Lucca in 1836
@@ -1615,7 +1615,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 19275
+        size = 39275
     }
 }
 #Latium Region (1272000)
@@ -1679,7 +1679,7 @@
     farmers = {
         culture = south_italian
         religion = catholic
-        size = 231750
+        size = 251750
     }
 
     ######Jews
@@ -1749,7 +1749,7 @@
     farmers = {
         culture = south_italian
         religion = catholic
-        size = 40150
+        size = 60150
     }
 }
 #Umbria-Abruzzi Region (1056000)

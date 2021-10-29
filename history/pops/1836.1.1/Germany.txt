@@ -47,7 +47,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 48650
+        size = 60650
     }
 
     clergymen = {
@@ -165,7 +165,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 33500
+        size = 45500
     }
 }
 #Lower Elbe Region (557600)
@@ -217,7 +217,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 16310
+        size = 28310
     }
 
     farmers = {
@@ -306,7 +306,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 48050
+        size = 60050
     }
 }
 #Lunenburg (180000/45000 POPS)
@@ -338,7 +338,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 45900
+        size = 57900
     }
 }
 #Under rule of Britain 1836
@@ -382,7 +382,7 @@
     artisans = {
         culture = north_german
         religion = protestant
-        size = 6976
+        size = 12976
     }
 
     soldiers = {
@@ -400,7 +400,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 100
+        size = 6100
     }
 
     ######Jews
@@ -483,7 +483,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 109800
+        size = 229800
     }
 
     ######Jews
@@ -553,7 +553,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 19950
+        size = 32950
     }
 }
 #Hannover Region (1288000)
@@ -599,7 +599,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 89325
+        size = 101325
     }
 
     clergymen = {
@@ -693,7 +693,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 57575
+        size = 69575
     }
 
     ######Jews
@@ -751,7 +751,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 40925
+        size = 52925
     }
 
 }
@@ -814,7 +814,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 22550
+        size = 34550
     }
 
     ######Jews
@@ -898,7 +898,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 53375
+        size = 65375
     }
 
     clergymen = {
@@ -962,7 +962,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 4255
+        size = 16255
     }
 
     farmers = {
@@ -1013,7 +1013,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 38800
+        size = 50800
     }
 
     clergymen = {
@@ -1063,7 +1063,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 11975
+        size = 23975
     }
 
     clergymen = {
@@ -1132,7 +1132,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 8075
+        size = 20075
     }
 
     clergymen = {
@@ -1189,7 +1189,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 3450
+        size = 15450
     }
 
     aristocrats = {
@@ -1254,7 +1254,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 29725
+        size = 41725
     }
 }
 #Stralsund (157000/39250 POPS)
@@ -1286,7 +1286,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 20250
+        size = 32250
     }
 
     clergymen = {
@@ -1400,7 +1400,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 106300
+        size = 118300
     }
 
     clergymen = {
@@ -1536,7 +1536,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 62500
+        size = 74500
     }
 }
 #Pritzwalk (232000/58000 POPS)
@@ -1568,7 +1568,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 51875
+        size = 63875
     }
 }
 #Cottbus (344000/86000 POPS)
@@ -1612,7 +1612,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 20000
+        size = 32000
     }
 
     farmers = {
@@ -1682,7 +1682,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 103025
+        size = 115025
     }
 
     clergymen = {
@@ -1800,7 +1800,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 9050
+        size = 21050
     }
 
     ######Jews
@@ -1858,7 +1858,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 91925
+        size = 103925
     }
 
     clergymen = {
@@ -1985,7 +1985,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 31355
+        size = 43355
     }
 
     clergymen = {
@@ -2073,7 +2073,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 172630
+        size = 392630
     }
 
     aristocrats = {
@@ -2190,7 +2190,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 107560
+        size = 227560
     }
 
     ######Jews
@@ -2260,7 +2260,7 @@
     labourers = {
         culture = north_german
         religion = protestant
-        size = 73755
+        size = 95755
     }
 }
 #Thuringia Region (865000)
@@ -2306,7 +2306,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 83625
+        size = 95625
     }
 
     ######Jews
@@ -2389,7 +2389,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 66750
+        size = 78750
     }
 }
 #under the rule of Saxe-Meiningen 1836
@@ -2434,7 +2434,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 47350
+        size = 59350
     }
 }
 #Hesse Region (1719600)
@@ -2480,7 +2480,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1550
+        size = 13550
     }
 
     clergymen = {
@@ -2581,7 +2581,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 42500
+        size = 54500
     }
 
     clergymen = {
@@ -2694,7 +2694,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 78225
+        size = 90225
     }
 
     clergymen = {
@@ -2776,7 +2776,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 46850
+        size = 58850
     }
     clergymen = {
         culture = north_german
@@ -2832,7 +2832,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 46000
+        size = 58000
     }
 }
 #Darmstadt (360000/90000 POPS)
@@ -2876,7 +2876,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 47300
+        size = 59300
     }
 
     clergymen = {
@@ -2934,7 +2934,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 13750
+        size = 25750
     }
 
     clergymen = {
@@ -3041,7 +3041,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 8700
+        size = 9900
     }
 
     ######Jews
@@ -3112,7 +3112,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 57400
+        size = 69400
     }
 
     clergymen = {
@@ -3219,7 +3219,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 23775
+        size = 35775
     }
 
     aristocrats = {
@@ -3311,7 +3311,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 46900
+        size = 58900
     }
 
     clergymen = {
@@ -3361,7 +3361,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 27575
+        size = 39575
     }
 
     aristocrats = {
@@ -3467,7 +3467,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 85210
+        size = 97210
     }
 
     ######Jews
@@ -3543,7 +3543,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 90450
+        size = 101450
     }
 
     clergymen = {
@@ -3555,7 +3555,7 @@
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 990
+        size = 1990
     }
 }
 #Kleves (356000/89000 POPS)
@@ -3587,7 +3587,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 72400
+        size = 84400
     }
 
     aristocrats = {
@@ -3668,7 +3668,7 @@
     craftsmen = {
         culture = north_german
         religion = catholic
-        size = 5000
+        size = 6000
     }
 
     farmers = {
@@ -3710,7 +3710,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 14500
+        size = 16500
     }
 
     ######Jews
@@ -3781,7 +3781,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 3700
+        size = 4900
     }
 
     aristocrats = {
@@ -3844,7 +3844,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 17600
+        size = 29600
     }
 
     aristocrats = {
@@ -3944,7 +3944,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 20725
+        size = 32725
     }
 
     aristocrats = {
@@ -4092,7 +4092,7 @@
     farmers = {
         culture = north_german
         religion = catholic
-        size = 87250
+        size = 99250
     }
 }
 #Minden (216000/54000 POPS)
@@ -4124,7 +4124,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 31025
+        size = 43025
     }
 
     aristocrats = {
@@ -4186,7 +4186,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 12475
+        size = 24475
     }
 
     aristocrats = {
@@ -4248,7 +4248,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 16675
+        size = 28675
     }
 
     aristocrats = {
@@ -4323,7 +4323,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 20810
+        size = 32810
     }
 
     clergymen = {
@@ -4381,7 +4381,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 139650
+        size = 151650
     }
 
     clergymen = {
@@ -4475,7 +4475,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 51975
+        size = 63975
     }
 
     clergymen = {
@@ -4531,7 +4531,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 34025
+        size = 46025
     }
 
     clergymen = {
@@ -4613,7 +4613,7 @@
     farmers = {
         culture = south_german
         religion = protestant
-        size = 131200
+        size = 143200
     }
 
     clergymen = {
@@ -4707,7 +4707,7 @@
     farmers = {
         culture = south_german
         religion = protestant
-        size = 79225
+        size = 91225
     }
 }
 
@@ -4763,7 +4763,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 30625
+        size = 42625
     }
 }
 #Swabia Region (833000)
@@ -4797,7 +4797,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 77950
+        size = 89950
     }
 }
 #under the rule of Wurttemburg in 1836
@@ -4860,7 +4860,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 83750
+        size = 96750
     }
 }
 #under the rule of Prussia in 1836
@@ -4905,7 +4905,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 13140
+        size = 25140
     }
 }
 #Franconia Region (1876000)
@@ -4951,7 +4951,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 93375
+        size = 105375
     }
 
     aristocrats = {
@@ -5051,7 +5051,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 31200
+        size = 43200
     }
 }
 #Wurzburg (300000/75000 POPS)
@@ -5083,7 +5083,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 65500
+        size = 77500
     }
 }
 #Bayreuth (536000/134000 POPS)
@@ -5115,7 +5115,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 45800
+        size = 57800
     }
 
     clergymen = {
@@ -5197,7 +5197,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 175650
+        size = 187650
     }
 
     clergymen = {
@@ -5291,7 +5291,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 37725
+        size = 49725
     }
 }
 #Ingolstadt (164000/41000 POPS)
@@ -5323,7 +5323,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 37175
+        size = 49175
     }
 }
 #Regensburg (248000/62000 POPS)
@@ -5355,7 +5355,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 54725
+        size = 66725
     }
 }
 #Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region
@@ -5413,7 +5413,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 3680
+        size = 27680
     }
 }
 
@@ -5608,7 +5608,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 47275
+        size = 59275
     }
 
     clergymen = {

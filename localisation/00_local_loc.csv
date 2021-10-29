@@ -1,4 +1,36 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+EVTNAME196001;Land Ceded;x
+EVTDESC196001;These territories will be better administrated by a colonial government;x
+EVTOPTA196001;They better.;x
+EVTNAME196002;Land Ceded;x
+EVTDESC196002;These territories will be better administrated by a colonial government;x
+EVTOPTA196002;They better.;x
+EVTNAME196003;Dakota Land Ceded;x
+EVTDESC196003;These territories will be better administrated by a colonial government;x
+EVTOPTA196003;They better.;x
+secede_land_gpn_title;Cede Dakota Land;x
+secede_land_gpn_desc;Cede our newly acquired colonial territories to our North American colonial subject.;x
+secede_land_lou_title;Cede Louisianais Land;x
+secede_land_lou_desc;Cede our newly acquired colonial territories to our North American colonial subject.;x
+secede_land_que_title;Cede Canadian Land;x
+secede_land_que_desc;Cede our newly acquired colonial territories to our North American colonial subject.;x
+german_boom_title;German Population Boom;x
+german_boom_desc;With our recent advancements in medicine, population growth is easier to facilitate.;x
+german_boom;German Boom;x
+GPN;Great Plains Nation;x
+GPN_ADJ;Dakota;x
+HPS;Austria;x
+HPS_ADJ;Hapsburg;x
+HPS_absolute_monarchy;Hapsburg Empire;x
+HPS_prussian_constitutionalism;Hapsburg Empire;x
+HPS_hms_government;Hapsburg Empire;x
+SVF;Iran;x
+SVF_ADJ;Safavid;x
+SVF_absolute_monarchy;Safavid Empire;x
+SVF_prussian_constitutionalism;Safavid Empire;x
+SVF_hms_government;Safavid Empire;x
+post_napoleonic_thought;Post-Revolutionary Thought;x
+post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x
 will_receive_title;Request a Grant;x
 will_receive_desc;Times in our nation are not the best, let us pray for international aid.;x
 will_not_receive_title;Disable Recieving Grants;x

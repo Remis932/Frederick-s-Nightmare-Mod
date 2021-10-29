@@ -15,6 +15,11 @@ naval_base = 2
 #    building = ammunition_factory
 #    upgrade = yes
 #}
+state_building = {
+        level = 1
+        building = clipper_shipyard
+        upgrade = yes
+    }
 1861.1.1 = {
     railroad = 3
 }

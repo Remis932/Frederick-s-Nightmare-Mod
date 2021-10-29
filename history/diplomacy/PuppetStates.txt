@@ -166,6 +166,12 @@ vassal = {
 ##French Native Substate
 substate = {
     first = FRA
+    second = GPN
+    start_date = 1836.1.1
+    end_date = 1936.1.1
+}
+substate = {
+    first = FRA
     second = CHE
     start_date = 1836.1.1
     end_date = 1936.1.1
@@ -177,8 +183,68 @@ substate = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
-
+#French India
+vassal = {
+	first = FRA
+	second = MYS
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = HYD
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = NAG
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = ORI
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = BHO
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = IND
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = GWA
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = MUG
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = FRA
+	second = ASM
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
 ##Spanish Colonies
+vassal = {
+	first = IBE
+	second = BER
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
 substate = {
     first = IBE
     second = GCO
@@ -321,180 +387,180 @@ vassal = {
 #        INDIA        #
 #######################
 
-# United Kingdom-Mughal
-vassal = {
-    first = ENG
-    second = MUG
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Bahawalpur
-vassal = {
-    first = ENG
-    second = BHP
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Awadh
-vassal = {
-    first = ENG
-    second = AWA
-    start_date = 1801.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Bastar
-vassal = {
-    first = ENG
-    second = BAS
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Beroda
-vassal = {
-    first = ENG
-    second = BER
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Bikaner
-vassal = {
-    first = ENG
-    second = BIK
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Bhopal
-vassal = {
-    first = ENG
-    second = BHO
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Bundelkhand
-vassal = {
-    first = ENG
-    second = BUN
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Gwalior
-vassal = {
-    first = ENG
-    second = GWA
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Hyderabad
-vassal = {
-    first = ENG
-    second = HYD
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Indore
-vassal = {
-    first = ENG
-    second = IND
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Jaipur
-vassal = {
-    first = ENG
-    second = JAI
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Jaisalmer
-vassal = {
-    first = ENG
-    second = JAS
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Jodhpur
-vassal = {
-    first = ENG
-    second = JOD
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Kutch
-vassal = {
-    first = ENG
-    second = KUT
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
+## United Kingdom-Mughal
 #vassal = {
-#    first = PAN
-#    second = KAS
-#    start_date = 1780.1.1
+#    first = ENG
+#    second = MUG
+#    start_date = 1836.1.1
 #    end_date = 1936.1.1
 #}
-
-# United Kingdom-Mewar
-vassal = {
-    first = ENG
-    second = MEW
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Mysore
-vassal = {
-    first = ENG
-    second = MYS
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Nagpur
-vassal = {
-    first = ENG
-    second = NAG
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Orissa
-vassal = {
-    first = ENG
-    second = ORI
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Travancore
-vassal = {
-    first = ENG
-    second = TRA
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-# United Kingdom-Maharashtra
-vassal = {
-    first = ENG
-    second = MAH
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
+#
+## United Kingdom-Bahawalpur
+#vassal = {
+#    first = ENG
+#    second = BHP
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Awadh
+#vassal = {
+#    first = ENG
+#    second = AWA
+#    start_date = 1801.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Bastar
+#vassal = {
+#    first = ENG
+#    second = BAS
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Beroda
+#vassal = {
+#    first = ENG
+#    second = BER
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Bikaner
+#vassal = {
+#    first = ENG
+#    second = BIK
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Bhopal
+#vassal = {
+#    first = ENG
+#    second = BHO
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Bundelkhand
+#vassal = {
+#    first = ENG
+#    second = BUN
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Gwalior
+#vassal = {
+#    first = ENG
+#    second = GWA
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Hyderabad
+#vassal = {
+#    first = ENG
+#    second = HYD
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Indore
+#vassal = {
+#    first = ENG
+#    second = IND
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Jaipur
+#vassal = {
+#    first = ENG
+#    second = JAI
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Jaisalmer
+#vassal = {
+#    first = ENG
+#    second = JAS
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Jodhpur
+#vassal = {
+#    first = ENG
+#    second = JOD
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Kutch
+#vassal = {
+#    first = ENG
+#    second = KUT
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+##vassal = {
+##    first = PAN
+##    second = KAS
+##    start_date = 1780.1.1
+##    end_date = 1936.1.1
+##}
+#
+## United Kingdom-Mewar
+#vassal = {
+#    first = ENG
+#    second = MEW
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Mysore
+#vassal = {
+#    first = ENG
+#    second = MYS
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Nagpur
+#vassal = {
+#    first = ENG
+#    second = NAG
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Orissa
+#vassal = {
+#    first = ENG
+#    second = ORI
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Travancore
+#vassal = {
+#    first = ENG
+#    second = TRA
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
+#
+## United Kingdom-Maharashtra
+#vassal = {
+#    first = ENG
+#    second = MAH
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
 
 # Dai Nam-Cambodia
 vassal = {
@@ -587,13 +653,13 @@ vassal = {
     end_date = 1936.1.1
 }
 
-# Siam - Champasak
-vassal = {
-    first = SIA
-    second = CHK
-    start_date = 1836.1.1
-    end_date =  1936.1.1
-}
+## Siam - Champasak
+#vassal = {
+#    first = SIA
+#    second = CHK
+#    start_date = 1836.1.1
+#    end_date =  1936.1.1
+#}
 
 # UK - KAS
 vassal = {

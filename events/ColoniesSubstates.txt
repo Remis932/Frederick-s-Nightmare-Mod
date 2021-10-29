@@ -61,3 +61,115 @@ country_event = {
       }
         
     }
+country_event = {
+
+    id = 196001 #cede to great plains
+    title = "EVTNAME196001" #Territory Ceded
+    desc = "EVTDESC196001"
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "EVTOPTA196001" #Grant Province
+		any_owned = {
+		limit={
+		continent = north_america
+		NOT= {OR={is_core = THIS
+				is_core = LOU
+				is_core = QUE}}
+		OR={
+		pop_majority_culture = native_american_minor
+		pop_majority_culture = dakota
+		pop_majority_culture = cree
+		pop_majority_culture = metis
+			}
+			}
+			add_core = GPN
+        }
+        any_owned = {
+		limit={AND={
+		continent = north_america
+		NOT = {province_id = 77}
+				NOT={
+				
+				OR={is_core = THIS
+				is_core = LOU
+				is_core = QUE
+				pop_majority_culture = yankee
+				pop_majority_culture = dixie
+				pop_majority_culture = afro_american
+				}
+				}
+			}
+        }
+		secede_province = GPN
+		}
+      }
+        
+    }
+country_event = {
+
+    id = 196002 #cede to quebec
+    title = "EVTNAME196002" #Territory Ceded
+    desc = "EVTDESC196002"
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "EVTOPTA196002" #Grant Province
+        any_owned = {
+		limit={AND={
+		continent = north_america
+		NOT = {province_id = 77}
+				NOT={
+				OR={is_core = THIS
+				is_core = LOU
+				pop_majority_culture = dixie
+				pop_majority_culture = afro_american
+				}
+				
+				}
+			}
+        }
+		secede_province = QUE
+		}
+      }
+        
+    }
+country_event = {
+
+    id = 196003 #cede to louisiana
+    title = "EVTNAME196003" #Territory Ceded
+    desc = "EVTDESC196003"
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "EVTOPTA196003" #Grant Province
+        any_owned = {
+		limit={AND={
+		NOT = {province_id = 77}
+		continent = north_america
+				NOT={
+				
+				OR={is_core = THIS
+				is_core = QUE
+				pop_majority_culture = yankee
+				}
+				}
+			}
+        }
+		secede_province = LOU
+		}
+      }
+        
+    }

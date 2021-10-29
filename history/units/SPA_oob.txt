@@ -1,5 +1,16 @@
 #Sphere of Influence
 #Europe
+BER = {
+	value = 100
+	level = 5
+	influence_value = 100
+}
+MLT = {
+	value = 200
+	level = 5
+	influence_value = 100
+
+}
 GCO = {
     value = 100        #relation
     level = 5        #3=cordial, 4 = friendly, 5 sphere

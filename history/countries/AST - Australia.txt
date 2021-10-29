@@ -1,9 +1,9 @@
 capital = 2476
-primary_culture = australian
+primary_culture = dutch
 religion = protestant
 government = hms_government
 plurality = 0.98
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.7
 civilized = yes
 

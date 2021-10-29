@@ -1,3 +1,5 @@
+owner = ENG
+controller = ENG
 add_core = NMB
 terrain = semidesert
 trade_goods = wool

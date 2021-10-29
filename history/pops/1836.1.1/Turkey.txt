@@ -608,8 +608,8 @@
 #Uskudar (188000/47000 POPS)
 861 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 450
     }
 
@@ -634,7 +634,12 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 29250
+        size = 19250
+    }
+	farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 10000
     }
 
     soldiers = {
@@ -658,7 +663,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 8375
+        size = 29375
     }
 
     soldiers = {
@@ -980,8 +985,8 @@
 #Chanakkale (132000/33000 POPS)
 865 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 350
     }
 
@@ -1006,7 +1011,12 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 27600
+        size = 17600
+    }
+	farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 10000
     }
 
     soldiers = {
@@ -1030,7 +1040,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 2800
+        size = 17800
     }
 }
 #Karahisar Region (336000)
@@ -1268,8 +1278,8 @@
 #Izmir (340000/85000 POPS)
 869 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 575
     }
 
@@ -1312,7 +1322,12 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 40350
+        size = 30350
+    }
+	farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 10350
     }
 
     aristocrats = {
@@ -1360,7 +1375,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 4750
+        size = 14750
     }
 
     aristocrats = {
@@ -2228,14 +2243,14 @@
 #Kastamonu (296000/74000 POPS)
 880 = {
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 825
     }
 
     bureaucrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 125
     }
 
@@ -2254,7 +2269,12 @@
     artisans = {
         culture = turkish
         religion = sunni
-        size = 3650
+        size = 1825
+    }
+	artisans = {
+        culture = turkish
+        religion = orthodox
+        size = 1825
     }
 
     soldiers = {
@@ -2266,7 +2286,12 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 66825
+        size = 22825
+    }
+	farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 22825
     }
 
     aristocrats = {
@@ -2296,13 +2321,13 @@
     artisans = {
         culture = greek
         religion = orthodox
-        size = 150
+        size = 3650
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 925
+        size = 22825
     }
 }
 #Bolu (96000/24000 POPS)
@@ -2358,7 +2383,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 925
+        size = 20825
     }
 }
 #Trebizonde Region (540000)

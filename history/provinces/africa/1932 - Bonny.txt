@@ -1,5 +1,3 @@
-owner = WRI
-controller = WRI
 add_core = WRI
 add_core = BEN
 add_core = CLA

@@ -1,3 +1,5 @@
+owner = SVF
+controller = SVF
 add_core = TKM
 terrain = desert
 trade_goods = fish

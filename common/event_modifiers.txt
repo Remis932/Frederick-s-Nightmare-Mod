@@ -2570,3 +2570,8 @@ language_reform = {
 	assimilation_rate = 2.5
 	icon = 19
 }
+
+german_boom = {
+	population_growth = 0.001
+	icon = 19
+}

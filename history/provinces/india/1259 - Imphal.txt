@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = ASM
+controller = ASM
 add_core = HND
 add_core = ASM
 add_core = MNP

@@ -22,7 +22,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     artisans = {
@@ -40,7 +40,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 150200
+        size = 180200
     }
 }
 #Vila Real (324000/81000) POPS
@@ -54,7 +54,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 625
+        size = 1625
     }
 
     artisans = {
@@ -72,7 +72,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 69275
+        size = 99275
     }
 }
 #Covilha (568000/142000 POPS)
@@ -86,7 +86,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 1500
+        size = 2500
     }
 
     artisans = {
@@ -104,7 +104,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 86500
+        size = 116500
     }
 
 }
@@ -132,7 +132,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     artisans = {
@@ -150,7 +150,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 68500
+        size = 98500
     }
 }
 #Coimbra (460000/115000 POPS)
@@ -164,7 +164,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 1200
+        size = 2200
     }
 
     artisans = {
@@ -188,7 +188,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 99800
+        size = 129800
     }
 }
 #Abrantes (140000/35000 POPS)
@@ -202,7 +202,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 350
+        size = 1350
     }
 
     artisans = {
@@ -220,7 +220,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 41550
+        size = 71550
     }
 }
 #Setubal (112000/28000 POPS)
@@ -234,7 +234,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 300
+        size = 1300
     }
 
     artisans = {
@@ -252,7 +252,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 42800
+        size = 72800
     }
 
 }
@@ -280,7 +280,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 425
+        size = 1425
     }
 
     artisans = {
@@ -298,7 +298,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 44250
+        size = 74250
     }
 }
 #Beja (96000/24000 POPS)
@@ -312,7 +312,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 250
+        size = 1250
     }
 
     artisans = {
@@ -330,7 +330,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 42250
+        size = 72250
     }
 }
 #Faro (120000/30000 POPS)
@@ -344,7 +344,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 325
+        size = 1325
     }
 
     artisans = {
@@ -362,7 +362,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 41025
+        size = 71025
     }
 
 }
@@ -422,7 +422,7 @@
     clergymen = {
         culture = portuguese
         religion = catholic
-        size = 175
+        size = 1175
     }
 
     artisans = {
@@ -440,7 +440,7 @@
     farmers = {
         culture = portuguese
         religion = catholic
-        size = 23825
+        size = 53825
     }
 
 }

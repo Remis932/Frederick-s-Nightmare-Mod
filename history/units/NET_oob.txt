@@ -249,7 +249,61 @@ navy = {
         type = clipper_transport
     }
 }
+navy = {
+    name = "Zuid-Atlantische Station"
+    location = 2087 # Cape Town
 
+    ship = {
+        name= "Kaapstad"
+        type = manowar
+    }
+
+    ship = {
+        name= "Swettenham"
+        type = manowar
+    }
+
+    ship = {
+        name= "Mosselbaai"
+        type = manowar
+    }
+
+    ship = {
+        name= "Gronigen" #-
+        type = manowar
+    }
+
+    ship = {
+        name= "Zwolle"
+        type = manowar
+    }
+
+    ship = {
+        name= "Arnhem"
+        type = frigate
+    }
+
+    ship = {
+        name= "Utrecht"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bruges"
+        type = frigate
+    }
+
+    ship = {
+        name= "Middelburg"
+        type = frigate
+    }
+
+    ship = {
+        name= "Ghent"
+        type = frigate
+    }
+
+}
 navy = {
     name = "Koninklijke NI Marine"
     location = 1413 #Batavia

@@ -1,5 +1,19 @@
 #Sphere of Influence
-
+HAW = {
+    value = 125        #relation
+    level = 5        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
+}
+PLC = {
+	value = 125
+	level = 5
+	influence_value = 100
+}
+PRU = {
+	value = 125
+	level = 5
+	influence_value = 100
+}
 #Europe
 ROM = {
     value = 200

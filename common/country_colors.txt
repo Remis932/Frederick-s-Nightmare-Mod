@@ -1,4 +1,20 @@
 # Country unit colors.
+GPN = {
+	color1 = {196 53 18}
+	color2 = {196 53 18}
+	color3 = {196 53 18}
+}
+HPS = {
+	color1 = {197 199 201}
+	color2 = {197 199 201}
+	color3 = {197 199 201}
+}
+SVF = {
+	color1 = {168 133 50}
+	color2 = {168 133 50}
+	color3 = {168 133 50}
+
+}
 BRN = {
 	color1= { 175 15 15  }
     color2= { 70 70 70  }
@@ -11,7 +27,7 @@ BIT = {
 }	
 ROM =  {
 	color1= {30 92 227}
-	color2= {30 92 227}
+	color2= {88 125 140}
 	color3= {30 92 227}
 }
 IBE = {

@@ -3,6 +3,8 @@ controller = DNN
 add_core = SWH
 add_core = HOL
 add_core = GER
+add_core = DEN
+add_core = DNN
 trade_goods = grain
 life_rating = 40
 
