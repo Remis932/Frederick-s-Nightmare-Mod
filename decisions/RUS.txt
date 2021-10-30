@@ -5,6 +5,10 @@ political_decisions = {
 		OR={
 			CIR = {vassal_of=THIS}
 			CIR = {substate_of = THIS}
+			AND={
+			1051 = {owned_by=THIS}
+			NOT={exists = CIR}
+			}
 		}
 	}
 	allow = {

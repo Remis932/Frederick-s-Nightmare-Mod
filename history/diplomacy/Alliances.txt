@@ -73,17 +73,17 @@ alliance = {
     end_date = 1857.1.1
 }
 
-#Russia-Dacia
+#Russia-Dacia (seperated influences after Russian-Plc-Swedish War)
+#alliance = {
+#    first = RUS
+#    second = ROM
+#    start_date = 1790.1.1
+#    end_date = 1857.1.1
+#}
+#Byz-Dacia
 alliance = {
-    first = RUS
+    first = BYZ
     second = ROM
-    start_date = 1790.1.1
-    end_date = 1857.1.1
-}
-#Russia-Byz
-alliance = {
-    first = RUS
-    second = BYZ
     start_date = 1790.1.1
     end_date = 1857.1.1
 }

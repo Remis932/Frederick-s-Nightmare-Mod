@@ -4,32 +4,22 @@ HAW = {
     level = 5        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
-PLC = {
-	value = 125
-	level = 5
-	influence_value = 100
-}
-CIR = {
-	value = 125
-	level = 5
-	influence_value = 100
-}
-PRU = {
-	value = 125
-	level = 5
-	influence_value = 100
-}
+#PLC = {
+#	value = 125
+#	level = 5
+#	influence_value = 100
+#}
+#CIR = {
+#	value = 125
+#	level = 5
+#	influence_value = 100
+#}
+#PRU = {
+#	value = 125
+#	level = 5
+#	influence_value = 100
+#}
 #Europe
-ROM = {
-    value = 200
-    level = 5
-    influence_value = 100
-}
-BYZ = {
-    value = 200
-    level = 5
-    influence_value = 100
-}
 
 MON = {
     value = -10
@@ -215,195 +205,132 @@ army = {
 
 army = {
     name = "2-i Armeiskii Korpus" #Belarus Army
-    location = 718
+    location = 948
     regiment = {
         name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
         type = dragoon
-        home = 718
+        home = 1058
     }
 
     regiment = {
         name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
         type = dragoon
-        home = 718
+        home = 1060
     }
 
     regiment = {
         name= "2.1-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 940
+        home = 1063
     }
 
     regiment = {
         name= "2.2-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 937
+        home = 1064
     }
 
     regiment = {
         name= "2.3-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 936
+        home = 1067
     }
 
     regiment = {
         name= "2.4-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 944
+        home = 1075
     }
 
     regiment = {
         name= "2.5-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 944
+        home = 2614
     }
 
     regiment = {
         name= "2.6-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 946
+        home = 2685
     }
 
     regiment = {
         name = "2.1-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 946
+        home = 2668
     }
 
     regiment = {
         name = "2.2-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 946
+        home = 2698
     }
 }
 
-army = {
-    name = "3-i Armeiskii Korpus" #Vilna/Marijampole - Baltic Army
-    location = 362
 
-    regiment = {
-        name = "3.1-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 939
-    }
-
-    regiment = {
-        name = "3.2-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 938
-    }
-
-    regiment = {
-        name = "3.3-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 947
-    }
-
-    regiment = {
-        name = "3.4-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 947
-    }
-
-    regiment = {
-        name = "3.5-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 360
-    }
-
-    regiment = {
-        name = "3.6-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 940
-    }
-
-    regiment = {
-        name = "3.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
-        type = dragoon
-        home = 362
-    }
-
-    regiment = {
-        name = "3.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
-        type = dragoon
-        home = 361
-    }
-
-    regiment = {
-        name = "3.1-ya Artilleriiskii Diviziya"
-        type = artillery
-        home = 364
-    }
-
-    regiment = {
-        name = "3.2-ya Artilleriiskii Diviziya"
-        type = artillery
-        home = 941
-    }
-}
 
 army = {
     name = "4-i Armeiskii Korpus" #Kiev/Ukrainian Army
-    location = 958
+    location = 962
 
     regiment = {
         name = "4.1-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 957
+        home = 977
     }
 
     regiment = {
         name = "4.2-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 959
+        home = 977
     }
 
     regiment = {
         name = "4.3-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 959
+        home = 978
     }
 
     regiment = {
         name = "4.4-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 955
+        home = 979
     }
 
     regiment = {
         name = "4.5-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 955
+        home = 979
     }
 
     regiment = {
         name = "4.5-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 958
+        home = 980
     }
 
     regiment = {
         name = "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
         type = cuirassier
-        home = 958
+        home = 989
     }
 
     regiment = {
         name = "4.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
         type = cavalry
-        home = 1047
+        home = 991
     }
 
     regiment = {
         name = "4.1-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 960
+        home = 994
     }
 
     regiment = {
         name = "4.2-ya Artilleriiskii Diviziya"
         type = artillery
-        home = 960
+        home = 998
     }
 }
 
@@ -509,7 +436,7 @@ army = {
     regiment = {
         name= "6.1-ya Pekhotnaya Diviziya"
         type = cavalry
-        home = 957
+        home = 1009
     }
 
     regiment = {
@@ -533,75 +460,8 @@ army = {
 }
 
 army = {
-    name = "7-i Armeiskii Korpus" #Poland Army
-    location = 706
-
-
-    regiment = {
-        name= "7.1-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 1009
-    }
-
-    regiment = {
-        name= "7.2-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 1025
-    }
-
-    regiment = {
-        name= "7.3-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 1025
-    }
-
-    regiment = {
-        name= "7.4-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 1025
-    }
-
-    regiment = {
-        name= "7.5-ya Pekhotnaya Diviziya"
-        type = infantry
-        home = 1025
-    }
-
-    regiment = {
-        name= "7.1-ya Kavalerijskaya Diviziya"
-        type = cavalry
-        home = 1021
-    }
-
-    regiment = {
-        name= "7.2-ya Kavalerijskaya Diviziya"
-        type = cavalry
-        home = 1021
-    }
-
-    regiment = {
-        name= "7.3-ya Kavalerijskaya Diviziya"
-        type = cavalry
-        home = 1021
-    }
-
-    regiment = {
-        name= "7.1-ya Artilleriiskii Diviziya"
-        type = artillery
-        home = 979
-    }
-
-    regiment = {
-        name= "7.2-ya Artilleriiskii Diviziya"
-        type = artillery
-        home = 1019
-    }
-
-}
-
-army = {
-    name = "8-i Armeiskii Korpus" #Odessa Army
-    location = 968
+    name = "8-i Armeiskii Korpus" #Sevastopol Army
+    location = 966
 
 
     regiment = {

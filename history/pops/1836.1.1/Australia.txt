@@ -3,25 +3,25 @@
 #Sydney (64000/16000 POPS)
 2468 = {
     bureaucrats = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 100
 	
 	}
 	farmers = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 10000
 	
 	}
 	soldiers = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 3000
 	
 	}
 	clergymen = {
-		culture = dutch
+		culture = tasmanian
 		religion=protestant
 		size = 100
 	}
@@ -47,25 +47,25 @@
 #Newcastle (16000/4000 POPS)
 2469 = {
     bureaucrats = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 100
 	
 	}
 	farmers = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 10000
 	
 	}
 	soldiers = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 3000
 	
 	}
 	clergymen = {
-		culture = dutch
+		culture = tasmanian
 		religion=protestant
 		size = 100
 	}
@@ -138,13 +138,13 @@
     }
 	
 	bureaucrats = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 10
 	
 	}
 	soldiers = {
-		culture = dutch
+		culture = tasmanian
 		religion = protestant
 		size = 50
 	
@@ -266,43 +266,43 @@
 2476 = {
 
     aristocrats = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 10
     }
 
     bureaucrats = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 5
     }
 
     clergymen = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 5
     }
 
     officers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 5
     }
 
     artisans = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 10
     }
 
     soldiers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 10
     }
 
     farmers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 50
     }
@@ -462,49 +462,49 @@
 #Hobart (36000/9000 POPS)
 2482 = {
     bureaucrats = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 25
     }
 
     clergymen = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 100
     }
 
     soldiers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 100
     }
 
     farmers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 8675
     }
 
     clergymen = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 10
     }
 
     artisans = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 20
     }
 
     soldiers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 10
     }
 
     farmers = {
-        culture = dutch
+        culture = tasmanian
         religion = protestant
         size = 60
     }

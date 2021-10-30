@@ -1,5 +1,5 @@
-owner = GAZ
-controller = GAZ
+owner = MAT
+controller = MAT
 add_core = GAZ
 add_core = MAT
 add_core = TRN

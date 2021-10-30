@@ -1,3 +1,9 @@
+ROM = {
+    value = 200
+    level = 5
+    influence_value = 100
+}
+
 leader = {
     name = "von Heideck"
     type = land

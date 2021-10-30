@@ -1,2 +1,4 @@
+owner = IBE
+controller = IBE
 trade_goods = fruit
 life_rating = 10

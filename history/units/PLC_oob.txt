@@ -1,0 +1,131 @@
+army = {
+    name = "Armia I" #Poland Army
+    location = 706
+
+
+    regiment = {
+        name= "1.Brygada Piechoty"
+        type = infantry
+        home = 1009
+    }
+
+    regiment = {
+        name= "2.Brygada Piechoty"
+        type = infantry
+        home = 1025
+    }
+
+    regiment = {
+        name= "3.Brygada Piechoty"
+        type = infantry
+        home = 1025
+    }
+
+    regiment = {
+        name= "4.Brygada Piechoty"
+        type = infantry
+        home = 1025
+    }
+
+    regiment = {
+        name= "5.Brygada Piechoty"
+        type = infantry
+        home = 1025
+    }
+
+    regiment = {
+        name= "6.Brygada Kawalerii"
+        type = cavalry
+        home = 1021
+    }
+
+    regiment = {
+        name= "7.Brygada Kawalerii"
+        type = cavalry
+        home = 1021
+    }
+
+    regiment = {
+        name= "8.Brygada Kawalerii"
+        type = cavalry
+        home = 1021
+    }
+
+    regiment = {
+        name= "9.Brygada Artylerii"
+        type = artillery
+        home = 979
+    }
+
+    regiment = {
+        name= "10.Brygada Artylerii"
+        type = artillery
+        home = 1019
+    }
+
+}
+
+army = {
+    name = "Armia II" #Vilna/Marijampole - Baltic Army
+    location = 354
+
+    regiment = {
+        name = "1.Brygada Piechoty"
+        type = infantry
+        home = 939
+    }
+
+    regiment = {
+        name = "2.Brygada Piechoty"
+        type = infantry
+        home = 938
+    }
+
+    regiment = {
+        name = "3.Brygada Piechoty"
+        type = infantry
+        home = 947
+    }
+
+    regiment = {
+        name = "4.Brygada Piechoty"
+        type = infantry
+        home = 947
+    }
+
+    regiment = {
+        name = "5.Brygada Piechoty"
+        type = infantry
+        home = 360
+    }
+
+    regiment = {
+        name = "6.Brygada Piechoty"
+        type = infantry
+        home = 940
+    }
+
+    regiment = {
+        name = "7.Brygada Kawalerii"
+        type = dragoon
+        home = 362
+    }
+
+    regiment = {
+        name = "8.Brygada Kawalerii"
+        type = dragoon
+        home = 361
+    }
+
+    regiment = {
+        name = "9.Brygada Artylerii"
+        type = artillery
+        home = 364
+    }
+
+    regiment = {
+        name = "10.Brygada Artylerii"
+        type = artillery
+        home = 941
+    }
+}

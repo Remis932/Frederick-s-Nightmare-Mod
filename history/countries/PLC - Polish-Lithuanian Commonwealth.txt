@@ -9,7 +9,7 @@ literacy = 0.5
 civilized = yes
 is_releasable_vassal = no
 
-prestige = 1
+prestige = 35
 
 # Political reforms
 slavery = no_slavery
@@ -39,6 +39,8 @@ citizens_rights = culture_voting_only
 border_policy = open_borders
 
 set_country_flag = catholic_country
+
+oob = "PLC_oob.txt"
 
 ruling_party = PLC_conservative
 upper_house = {

@@ -1,4 +1,6 @@
-
+owner = NET
+controller = NET
+colonial = 2
 trade_goods = wool
 life_rating = 33
 

@@ -36,7 +36,8 @@ country_event = {
 		set_global_flag = bourbon_italy_rip
 		war = {
 			target = FRA
-			defender_goal = { casus_belli = become_independent }
+			attacker_goal = { casus_belli = become_independent }
+			defender_goal = { casus_belli = make_puppet }
 			call_ally = yes
 		}
         #government = hms_government
@@ -99,15 +100,26 @@ country_event = {
     picture = "regency"
 	
     trigger = {
-	tag = BIT
-       
-		
+       	
 		
 	AND={
+	OR={
+	AND={
+		tag = BIT
 		OR={
 		BIT={substate_of = FRA}
 		BIT ={vassal_of = FRA}
 		
+		}
+		}
+	AND={
+		tag = ITA
+		OR={
+		ITA={substate_of = FRA}
+		ITA ={vassal_of = FRA}
+		
+		}
+		}
 		}
 		NOT = {war_with = FRA}
 		has_global_flag = rip_bourbon_france
@@ -184,7 +196,8 @@ country_event = {
 		
 		war = {
 			target = FRA
-			defender_goal = { casus_belli = become_independent }
+			attacker_goal = { casus_belli = become_independent }
+			defender_goal = { casus_belli = make_puppet }
 			call_ally = yes
 		}
 		set_global_flag = rip_bourbon_france
@@ -201,10 +214,20 @@ country_event = {
     picture = "regency"
 
     trigger = {
-	tag = ITA
+	OR={AND={tag = BIT
+		OR={
+		BIT={substate_of = FRA}
+		BIT={vassal_of = FRA}
+		}
+		}
+		AND={
+		tag = ITA
 		OR={
 		ITA={substate_of = FRA}
 		ITA={vassal_of = FRA}
+		}
+		
+		}
 		}
 		NOT = {war_with = FRA}
 		has_global_flag = bourbon_italy_rip

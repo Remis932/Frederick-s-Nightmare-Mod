@@ -22,20 +22,20 @@ vassal = {
     end_date = 1870.1.1
 }
 #Russia-Circassia
-substate = {
-	first=RUS
-	second=CIR
-	start_date = 1836.1.1
-	end_date = 1936.1.1
-
-}
-#Russia - PLC
-vassal = {
-    first = RUS
-    second = PLC
-    start_date = 1836.1.1
-    end_date = 1870.1.1
-}
+#substate = {
+#	first=RUS
+#	second=CIR
+#	start_date = 1836.1.1
+#	end_date = 1936.1.1
+#
+#}
+#Russia - PLC (separated through war)
+#vassal = {
+#    first = RUS
+#    second = PLC
+#    start_date = 1836.1.1
+#    end_date = 1870.1.1
+#}
 
 #Bahrain - Qatar
 vassal = {
@@ -148,9 +148,9 @@ vassal = {
 #    start_date = 1808.1.1
 #    end_date = 1936.1.1
 #}
-#Russian Prussian Puppet
+#PLC Prussian Puppet
 vassal = {
-	first = RUS
+	first = PLC
 	second = PRU
 	start_date = 1836.1.1
 	end_date = 1936.1.1

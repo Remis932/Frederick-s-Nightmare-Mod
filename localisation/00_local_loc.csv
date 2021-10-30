@@ -1,10 +1,47 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
-EVTNAME197000;Bourbon Restoration;x
-EVTNAME197000;Our Bourbon overlords in France have not taken kindly to us deposing their fellow dynasty member and they have pulled some strings as to put said dynasty member back on the throne.;x
-EVTOPTA197000;Long Live the King...again!;x
+rome_renovated;Rome Renovated;x
+patriarchate_of_rome_title;The Patriarch of Rome;x
+patriarchate_of_rome_desc; ;x
+patriarchate_of_alexandria_title;Restore the Patriarch of Alexandria;x
+patriarchate_of_alexandria_desc; ;x
+recently_sacked;Recently Sacked City;x
+sack_mecca_medina_title;The Sack of Mecca and Medina;x
+sack_mecca_medina_desc; ;x
+holy_city_jerusalem;Holy City of Jerusalem;x
+the_holy_city_title;Holy City of Jerusalem;x
+the_holy_city_desc; ;x
+turkish_compromise_title;Turkish Compromise;x
+turkish_compromise_desc; ;
+reassert_greek_superiority;Greek Cultural Supremacy;x
+reassert_greek_superiority_title;Reassert the Supremacy of Greek Culture;x
+reassert_greek_superiority_desc; ;x
+dreams_of_rome_title;Dreams of Rome;x
+dreams_of_rome_desc; ;x
+dominance_in_the_balkans_title;Dominance in the Balkans;x
+dominance_in_the_balkans_desc; ;x
+reintegrate_peloponese_title;Reintegrate Peloponnese;x
+reintegrate_peloponese_desc; ;x
+patriarchate_of_antioch_title;Restore the Patriarch of Antioch;x
+patriarchate_of_antioch_desc; ;x
+settle_the_aegean_coast;Settle the Aegean Coast;x
+settle_the_aegean_coast_title;Settle the Aegean Coast;x
+settle_the_aegean_coast_desc; ;x
+tasmanian;Tasmanian;x
+EVTNAME197000;Bourbon Outrage;x
+EVTNAME197000;Our Bourbon overlords in France have not taken kindly to us deposing their fellow dynasty member and they demand that he be put back on the throne.;x
+EVTOPTA197000;Liberty or Death!;x
 EVTNAME197001;Bourbon Influeces Wiped;x
-EVTNAME197001;Our Bourbon overlords in France have not taken kindly to us deposing their fellow dynasty member and they have pulled some strings as to put said dynasty member back on the throne.;x
-EVTOPTA197001;Long Live the King...again!;x
+EVTNAME197001;Without the Bourbons,we can wipe away all ties to them and their regime.;x
+EVTOPTA197001;Freedom!;x
+EVTNAME197003;Bourbons Overthrown in France!;x
+EVTNAME197003;We must take advantage of this and become independent.;x
+EVTOPTA197003;For the King!;x
+EVTNAME197002;Bourbons Overthrown in Italy!;x
+EVTNAME197002;The French have defeated us and made us remove our king.;x
+EVTOPTA197002;For the Republic!;x
+EVTNAME197004;Dreams of Liberty Crushed;x
+EVTNAME197004;The French have defeated us and re-instated the Bourbons.;x
+EVTOPTA197004;We pray for the fallen.;x
 EVTNAME196001;Land Ceded;x
 EVTDESC196001;These territories will be better administrated by a colonial government;x
 EVTOPTA196001;They better.;x

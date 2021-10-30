@@ -1,4 +1,6 @@
-
+owner = NET
+controller = NET
+colonial = 2
 trade_goods = fruit
 terrain = dryhills
 life_rating = 32
