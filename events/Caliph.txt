@@ -1,0 +1,48 @@
+country_event = {
+    id = 198000
+    title = "EVTNAME198000"
+    desc = "EVTDESC198000"
+    picture = "regency"
+
+    trigger = {
+	has_country_modifier = caliph
+	NOT = {1151 = {owned_by=THIS}}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA198000"
+		remove_country_modifier = caliph
+    }
+}
+
+country_event = {
+    id = 198001  #death of the ottomans
+    title = "EVTNAME198001"
+    desc = "EVTDESC198001"
+    picture = "senussi_on_the_march"
+	
+    trigger = {
+	tag = EGY
+	NOT = {exists = TUR}
+	NOT = {has_global_flag = rip_bozo_ottomans}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA198001"
+		set_global_flag = rip_bozo_ottomans
+		
+		any_owned = {
+		limit = {is_core = TUR}
+		remove_core = TUR
+		}
+		
+    }
+}

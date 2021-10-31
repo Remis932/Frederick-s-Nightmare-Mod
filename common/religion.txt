@@ -68,6 +68,11 @@ yazidi_group = {
         color = { 0.4 0.0 1.0 }
 
     }
+	zoroastrian = {
+        icon = 16
+        color = { 0.4 0.0 1.0 }
+
+    }
 }
 
 eastern = {

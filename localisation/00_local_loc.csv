@@ -1,4 +1,58 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+zoroastrian;Zoroastrian;x
+integrate_the_armenians_title;Integrate the Armenians;x
+integrate_the_armenians_desc;Will also gain cores on all provinces with Armenians living there;x
+parsis;Parsis;x
+EVTNAME198001;Death of the Ottomans;x
+EVTDESC198001;The Ottoman Empire has fallen, its claims in our lands have been invalidated.;x
+EVTOPTA198001;A great day for all of Islam!;x 
+EVTNAME198000;Title of Caliph Invalidated;x
+EVTDESC198000;By not holding the holy city of Mecca your title as Caliph has no significance.;x
+EVTOPTA198000;May Allah forgive me.;x
+caliph_egy;Caliph;x
+proclaim_the_new_caliphate_egy_title;Proclaim the New Caliphate;x
+proclaim_the_new_caliphate_egy_desc;You will lose the idea "Caliph" forever if you don't own Mecca.;x
+the_islands_title;The Islands;x
+master_of_the_levant_title; Master of the Levant;x
+master_of_the_levant_desc;This Decision will exclude our paths into Arabia.;x
+the_coast_title;The Coast;x
+the_coast_desc; ;x
+the_new_egyptian_empire_title;Proclaim the New Egyptian Empire;x
+EGE;Egypt;x
+EGE_ADJ;Egyptian;x
+EGE_absolute_monarchy;Egyptian Empire;x
+EGE_prussian_constitutionalism;Egyptian Empire;x
+EGE_hms_government;Egyptian Empire;x
+dreams_of_arabia_title;Dreams of Arabia;x
+dreams_of_arabia_desc;This decision will exclude our Levantine expansion.;x
+conquer_the_peninsula_title;Conquer the Peninsula;x
+conquer_the_peninsula_desc; ;x
+barbary_coast_title;The Barbary Coast;x
+barbary_coast_desc; ;x
+the_islands_desc; ;x
+integrate_hedjaz_title;Integrate Hedjaz;x
+integrate_hedjaz_desc; ;x
+conquer_arabia_title;Conquer Arabia;x
+conquer_arabia_desc; ;x
+conquer_cyrenaica_title;Conquer Cyernaica;x
+conquer_cyrenaica_desc; ;x
+conquer_tripolitania_title;Conquer Tripolitania;x
+conquer_tripolitania_desc; ;x
+conquer_tunis_title;March Into Tunis;x
+conquer_tunis_desc; ;x
+conquer_morocco_title;Our Brothers in the Maghreb;x
+conquer_morocco_desc; ;x
+unite_the_arabians;Unite the Arabians;x
+unite_the_arabians_desc; ;x
+integrate_the_turkish_title;Integrate the Turkish;x
+integrate_the_turkish_desc; ;x
+push_into_anatolia_title;Push Into Anatolia;x
+push_into_anatolia_desc; ;x
+our_greek_brothers_title;Our Greek Brothers;x
+our_greek_brothers_desc; ;x
+modernize_nile_irrigation_title;Modernize Nile Irrigation;x
+modernize_nile_irrigation_desc; ;x
+modernized_irrigation;Modernized Irrigation;x
 rome_renovated;Rome Renovated;x
 patriarchate_of_rome_title;The Patriarch of Rome;x
 patriarchate_of_rome_desc; ;x
@@ -8,8 +62,8 @@ recently_sacked;Recently Sacked City;x
 sack_mecca_medina_title;The Sack of Mecca and Medina;x
 sack_mecca_medina_desc; ;x
 holy_city_jerusalem;Holy City of Jerusalem;x
-the_holy_city_title;Holy City of Jerusalem;x
-the_holy_city_desc; ;x
+byz_the_holy_city_title;Holy City of Jerusalem;x
+byz_the_holy_city_desc; ;x
 turkish_compromise_title;Turkish Compromise;x
 turkish_compromise_desc; ;
 reassert_greek_superiority;Greek Cultural Supremacy;x
@@ -68,10 +122,10 @@ HPS_absolute_monarchy;Hapsburg Empire;x
 HPS_prussian_constitutionalism;Hapsburg Empire;x
 HPS_hms_government;Hapsburg Empire;x
 SVF;Iran;x
-SVF_ADJ;Safavid;x
-SVF_absolute_monarchy;Safavid Empire;x
-SVF_prussian_constitutionalism;Safavid Empire;x
-SVF_hms_government;Safavid Empire;x
+SVF_ADJ;Afsharid;x
+SVF_absolute_monarchy;Afsharid Empire;x
+SVF_prussian_constitutionalism;Afsharid Empire;x
+SVF_hms_government;Afsharid Empire;x
 post_napoleonic_thought;Post-Revolutionary Thought;x
 post_napoleonic_army_doctrine;Post-Revolutionary Army Doctrine;x
 will_receive_title;Request a Grant;x

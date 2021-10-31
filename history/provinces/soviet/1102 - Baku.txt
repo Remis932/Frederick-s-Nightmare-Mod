@@ -1,5 +1,6 @@
-owner = RUS
-controller = RUS
+owner = SVF
+controller = SVF
+add_core = SVF
 add_core = AZB
 add_core = TCA
 trade_goods = grain

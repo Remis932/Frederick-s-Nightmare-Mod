@@ -1,6 +1,6 @@
-owner = RUS
-controller = RUS
-add_core = TUR
+owner = BYZ
+controller = BYZ
+add_core = BYZ
 add_core = ARM
 add_core = KDS
 trade_goods = wool

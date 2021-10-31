@@ -63,13 +63,13 @@ army = {
 
     regiment = {
         name= "5. Nezam"
-        type = irregular
+        type = infantry
         home = 1130
     }
 
     regiment = {
         name= "6. Nezam"
-        type = irregular
+        type = infantry
         home = 1122
     }
 

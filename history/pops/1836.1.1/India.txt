@@ -1484,7 +1484,22 @@
         religion = hindu
         size = 1100
     }
-
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1150
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1000
+	}
+	farmers = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1000
+	}
     bureaucrats = {
         culture = avadhi
         religion = hindu
@@ -2837,6 +2852,22 @@
 #under rule of Britain 1836
 #Calcutta (4872000/1218000 POPS)
 1251 = {
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 3450
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 3000
+	}
+	farmers = {
+		culture = parsis
+		religion = zoroastrian
+		size = 3000
+	}
     aristocrats = {
         culture = bengali
         religion = hindu
@@ -5606,6 +5637,22 @@
 #Under the Rule of Hyderabad 1836
 #Hyderabad (1756000/439000 POPS)
 1283 = {
+	aristocrats = {
+        culture = avadhi
+        religion = hindu
+        size = 2200
+    }
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 2300
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 2000
+	}
     aristocrats = {
         culture = telegu
         religion = hindu
@@ -6033,6 +6080,22 @@
 #Under rule of Sind in 1836
 #Karachi (920000/230000 POPS)
 1288 = {
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1150
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1850
+	}
+	farmers = {
+		culture = parsis
+		religion = zoroastrian
+		size = 2000
+	}
     aristocrats = {
         culture = sindi
         religion = sunni
@@ -6374,6 +6437,22 @@
 }
 #Surat (1072000/268000 POPS)
 1296 = {
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1450
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 1950
+	}
+	farmers = {
+		culture = parsis
+		religion = zoroastrian
+		size = 2500
+	}
     aristocrats = {
         culture = gujarati
         religion = hindu
@@ -6803,6 +6882,22 @@
 #under rule of Britain 1836
 #Bombay (2680000/670000 POPS)
 1297 = {
+	aristocrats = {
+        culture = avadhi
+        religion = hindu
+        size = 17600
+    }
+	bureaucrats = {
+		culture = parsis
+		religion = zoroastrian
+		size = 20000
+	
+	}
+	clergymen = {
+		culture = parsis
+		religion = zoroastrian
+		size = 16000
+	}
     aristocrats = {
         culture = marathi
         religion = hindu

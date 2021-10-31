@@ -1,4 +1,50 @@
 political_decisions = {
+	integrate_the_armenians = {
+        picture = "build_teresina"
+		ai_will_do = { factor = 0 }
+        potential = {
+           tag = BYZ
+		   NOT={has_country_flag=integrate_the_armenians}
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+        }
+
+        effect = {
+            prestige = 5
+            set_country_flag = integrate_the_armenians
+			1105 = {add_core = THIS}
+			885 = {add_core = THIS}
+			890 = {add_core = THIS}
+			891 = {add_core = THIS}
+			2414 = {add_core = THIS}
+			893 = {add_core = THIS}
+			889 = {add_core = THIS}
+			899 = {add_core = THIS}
+			1093 = {add_core = THIS}
+			1099 = {add_core = THIS}
+			1098 = {add_core = THIS}
+			1100 = {add_core = THIS}
+			1101 = {add_core = THIS}
+			1109 = {add_core = THIS}
+			1106 = {add_core = THIS}
+			1102 = {add_core = THIS}
+			1108 = {add_core = THIS}
+			1112 = {add_core = THIS}
+			1107 = {add_core = THIS}
+			1090 = {add_core = THIS}
+			892 = {add_core = THIS}
+            add_accepted_culture = armenian
+        }
+        
+    }
+
+
+
+
+
 	patriarchate_of_antioch = {
         picture = "build_teresina"
         potential = {
@@ -155,7 +201,7 @@ political_decisions = {
         ai_will_do = { factor = 0 }
     }
 	
-	the_holy_city = {
+	byz_the_holy_city = {
         picture = "founding_yadanabon"
         potential = {
            tag = BYZ
@@ -326,7 +372,7 @@ political_decisions = {
 
         allow = {
             war = no
-			invention ={mission_to_civilize}
+			state_n_government = 1
 			medicine = 1
             
         }

@@ -1,4 +1,9 @@
 # Country unit colors.
+EGE = {
+	color1 = {130 140 14}
+	color2 = {130 140 14}
+	color3 = {130 140 14}
+}
 GPN = {
 	color1 = {196 53 18}
 	color2 = {196 53 18}

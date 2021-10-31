@@ -2565,6 +2565,12 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+caliph_egy = {
+	prestige = 0.03
+	global_pop_militancy_modifier = -0.01
+	icon = 1
+}
+
 
 language_reform = {
 	assimilation_rate = 2.5
@@ -2577,6 +2583,11 @@ recently_sacked = {
 	immigrant_attract = -2
 	local_RGO_output = -1
 	icon = 8
+}
+modernized_irrigation = {
+	rgo_output = 0.2
+	population_growth = 0.001
+	icon = 19
 }
 rome_renovated = {
 	poor_life_needs = -0.1

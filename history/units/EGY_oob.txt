@@ -246,25 +246,25 @@ army = {
 
     regiment = {
         name= "3.5 Infantry"
-        type = irregular
+        type = infantry
         home = 1828
     }
 
     regiment = {
         name= "1.6 Infantry"
-        type = irregular
+        type = infantry
         home = 1829
     }
 
     regiment = {
         name= "2.6 Infantry"
-        type = irregular
+        type = infantry
         home = 1830
     }
 
     regiment = {
         name= "3.6 Infantry"
-        type = irregular
+        type = infantry
         home = 1831
     }
 

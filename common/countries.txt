@@ -413,6 +413,7 @@ YUG        ="countries/Yugoslavia.txt"
 # Africa
 ALD        ="countries/Aldjazair.txt"
 CNG        ="countries/Congo Free State.txt"
+EGE        ="countries/New Egyptian Empire.txt"
 EGY        ="countries/Egypt.txt"
 ETH        ="countries/Ethiopia.txt"
 MAD        ="countries/Madagascar.txt"

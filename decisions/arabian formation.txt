@@ -139,6 +139,7 @@ political_decisions = {
                 tag = TUR
                 tag = ARU
                 tag = ISR
+				tag = EGY
             }
             NOT = { exists = ARA }
             OR = {
@@ -469,6 +470,7 @@ political_decisions = {
     form_arab_union = {
     picture = form_arab_union
         potential = {
+		NOT = {tag = EGY}
             NOT = { has_country_flag = post_colonial_country }
             OR = {
                 primary_culture = mashriqi
