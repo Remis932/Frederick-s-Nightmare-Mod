@@ -2568,9 +2568,13 @@ emergency_tax_measures2 = {
 caliph_egy = {
 	prestige = 0.03
 	global_pop_militancy_modifier = -0.01
-	icon = 1
+	global_pop_consciousness_modifier = -0.01
+	icon = 9
 }
-
+persian_discipline = {
+	land_organisation = 0.05
+	icon = 17
+}
 
 language_reform = {
 	assimilation_rate = 2.5
