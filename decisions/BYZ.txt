@@ -54,12 +54,12 @@ political_decisions = {
 
         allow = {
             war = no
-            897 = {owned_by = BYZ}
+            900 = {owned_by = BYZ}
         }
 
         effect = {
             prestige = 5
-			897={change_province_name = "Antioch"}
+			900={change_province_name = "Antioch"}
 			897 = {add_core = BYZ}
 			895 = {add_core = BYZ}
 			894 = {add_core = BYZ}

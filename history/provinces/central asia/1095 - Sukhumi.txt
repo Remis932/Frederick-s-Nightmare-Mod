@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = CIR
+controller = CIR
 add_core = ABK
 add_core = CIR
 add_core = GEO

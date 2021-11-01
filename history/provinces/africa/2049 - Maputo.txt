@@ -1,5 +1,5 @@
-owner = IBE
-controller = IBE
+owner = HRE
+controller = HRE
 add_core = GAZ
 trade_goods = fish
 terrain = savanna

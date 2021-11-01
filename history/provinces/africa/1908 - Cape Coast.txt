@@ -1,3 +1,5 @@
+owner = DNN
+controller = DNN
 add_core = ASH
 trade_goods = coffee
 life_rating = 35

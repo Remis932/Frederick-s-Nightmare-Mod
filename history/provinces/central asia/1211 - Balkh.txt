@@ -1,5 +1,5 @@
-owner = BUK
-controller = BUK
+owner = SVF
+controller = SVF
 add_core = BDK
 add_core = AFG
 terrain = dryhills

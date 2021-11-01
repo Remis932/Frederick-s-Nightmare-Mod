@@ -1,11 +1,13 @@
 capital = 1121
 primary_culture = persian
 culture = parsis
+culture = turkmen
+culture = hazara
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.03
+literacy = 0.0822880666666667
 civilized = yes
 non_state_culture_literacy = 0.01
 
