@@ -1,0 +1,33 @@
+political_decisions = {
+	
+	reform_papacy = {
+	potential = {
+	exists = PAP
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
+	NOT = {has_global_flag = reform_papacy}
+	}
+	allow = {
+	is_vassal = no
+	in_sphere = PAP
+	}
+	effect = {
+	PAP = {
+		any_owned = {
+			limit = {
+				is_core = PAP
+				NOT = {province_id = }
+			}
+	
+		}
+	}
+	set_global_flag = reform_papacy
+	}
+	
+	}
+	
+	
+
+}
