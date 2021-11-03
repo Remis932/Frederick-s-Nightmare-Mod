@@ -1,7 +1,8 @@
-owner = HRE
-controller = HRE
-add_core = HRE
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = SWI
+add_core = FRA
 trade_goods = coal
 life_rating = 32
 
