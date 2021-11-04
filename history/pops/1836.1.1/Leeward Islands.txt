@@ -5,7 +5,7 @@
     aristocrats = {
         culture = british
         religion = protestant
-        size = 50
+        size = 70
     }
 
     bureaucrats = {
@@ -17,13 +17,13 @@
     clergymen = {
         culture = british
         religion = protestant
-        size = 10
+        size = 25
     }
 
     artisans = {
         culture = british
         religion = protestant
-        size = 200
+        size = 270
     }
 
     soldiers = {
@@ -35,7 +35,7 @@
     farmers = {
         culture = british
         religion = protestant
-        size = 200
+        size = 290
     }
 
     clergymen = {
@@ -65,157 +65,169 @@
 #Montserrat (5300/1325 POPS) #still British Colony
 2225 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = north_italian
+        religion = catholic
         size = 10
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = north_italian
+        religion = catholic
         size = 5
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = north_italian
+        religion = catholic
         size = 30
     }
 
     farmers = {
-        culture = british
-        religion = protestant
-        size = 30
+        culture = north_italian
+        religion = catholic
+        size = 300
     }
 
     clergymen = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = occitan
+        religion = catholic
         size = 15
     }
 
     artisans = {
-        culture = afro_caribbean
+        culture = occitan
         religion = protestant
         size = 45
     }
 
     soldiers = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = north_italian
+        religion = catholic
         size = 10
     }
 
-    farmers = {
-        culture = afro_caribbean
-        religion = protestant
+    slaves = {
+        culture = afro_antillean
+        religion = catholic
         size = 1380
     }
 }
 #Tortola (4800/1200 POPS) #still British Colony
 2226 = {
     aristocrats = {
-        culture = british
+        culture = spanish
         religion = protestant
         size = 10
     }
 
     clergymen = {
-        culture = british
+        culture = spanish
         religion = protestant
         size = 10
     }
 
     artisans = {
-        culture = british
+        culture = spanish
         religion = protestant
         size = 40
     }
 
     farmers = {
-        culture = british
-        religion = protestant
-        size = 40
+        culture = caribeno
+        religion = catholic
+        size = 400
     }
 
     clergymen = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = caribeno
+        religion = catholic
         size = 15
     }
 
     artisans = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = caribeno
+        religion = catholic
         size = 35
     }
 
     soldiers = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = caribeno
+        religion = catholic
         size = 10
     }
 
-    farmers = {
-        culture = afro_caribbean
-        religion = protestant
+    slaves = {
+        culture = afro_caribeno
+        religion = catholic
         size = 1040
     }
 }
 #Saint Kitts (26500/6625 POPS) #now independent
 2227 = {
     aristocrats = {
-        culture = british
-        religion = protestant
+        culture = south_german
+        religion = catholic
         size = 75
     }
 
     clergymen = {
-        culture = british
-        religion = protestant
+        culture = croat
+        religion = catholic
         size = 15
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = south_german
+        religion = catholic
         size = 225
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
+        culture = south_german
+        religion = catholic
         size = 50
     }
 
     farmers = {
-        culture = british
-        religion = protestant
+        culture = south_german
+        religion = catholic
         size = 260
     }
 
     clergymen = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = south_german
+        religion = catholic
         size = 75
     }
 
     artisans = {
-        culture = afro_caribbean
-        religion = protestant
+        culture = croat
+        religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = afro_caribbean
+        culture = afro_antillean
         religion = protestant
         size = 75
     }
 
     farmers = {
+        culture = afro_antillean
+        religion = catholic
+        size = 1000
+    }
+
+    slaves = {
+        culture = afro_antillean
+        religion = catholic
+        size = 2900
+    }
+
+    slaves = {
         culture = afro_caribbean
         religion = protestant
-        size = 5900
+        size = 1900
     }
 
 }

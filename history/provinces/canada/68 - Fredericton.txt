@@ -1,7 +1,8 @@
-owner = FRA
-controller = FRA
+owner = USA
+controller = USA
+add_core = USA
+add_core = NEN
 add_core = QUE
-add_core = NEW
 trade_goods = timber
 life_rating = 31
-colonial = 2
+colonial = 0

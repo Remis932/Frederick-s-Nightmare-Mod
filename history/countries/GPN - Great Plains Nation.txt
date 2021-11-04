@@ -1,7 +1,7 @@
-capital = 131
+capital = 154
 primary_culture = dakota
 culture = cree
-culture = native_american_minor
+culture = metis
 culture = louisianian
 culture = french_canadian
 religion = catholic

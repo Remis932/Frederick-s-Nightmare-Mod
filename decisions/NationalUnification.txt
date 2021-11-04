@@ -809,6 +809,7 @@ political_decisions = {
         news_desc_medium = "form_italy_NEWS_MEDIUM"
         news_desc_short = "form_italy_NEWS_SHORT"
         potential = {
+		NOT = {tag = BIT }
             is_culture_group = italian
             capital_scope = { continent = europe }
             NOT = {

@@ -1,5 +1,5 @@
-color = { 4  144  178 }
-graphical_culture = Generic
+color = { 0 49 83 }
+graphical_culture = ConfederateGC
 
 party = {
     name = "TEX_liberal"

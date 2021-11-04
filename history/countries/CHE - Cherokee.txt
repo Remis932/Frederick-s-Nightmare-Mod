@@ -5,7 +5,7 @@ culture = french_canadian
 religion = catholic
 government = hms_government
 plurality = 5.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.10
 civilized = no
 

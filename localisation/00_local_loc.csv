@@ -1,4 +1,35 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+our_italian_ambition_title;Our Italian Ambition;x
+our_italian_ambition_desc; ;x
+irredentist_italy_title;Irredentist Italy;x
+irredentist_italy_desc; ;x
+avanti_alpini_title;Avanti Alpini;x
+avanti_alpini_desc; ;x
+venetian_colonies_title;Venetian Colonies;x
+venetian_colonies_desc; ;x
+dalmatian_coast_title;Dalmatian Coast;x
+dalmatian_coast_desc; ;x
+ionian_islands_title;Ionian Islands;x
+ionian_islands_desc; ;x
+our_lands_in_switzerland_title;Our Lands in Switzerland;x
+our_lands_in_switzerland_desc; ;x
+count_of_savoie_title;Count of Savoie;x
+count_of_savoie_desc; ;x
+balearic_islands_title;Balearic Islands;x
+balearic_islands_desc; ;x
+EVTNAME197005;Papal Compromise Treaty;x
+EVTDESC197005;As the Papal Compromise is in effect, the papacy may never lose its cores.;x
+EVTOPTA197005;I suppose we can't argue with that.;x
+papal_compromise_title;Papal Compromise;x
+papal_compromise_desc;Picking this will not allow us to confiscate Papal Wealth;x
+papal_compromise;The Pope is Content;x
+our_southern_brethern_title;Our Southern Bretheren;x
+our_southern_brethern_desc; ;x
+reform_papacy_title;Reform the Papacy;x
+reform_papacy_desc; ;x
+confiscate_papal_wealth_title;Confiscate Papal Wealth;x
+confiscate_papal_wealth_desc; ;x
+papal_wealth_confiscated;Papal Wealth Confiscated;x
 romansh;Romansh;x
 into_arabia_title;Into Arabia;x
 into_arabia_title_desc; ;x

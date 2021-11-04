@@ -1,5 +1,6 @@
-owner = IRO
-controller = IRO
+owner = USA
+controller = USA
+add_core = USA
 add_core = IRO
 trade_goods = iron
 

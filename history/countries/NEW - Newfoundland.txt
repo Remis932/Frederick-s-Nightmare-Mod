@@ -1,10 +1,10 @@
 capital = 74
-primary_culture = anglo_canadian
+primary_culture = yankee
 culture = french_canadian
 religion = catholic
 government = democracy
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.6
 civilized = yes
 is_releasable_vassal = no

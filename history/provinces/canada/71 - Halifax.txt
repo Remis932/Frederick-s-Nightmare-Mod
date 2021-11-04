@@ -1,10 +1,11 @@
-owner = FRA
-controller = FRA
+owner = USA
+controller = USA
+add_core = USA
+add_core = NEN
 add_core = QUE
-add_core = NEW
 trade_goods = fish
 life_rating = 31
-colonial = 2
+colonial = 0
 naval_base = 1
 fort = 1
 1861.1.1 = {

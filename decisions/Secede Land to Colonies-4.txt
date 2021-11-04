@@ -15,6 +15,7 @@ political_decisions = {
 	limit={
 	continent=north_america
 	NOT = {province_id = 77
+	province_id = 197
 	province_id = 198
 				province_id = 199
 				province_id = 200

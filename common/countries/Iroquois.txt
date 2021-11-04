@@ -1,5 +1,5 @@
 color = { 53 91 156 }
-graphical_culture = Generic
+graphical_culture = AfricanGC
 
 party = {
     name = "CHE_liberal"

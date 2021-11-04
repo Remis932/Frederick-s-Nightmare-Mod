@@ -87,6 +87,7 @@ country_event = {
 			  }
 		add_core = ITA
 		}
+		remove_country_modifier = papal_compromise
         change_tag = ITA
 		change_tag_no_core_switch = ITA
 		set_global_flag = bourbon_italy_switch
@@ -260,6 +261,48 @@ country_event = {
 		change_tag_no_core_switch = BIT
 		clr_global_flag = bourbon_italy_rip
 		government = hms_government
+    }
+        
+    
+}
+
+country_event = {
+    id = 197005 #pope gets cores back
+    title = "EVTNAME197005"
+    desc = "EVTDESC197005"
+    picture = "regency"
+
+    trigger = {
+	749 = {owned_by = THIS}
+	OR = {
+	exists = ITA
+	exists = BIT
+	}
+	has_global_flag = papal_compromise
+	OR = {
+	NOT = {742 = {is_core = PAP}}
+	NOT = {741 = {is_core = PAP}}
+	NOT = {743 = {is_core = PAP}}
+	NOT = {752 = {is_core = PAP}}
+	NOT = {751 = {is_core = PAP}}
+	NOT = {750 = {is_core = PAP}}
+	NOT = {749 = {is_core = PAP}}
+	}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA197005"
+		742 = {add_core = PAP}
+		741 = {add_core = PAP}
+		743 = {add_core = PAP}
+		752 = {add_core = PAP}
+		751 = {add_core = PAP}
+		750 = {add_core = PAP}
+		749 = {add_core = PAP}
     }
         
     

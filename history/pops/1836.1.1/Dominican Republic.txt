@@ -56,7 +56,7 @@
         size = 50
     }
 
-    farmers = {
+    slaves = {
         culture = afro_caribeno
         religion = catholic
         size = 45350
@@ -112,7 +112,7 @@
         size = 75
     }
 
-    farmers = {
+    slaves = {
         culture = afro_caribeno
         religion = catholic
         size = 19575

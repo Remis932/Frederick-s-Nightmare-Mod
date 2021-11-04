@@ -1,9 +1,11 @@
-owner = FRA
-controller = FRA
+owner = USA
+controller = USA
+add_core = USA
+add_core = NEN
 add_core = QUE
 trade_goods = cattle
 life_rating = 31
-colonial = 2
+colonial = 0
 1861.1.1 = {
     remove_core = NEN
 }

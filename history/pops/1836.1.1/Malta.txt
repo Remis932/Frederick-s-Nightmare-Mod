@@ -3,27 +3,27 @@
 #Valetta (110000/27500 POPS)
 854 = {
     bureaucrats = {
-        culture = british
-        religion = protestant
+        culture = maltese
+        religion = catholic
         size = 50
     }
 
     soldiers = {
-        culture = british
-        religion = protestant
-        size = 500
+        culture = maltese
+        religion = catholic
+        size = 6000
     }
 
     artisans = {
-        culture = british
-        religion = protestant
+        culture = south_italian
+        religion = catholic
         size = 150
     }
 
     aristocrats = {
         culture = maltese
         religion = catholic
-        size = 200
+        size = 600
     }
 
     bureaucrats = {
@@ -53,7 +53,7 @@
     farmers = {
         culture = maltese
         religion = catholic
-        size = 20475
+        size = 25475
     }
 
 }

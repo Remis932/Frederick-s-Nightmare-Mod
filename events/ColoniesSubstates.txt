@@ -17,6 +17,7 @@ country_event = {
 				NOT={
 				OR={is_core = IBE
 				is_core = SPA
+				province_id = 197
 				province_id = 198
 				province_id = 199
 				province_id = 200
@@ -93,6 +94,46 @@ country_event = {
 		limit={AND={
 		continent = north_america
 		NOT = {province_id = 77}
+		NOT = {province_id = 77
+			province_id = 197
+			province_id = 198
+				province_id = 199
+				province_id = 200
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+			
+			
+			}
 				NOT={
 				
 				OR={is_core = THIS
@@ -127,6 +168,46 @@ country_event = {
 		limit={AND={
 		continent = north_america
 		NOT = {province_id = 77}
+		NOT = {province_id = 77
+			province_id = 197
+			province_id = 198
+				province_id = 199
+				province_id = 200
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+			
+			
+			}
 				NOT={
 				OR={is_core = THIS
 				is_core = LOU
@@ -157,6 +238,42 @@ country_event = {
         name = "EVTOPTA196003" #Grant Province
         any_owned = {
 		limit={AND={
+		NOT = {province_id = 77
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+			
+			
+			}
 		NOT = {province_id = 77}
 		continent = north_america
 				NOT={
