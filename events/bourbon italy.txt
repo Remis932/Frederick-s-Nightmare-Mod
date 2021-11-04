@@ -307,3 +307,62 @@ country_event = {
         
     
 }
+
+country_event = {
+    id = 197006 #removes hostile pope
+    title = "EVTNAME197006"
+    desc = "EVTDESC197006"
+    picture = "regency"
+
+    trigger = {
+	749 = {NOT = {owned_by = THIS}}
+	OR = {
+	exists = ITA
+	exists = BIT
+	}
+	has_country_modifier = hostile_pope
+	
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+		remove_country_modifier = hostile_pope
+        name = "EVTOPTA197006"
+		
+    }
+        
+    
+}
+
+country_event = {
+    id = 197007 #add hostile pope
+    title = "EVTNAME197007"
+    desc = "EVTDESC197007"
+    picture = "regency"
+
+    trigger = {
+	749 = {owned_by = THIS}
+	OR = {
+	exists = ITA
+	exists = BIT
+	}
+	has_global_flag = confiscate_papal_wealth
+	NOT = {has_global_flag = vatican_treaty}
+	NOT = {has_country_modifier = hostile_pope}
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+		add_country_modifier = {name = hostile_pope duration = -1 }
+        name = "EVTOPTA197007"
+		
+    }
+        
+    
+}

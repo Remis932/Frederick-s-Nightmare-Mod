@@ -1,16 +1,17 @@
 political_decisions = {
 	
-	reform_papacy = {
+	reform_the_papacy = {
 	potential = {
 	exists = PAP
-	OR = {tag = BIT
+	OR = {
+	tag = BIT
 	tag = ITA
 	}
 	NOT = {has_global_flag = reform_papacy}
 	}
 	allow = {
 	is_vassal = no
-	in_sphere = PAP
+	PAP = {in_sphere = THIS}
 	}
 	effect = {
 	create_vassal = PAP
@@ -33,7 +34,7 @@ political_decisions = {
 	confiscate_papal_wealth = {
 	potential = {
 	
-	NOT = {exists = PAP}
+	
 	OR = {tag = BIT
 	tag = ITA
 	}
@@ -41,14 +42,35 @@ political_decisions = {
 	NOT = {has_global_flag = confiscate_papal_wealth}
 	}
 	allow = {
+	NOT = {exists = PAP}
 	NOT = {government = theocracy}
 	749 = {owned_by = THIS}
 	}
 	effect = {
 	treasury = 100000
 	add_country_modifier = {name = papal_wealth_confiscated duration = 3650}
+	add_country_modifier = {name = hostile_pope duration = -1}
 	badboy = 5
 	set_global_flag = confiscate_papal_wealth
+	}
+	
+	}
+	
+	vatican_treaty = {
+	potential = {
+	OR = {tag = BIT
+	tag = ITA
+	}
+	NOT = {has_global_flag = vatican_treaty}
+	has_global_flag = confiscate_papal_wealth
+	has_country_modifier = hostile_pope
+	}
+	allow = {
+	mass_politics = 1
+	}
+	effect = {
+	remove_country_modifier = hostile_pope
+	set_global_flag = vatican_treaty
 	}
 	
 	}
@@ -84,7 +106,7 @@ political_decisions = {
 	}
 	allow = {
 	is_vassal = no
-	in_sphere = PAP
+	PAP = {in_sphere = THIS}
 	}
 	effect = {
 	add_country_modifier = {name = papal_compromise duration = -1}
@@ -102,16 +124,21 @@ political_decisions = {
 	has_global_flag = papal_compromise
 	}
 	allow = {
-	PAP = {vassal_of = THIS}
+	749 = { 
+	OR = {
+	owned_by = THIS
+	owner = {in_sphere = THIS}
+	}
+	}
 	}
 	effect = {
-	AUS_729 = {add_core = THIS}
-	AUS_737 = {add_core = THIS}
-	770 = {add_core = THIS}
-	778 = {add_core = THIS}
-	781 = {add_core = THIS}
-	780 = {add_core = THIS}
-	782 = {add_core = THIS}
+	#AUS_729 = {add_core = THIS} #Friuli
+	#AUS_733 = {add_core = THIS} #Venetia
+	#770 = {add_core = THIS}
+	#778 = {add_core = THIS}
+	#781 = {add_core = THIS} #Dalmatia
+	#780 = {add_core = THIS} #Dalmatia
+	#782 = {add_core = THIS} #Ragusa
 	PAP_741 = {add_core = THIS}
 	PAP_752 = {add_core = THIS}
 	SAR_765 = {add_core = THIS}
@@ -128,6 +155,7 @@ political_decisions = {
 	annex_to = THIS
 	}
 	inherit = PAP
+	capital = 749
 	set_global_flag = our_italian_ambition
 	}
 	
@@ -136,25 +164,25 @@ political_decisions = {
 	irredentist_italy = {
 	potential = {
 	OR = {
-	tag = ITA
-	tag = BIT
-	}
+	AND = {tag = ITA
 	NOT = {has_country_flag = irredentist_italy}
-	OR = {has_country_flag = our_italian_ambition
-	tag = ITA
 	}
+	AND = {tag = BIT
+	NOT = {has_country_flag = irredentist_italy}
+	has_global_flag = our_italian_ambition
+	}
+	}
+	
 	}
 	allow = {
 	all_core = {owned_by = THIS}
 	}
 	effect = {
 	prestige = 10
-	any_country = {
-		any_owned = {
-		limit = {is_core = VEN}
-		add_core = THIS
-		}
-	}
+	AUS_729 = {add_core = THIS} #Venetia
+	AUS_733 = {add_core = THIS} #Friuli
+	770 = {add_core = THIS}
+	778 = {add_core = THIS}
 	set_country_flag = irredentist_italy
 	}
 	
@@ -162,6 +190,10 @@ political_decisions = {
 	
 	avanti_alpini = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = irredentist_italy
 	NOT = {has_country_flag = avanti_alpini}
 	}
@@ -171,24 +203,25 @@ political_decisions = {
 	
 	effect = {
 	set_country_flag = avanti_alpini
-	AUS_729 = {add_core = THIS}
-	AUS_737 = {add_core = THIS}
-	770 = {add_core = THIS}
-	778 = {add_core = THIS}
-
+	#AUS_729 = {add_core = THIS}
+	AUS_734 = {add_core = THIS}
 	}
 	}
 	
 	venetian_colonies = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
 	NOT = {has_country_flag = venetian_colonies}
 	OR = {
-	NOT = {857 = {is_core = THIS}}
-	NOT = {855 = {is_core = THIS}}
-	NOT = {856 = {is_core = THIS}}
-	NOT = {848 = {is_core = THIS}}
-	NOT = {847 = {is_core = THIS}}
+	857 = {NOT = {is_core = THIS}}
+	855 = {NOT = {is_core = THIS}}
+	856 = {NOT = {is_core = THIS}}
+	848 = {NOT = {is_core = THIS}}
+	847 = {NOT = {is_core = THIS}}
 	}
 	}
 	allow = {
@@ -207,12 +240,16 @@ political_decisions = {
 	
 	dalmatian_coast = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
 	NOT = {has_country_flag = dalmatian_coast}
-	NOT = {781 = {is_core = THIS}}
-	NOT = {780 = {is_core = THIS}}
-	NOT = {782 = {is_core = THIS}}
-	NOT = {2582 = {is_core = THIS}}
+	781 = {NOT = {is_core = THIS}}
+	780 = {NOT = {is_core = THIS}}
+	782 = {NOT = {is_core = THIS}}
+	2582 = {NOT = {is_core = THIS}}
 	}
 	allow = {
 	all_core = {owned_by = THIS}
@@ -229,13 +266,17 @@ political_decisions = {
 	
 	ionian_islands = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
-	NOT = {826 = {is_core = THIS}}
-	NOT = {827 = {is_core = THIS}}
-	NOT = {845 = {is_core = THIS}}
-	NOT = {846 = {is_core = THIS}}
-	NOT = {843 = {is_core = THIS}}
-	NOT = {844 = {is_core = THIS}}
+	826 = {NOT = {is_core = THIS}}
+	827 = {NOT = {is_core = THIS}}
+	845 = {NOT = {is_core = THIS}}
+	846 = {NOT = {is_core = THIS}}
+	843 = {NOT = {is_core = THIS}}
+	844 = {NOT = {is_core = THIS}}
 	NOT = {has_country_flag = ionian_islands}
 	}
 	allow = {
@@ -255,6 +296,10 @@ political_decisions = {
 	
 	our_lands_in_switzerland = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
 	NOT = {has_country_flag = our_lands_in_switzerland}
 	}
@@ -270,6 +315,10 @@ political_decisions = {
 	
 	count_of_savoie = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
 	NOT = {has_country_flag = count_of_savoie}
 	}
@@ -286,6 +335,10 @@ political_decisions = {
 	
 	balearic_islands = {
 	potential = {
+	OR = {
+	tag = BIT
+	tag = ITA
+	}
 	has_country_flag = avanti_alpini
 	NOT = {has_country_flag = balearic_islands}
 	}

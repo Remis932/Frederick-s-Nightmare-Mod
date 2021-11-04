@@ -1,4 +1,13 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+EVTNAME197006;The Pope In Foreign Borders;x
+EVTDESC197006;We have lost custody of Roma.;x
+EVTOPTA197006;Ok.;x
+EVTNAME197007;The Pope Is Mad At the Government;x
+EVTDESC197007; ;x
+EVTOPTA197007;Ok.;x
+vatican_treaty_title;Vatican Treaty;x
+vatican_treaty_desc;The time has come to bury the hatchet.;x
+hostile_pope;Hostile Pope;x
 our_italian_ambition_title;Our Italian Ambition;x
 our_italian_ambition_desc; ;x
 irredentist_italy_title;Irredentist Italy;x
@@ -25,8 +34,8 @@ papal_compromise_desc;Picking this will not allow us to confiscate Papal Wealth;
 papal_compromise;The Pope is Content;x
 our_southern_brethern_title;Our Southern Bretheren;x
 our_southern_brethern_desc; ;x
-reform_papacy_title;Reform the Papacy;x
-reform_papacy_desc; ;x
+reform_the_papacy_title;Reform the Papacy;x
+reform_the_papacy_desc; ;x
 confiscate_papal_wealth_title;Confiscate Papal Wealth;x
 confiscate_papal_wealth_desc; ;x
 papal_wealth_confiscated;Papal Wealth Confiscated;x
