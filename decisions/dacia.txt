@@ -1,0 +1,39 @@
+political_decisions = {
+	overthrow_russians = {
+	potential = {
+	tag = ROM
+	NOT = {has_country_flag = overthrow_russians}
+	}
+	allow = {
+	NOT={OR = {
+              government = absolute_monarchy
+              government = prussian_constitutionalism
+              government = hms_government
+			}
+		  }
+	}
+	effect = {
+	primary_culture = romanian
+	add_accepted_culture = daco_russian
+	set_country_flag = overthrow_russians
+	}
+	
+	}
+	
+	wallachian_agriculture = {
+	picture = tea_production
+	potential = {
+	tag = ROM
+	NOT = {has_global_flag = wallachian_agriculture}
+	}
+	allow = {
+	NOT = {debt_law = serfdom}
+	literacy = 0.40
+	WAL_665 = {owned_by = THIS}
+	}
+	effect = {
+	WAL_665 = {add_province_modifier = {name = wallachian_agriculture duration = 7300}}
+	set_global_flag = wallachian_agriculture
+	}
+	}
+}

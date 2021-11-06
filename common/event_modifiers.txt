@@ -2565,6 +2565,11 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+wallachian_agriculture = {
+	population_growth = 0.002
+	farm_rgo_eff = 0.1
+	icon = 19
+}
 papal_wealth_confiscated = {
 	tax_efficiency = 0.1
 	icon =1
@@ -2608,7 +2613,7 @@ recently_sacked = {
 	icon = 8
 }
 modernized_irrigation = {
-	rgo_output = 0.2
+	local_RGO_output = 0.2
 	population_growth = 0.001
 	icon = 19
 }

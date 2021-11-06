@@ -290,13 +290,13 @@
     aristocrats = {
         culture = japanese
         religion = shinto
-        size = 20
+        size = 500
     }
 
     bureaucrats = {
         culture = japanese
         religion = shinto
-        size = 20
+        size = 300
     }
 
     clergymen = {
@@ -314,13 +314,13 @@
     soldiers = {
         culture = japanese
         religion = shinto
-        size = 200
+        size = 9000
     }
 
     farmers = {
         culture = japanese
         religion = shinto
-        size = 1500
+        size = 40500
     }
 
     aristocrats = {
@@ -1636,6 +1636,11 @@
         religion = shinto
         size = 1850
     }
+	clergymen = {
+        culture = portuguese
+        religion = catholic
+        size = 1850
+    }
 
     artisans = {
         culture = japanese
@@ -1658,7 +1663,12 @@
     aristocrats = {
         culture = japanese
         religion = shinto
-        size = 1300
+        size = 1040
+    }
+	aristocrats = {
+        culture = japanese
+        religion = shinto
+        size = 260
     }
 
     clergymen = {
@@ -1682,8 +1692,15 @@
     farmers = {
         culture = japanese
         religion = shinto
-        size = 63750
+        size = 51750
     }
+	
+	farmers = {
+        culture = japanese
+        religion = catholic
+        size = 12750
+    }
+	
 }
 #Kagoshima (660000/165000 POPS)
 1662 = {

@@ -1,5 +1,8 @@
+owner = TKG
+controller = TKG
+add_core = TKG
 trade_goods = fish
-life_rating = 10
+life_rating = 35
 1861.1.1 = {
     owner = TKG
     controller = TKG

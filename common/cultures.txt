@@ -774,6 +774,19 @@ east_slavic = {
                           Nikolaevich Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev
                           Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
     }
+	daco_russian = {
+        color = {10 100 10}
+           first_names = { Alexandru Aleksandr Alexei Andrei Anton Boris Dmitri Theodor Fyodor 
+                         Giorgi Grigoriy Igor Ivan Kirill Konstantin Lavr Leonid Lev Maxim
+                         Mihail Nichita Nicolae Oleg Pavel Petre Roman Simion Serghei
+                         Valery Vasily Victor Vladimir Vladislav Igor Yevgeny Yuri Gennady}
+
+           last_names = { Alexseyev Anton Azar Badanov Brusilov Budyonny Chibisov Denikin
+                          Dragomir Frolov Golivin Grishin Gurko Ivan Konev Constantin Kornilov
+                          Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov
+                          Nicolaevici Ostrovski Pavlov Putyatin Romanov Rozhestvensky Skobelev
+                          Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
+    }
     byelorussian = {
         color = {100 140 110}
             first_names = { Alaksandr Alexei Andrei Anton Boris Cyril Danya Dz'mitry Giorgi

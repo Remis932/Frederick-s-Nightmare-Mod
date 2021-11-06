@@ -2335,7 +2335,7 @@
     }
 	
 	farmers = {
-        culture = russian
+        culture = daco_russian
         religion = orthodox
         size = 8000
     }

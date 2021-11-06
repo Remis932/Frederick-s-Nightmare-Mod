@@ -221,11 +221,15 @@
         religion = jewish
         size = 5450
     }
-	
-	farmers = {
-        culture = russian
+	aristocrats = {
+        culture = daco_russian
         religion = orthodox
-        size = 5450
+        size = 400
+    }
+	farmers = {
+        culture = daco_russian
+        religion = orthodox
+        size = 5050
     }
 
     clergymen = {

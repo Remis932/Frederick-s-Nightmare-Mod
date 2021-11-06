@@ -1,5 +1,10 @@
 #Sphere of Influence
 #Europe
+JAP = {
+	value = 0
+	level = 5
+	influence_value = 100
+}
 BER = {
 	value = 100
 	level = 5
