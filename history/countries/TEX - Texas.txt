@@ -39,7 +39,7 @@ border_policy = open_borders
 
 set_country_flag = protestant_country
 
-ruling_party = TEX_liberal
+ruling_party = TEX_conservative
 last_election = 1836.1.1
 upper_house = {
     fascist = 0
@@ -77,8 +77,6 @@ piston_steam_engine = 1
 mechanical_production = 1
 hot_blast = 1
 basic_chemistry = 1
-fire_control_systems = 1
-naval_professionalism = 1
 
 # Starting Consciousness
 consciousness = 3

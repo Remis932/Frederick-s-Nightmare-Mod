@@ -2043,6 +2043,108 @@ province_event = {
     }
 }
 
+province_event = {
+    id = 1990362 #iron in texas
+    title = "EVTNAME199035"
+    desc = "EVTDESC199035"
+
+    trigger = {
+        owned_by = THIS
+        controlled_by = THIS    
+            owner = { civilized = yes }
+        
+        
+            AND = {
+                
+                    province_id = 43       
+               
+                year = 1855
+            }
+            
+        NOT = { trade_goods = iron }
+        NOT = { has_province_modifier = switched_production }
+
+        owner = {
+            war = no
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 40
+        modifier = {
+            factor = 0.75
+            year = 1841
+        }
+        modifier = {
+            factor = 0.5
+            year = 1842
+        }
+        modifier = {
+            factor = 0.5
+            year = 1843
+        }
+    }
+
+    option = {
+        name = "EVTOPTA199035"
+        trade_goods = iron
+        add_province_modifier = { name = switched_production duration = 365 }
+    }
+}
+
+province_event = {
+    id = 1990363 #coal in texas
+    title = "EVTNAME199036"
+    desc = "EVTDESC199036"
+
+    trigger = {
+        owned_by = THIS
+        controlled_by = THIS    
+            owner = { civilized = yes }
+        
+        
+            AND = {
+                
+                    province_id = 134       
+               
+                year = 1855
+            }
+            
+        NOT = { trade_goods = iron }
+        NOT = { has_province_modifier = switched_production }
+
+        owner = {
+            war = no
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 40
+        modifier = {
+            factor = 0.75
+            year = 1841
+        }
+        modifier = {
+            factor = 0.5
+            year = 1842
+        }
+        modifier = {
+            factor = 0.5
+            year = 1843
+        }
+    }
+
+    option = {
+        name = "EVTOPTA199036"
+        trade_goods = coal
+        add_province_modifier = { name = switched_production duration = 365 }
+    }
+}
+
 #Sulphur/Phosphate found
 province_event = {
     id = 199037

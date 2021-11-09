@@ -55,12 +55,11 @@ country_event = {
 	}
 	any_owned_province = {
 			NOT = {controlled_by = THIS}
-			province_control_days = 50
+			province_control_days = 25
 			is_capital = yes
 		}
-    }
 
-    
+    }
 }
 
 country_event = { #event for texas to rise up
@@ -75,12 +74,84 @@ country_event = { #event for texas to rise up
 
     option = {
         name = "EVTOPTA200102"
+		any_pop = { limit = {has_pop_culture = texan} literacy = 30 }
 		any_owned = {
 		limit = {is_core = TEX}
 		secede_province = TEX
 		}
 		FROM = {create_vassal = TEX}
 		set_country_flag = texan_revolt
+		TEX = { add_country_modifier = {
+				name = texan_war
+				duration = -1
+					}
+				}
+		TEX = {activate_technology =post_napoleonic_thought}
+		TEX = {activate_technology =flintlock_rifles }
+		TEX = {activate_technology =bronze_muzzle_loaded_artillery }
+		TEX = {activate_technology =military_staff_system }
+		TEX = {activate_technology =army_command_principle }
+		TEX = {activate_technology =post_nelsonian_thought }
+		TEX = {activate_technology =clipper_design }
+		TEX = {activate_technology =naval_design_bureaus }
+		TEX = {activate_technology =alphabetic_flag_signaling }
+		TEX = {activate_technology =the_command_principle }
+		TEX = {activate_technology =classicism_n_early_romanticism }
+		TEX = {activate_technology =late_enlightenment_philosophy }
+		TEX = {activate_technology =malthusian_thought }
+		TEX = {activate_technology =enlightenment_thought }
+		TEX = {activate_technology =introspectionism }
+		TEX = {activate_technology =private_banks }
+		TEX = {activate_technology =no_standard }
+		TEX = {activate_technology =early_classical_theory_and_critique }
+		TEX = {activate_technology =freedom_of_trade }
+		TEX = {activate_technology =guild_based_production }
+		TEX = {activate_technology =piston_steam_engine }
+		TEX = {activate_technology =mechanical_production }
+		TEX = {activate_technology =hot_blast }
+		TEX = {activate_technology =basic_chemistry }
+    }
+	
+	option = {
+        name = "EVTOPTB200102"
+		
+		any_pop = { limit = {has_pop_culture = texan}literacy = 30 }
+		any_owned = {
+		limit = {is_core = TEX}
+		secede_province = TEX
+		}
+		FROM = {create_vassal = TEX}
+		set_country_flag = texan_revolt
+		TEX = { add_country_modifier = {
+				name = texan_war
+				duration = -1
+					}
+				}
+		TEX = {activate_technology =post_napoleonic_thought}
+		TEX = {activate_technology =flintlock_rifles }
+		TEX = {activate_technology =bronze_muzzle_loaded_artillery }
+		TEX = {activate_technology =military_staff_system }
+		TEX = {activate_technology =army_command_principle }
+		TEX = {activate_technology =post_nelsonian_thought }
+		TEX = {activate_technology =clipper_design }
+		TEX = {activate_technology =naval_design_bureaus }
+		TEX = {activate_technology =alphabetic_flag_signaling }
+		TEX = {activate_technology =the_command_principle }
+		TEX = {activate_technology =classicism_n_early_romanticism }
+		TEX = {activate_technology =late_enlightenment_philosophy }
+		TEX = {activate_technology =malthusian_thought }
+		TEX = {activate_technology =enlightenment_thought }
+		TEX = {activate_technology =introspectionism }
+		TEX = {activate_technology =private_banks }
+		TEX = {activate_technology =no_standard }
+		TEX = {activate_technology =early_classical_theory_and_critique }
+		TEX = {activate_technology =freedom_of_trade }
+		TEX = {activate_technology =guild_based_production }
+		TEX = {activate_technology =piston_steam_engine }
+		TEX = {activate_technology =mechanical_production }
+		TEX = {activate_technology =hot_blast }
+		TEX = {activate_technology =basic_chemistry }
+		change_tag_no_core_switch = TEX
     }
 	
     trigger = {
@@ -154,6 +225,79 @@ country_event = { #colonies in revolt
 		THIS = {end_war = GCO}
 		THIS = {end_war = ARG}
     }
+	
+    triggered_only = yes
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
+
+country_event = { #remove texan war modifier
+    id = 200105
+	picture = "rosistas"
+    title = "EVTNAME200105"
+    desc = "EVTDESC200105"
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200105"
+		prestige = 1
+		remove_country_modifier = texan_war
+    }
+	
+    triggered_only = yes
+	trigger = {
+	tag = TEX
+	has_country_modifier = texan_war
+	NOT = {war_with = MEX}
+	}
+    
+}
+
+country_event = { #petition for independence
+    id = 200106
+	picture = "taiping_defeated"
+    title = "$FROMCOUNTRY$ Petitions For Independence"
+    desc = "Player-only event."
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Grant them Independence."
+		release_vassal = FROM
+    }
+	option = {
+        name = "Deny their Petition."
+		THIS = {FROM = {country_event = 200107}}
+    }
+	
+    triggered_only = yes
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
+
+country_event = { #petition for independence
+    id = 200107
+	picture = "taiping_defeated"
+    title = "$FROMCOUNTRY$ Denies Our Independence"
+    desc = "Player-only event."
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Darn."
+    }
+	
 	
     triggered_only = yes
 	trigger = {

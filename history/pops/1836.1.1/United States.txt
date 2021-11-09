@@ -2605,7 +2605,11 @@
 
 #Arviat/Clarksville/Dallas (3200/800 POPS)
 43 = {
-
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
     clergymen = {
         culture = texan
         religion = protestant
@@ -2694,7 +2698,11 @@
         religion = protestant
         size = 2200
     }
-
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
     slaves = {
         culture = afro_american
         religion = protestant
@@ -2740,7 +2748,11 @@
         religion = protestant
         size = 200
     }
-
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
     farmers = {
         culture = texan
         religion = protestant
@@ -2876,7 +2888,11 @@
         religion = protestant
         size = 10
     }
-
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
     soldiers = {
         culture = native_american_minor
         religion = animist
@@ -2936,6 +2952,11 @@
 }
 #El Paso (9000/2250 POPS)
 136 = {
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
     aristocrats = {
         culture = native_american_minor
         religion = animist
@@ -5623,6 +5644,11 @@
         religion = animist
         size = 25
     }
+	soldiers = {
+		culture = texan
+		religion = protestant
+		size = 500
+	}
 
 }
 #Mississippi Region (340000)

@@ -2565,6 +2565,13 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+texan_war = {
+	mobilisation_size = 0.73
+	global_immigrant_attract = -1
+	land_organisation = 1.5
+	RGO_throughput = 0.4
+	icon = 17
+}
 students_in_foreign = {
 	research_points = 1.4
 	icon = 7
@@ -2640,6 +2647,12 @@ settle_the_aegean_coast = {
 }
 reassert_greek_superiority = {
 	assimilation_rate = 2
+}
+land_grants_tex = {
+	global_immigrant_attract = 2.5
+	tax_efficiency = -0.05
+	global_assimilation_rate = 0.2
+	icon = 19
 }
 german_boom = {
 	population_growth = 0.001

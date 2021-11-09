@@ -1,4 +1,21 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+PROV43;Karlstadt;x
+PROV134;Johannestadt;x
+PROV133;Lukas;x
+PROV137;Eliastadt;x
+texan_separatism_title;Texan Identity;x
+texan_separatism_desc; ;x
+land_grants_title;Land Grants;x
+land_grants_desc; ;x
+land_grants_tex;Land Grants;x
+land_grants_tex_desc; ;x
+petition_for_independence_title;Petition For Independence;x
+petition_for_independence_desc;This decision is player-only, and can only be done once.;x
+EVTNAME200105;End of the War;x
+EVTDESC200105;We have recently concluded our war with Mexico;x
+EVTOPTA200105;Hurray...?;x
+texan_war;Texan War;x
+texan_war_desc;Für König, Land und Ackerland!;x
 EVTNAME200104;War of Independence;x
 EVTDESC200104;The time is nigh to break away from our overlords in Iberia.;x
 EVTOPTA200104;For Victory!;x
@@ -13,6 +30,7 @@ zeelander;Zeelander;x
 EVTNAME200102;Texan Revolt;x
 EVTDESC200102;The German Settlers, loyal to Iberia, have taken up arms against us!;x
 EVTOPTA200102;We must teach them a lesson.;x
+EVTOPTB200102;Death to Mexiko! (switch to Texas);x
 EVTNAME200103;Texas Crushed!;x
 EVTDESC200103;;x
 EVTNAME200103;Lesson taught.;x
