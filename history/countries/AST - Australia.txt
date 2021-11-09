@@ -1,5 +1,5 @@
 capital = 2476
-primary_culture = dutch
+primary_culture = tasmanian
 religion = protestant
 government = hms_government
 plurality = 0.98

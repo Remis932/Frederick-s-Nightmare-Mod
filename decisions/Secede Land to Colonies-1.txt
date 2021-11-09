@@ -16,6 +16,7 @@ political_decisions = {
 	MEX = {vassal_of=THIS}
 	}
 	THIS = {neighbour = MEX}
+	NOT = {war_with = MEX}
 	any_owned_province = {
 	limit={
 	AND={

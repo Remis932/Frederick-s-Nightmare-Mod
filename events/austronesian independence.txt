@@ -1,0 +1,38 @@
+country_event = {
+    id = 200201
+	picture = "urquiza_victory"
+    title = "EVTNAME200201"
+    desc = "EVTDESC200201"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200201"
+		prestige = -4
+		any_owned = {
+		limit = {is_core = NZL}
+		secede_province = NZL
+		}
+		release_vassal = NZL
+		set_global_flag = nzl_independence
+    }
+	
+    trigger = {
+	NOT = {has_global_flag = nzl_independence}
+	OR={tag = DNN
+	tag = DEN
+	tag = NOR
+	tag = SCA
+	}
+	372 = {NOT={owned_by = THIS}}
+		OR = {
+			ENG_2509 = {owned_by = THIS}
+			ENG_2513 = {owned_by = THIS}
+			NZL = {vassal_of = THIS}
+		}
+    }
+
+    
+}

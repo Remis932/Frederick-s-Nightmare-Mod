@@ -1,4 +1,24 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+EVTNAME200104;War of Independence;x
+EVTDESC200104;The time is nigh to break away from our overlords in Iberia.;x
+EVTOPTA200104;For Victory!;x
+EVTNAME200201;Nye Zealand Breaks Free!;x
+EVTDESC200201; ;x
+EVTOPTA200201;Horror!;x
+AST;Tasmania;x
+AST_ADJ;Tasmanian;x
+NZL;Nye Zealand;x
+NZL_ADJ;Zeelander;x
+zeelander;Zeelander;x
+EVTNAME200102;Texan Revolt;x
+EVTDESC200102;The German Settlers, loyal to Iberia, have taken up arms against us!;x
+EVTOPTA200102;We must teach them a lesson.;x
+EVTNAME200103;Texas Crushed!;x
+EVTDESC200103;;x
+EVTNAME200103;Lesson taught.;x
+EVTNAME200101;Colonies In Revolt;x
+EVTDESC200101;With our capital in enemy hands, the backstabbing leaders of our colonies have decided to turn their back on us.;x
+EVTOPTA200101;We must deal with them at once!;x
 EVTNAME200001;Venetian Thaw;x
 EVTDESC200001; ;x
 EVTOPTA200001;Nothing lasts forever...;x

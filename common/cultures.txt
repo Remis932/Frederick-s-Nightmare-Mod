@@ -276,6 +276,24 @@ scandinavian = {
         Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
         Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler }
     }
+	zeelander = {
+        color = { 143 89 89}
+        first_names = { Aage Adam Alber Anders ASmund Axel Carl Christian Edvard Edvin
+        Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar
+        Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+        Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm 
+		Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort
+        Einar Elias Fredrik Georg Gerhard Gustav Haakon Hans Harald Herman
+        Johan Jorgen Ludvig Nils Ogmund Olav Osvald Otto Peter Sigurd		}
+
+        last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen
+        Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe
+        Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+        Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler
+		Adeler Balchen Berg Bloch Borresen Bratzland Brentzon Dhal Egge Fleicher
+        Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen
+        Rye Sissener Skjalgsson Tambarskjelve Wedel-Jarlsberg Wiborg With Zeiner-Gundersen	}
+    }
     norwegian = {
         color = { 140 20 140}
         first_names = { Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort

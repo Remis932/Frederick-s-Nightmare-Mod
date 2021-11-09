@@ -1,6 +1,5 @@
 capital = 2512
-primary_culture = danish
-culture = norwegian
+primary_culture = zeelander
 religion = protestant
 government = hms_government
 plurality = 0.88

@@ -1,0 +1,164 @@
+country_event = {
+    id = 200101
+	picture = "urquiza_victory"
+    title = "EVTNAME200101"
+    desc = "EVTDESC200101"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200101"
+		prestige = -4
+	THIS = {	
+		any_country = { 
+		limit = {
+		substate_of = THIS
+		NOT = {tag=PEU}
+		}
+				country_event = {
+						id = 200104
+						days = 2
+				}
+		}
+		
+    }
+	THIS = {	
+		any_country = { 
+		limit = {
+		substate_of = THIS
+		tag=MEX
+		any_owned_province = {
+			is_core = TEX
+		}
+		NOT = {has_country_flag = texas_crushed}
+		}
+				country_event = {
+						id = 200102
+						days = 1
+				}
+		}
+		
+    }
+	}
+	
+    trigger = {
+	OR={tag = IBE
+	tag = SPA
+	}
+	num_of_substates = 2
+	any_substate = {
+			substate_of = THIS 
+			NOT = {war_with = THIS}
+
+	}
+	any_owned_province = {
+			NOT = {controlled_by = THIS}
+			province_control_days = 50
+			is_capital = yes
+		}
+    }
+
+    
+}
+
+country_event = { #event for texas to rise up
+    id = 200102
+	picture = "rosistas"
+    title = "EVTNAME200102"
+    desc = "EVTDESC200102"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200102"
+		any_owned = {
+		limit = {is_core = TEX}
+		secede_province = TEX
+		}
+		FROM = {create_vassal = TEX}
+		set_country_flag = texan_revolt
+    }
+	
+    trigger = {
+	NOT = {has_country_flag = texas_crushed}
+	NOT = {has_country_flag = texan_revolt}
+	tag = MEX
+		OR = {
+			war_with = SPA
+			
+			war_with = IBE
+			
+		}
+		any_owned_province = {
+			is_core = TEX
+		}
+	}
+
+    
+}
+
+country_event = { #texas crushed
+    id = 200103
+	picture = "taiping_defeated"
+    title = "EVTNAME200103"
+    desc = "EVTDESC200103"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200103"
+		prestige = 1
+		set_country_flag = texas_crushed
+    }
+	
+    trigger = {
+	NOT = {has_country_flag = texas_crushed}
+	has_country_flag = texan_revolt
+	tag = MEX
+	NOT = {exists = TEX}
+		any_owned_province = {
+			is_core = TEX
+		}
+		
+	}
+
+    
+}
+
+country_event = { #colonies in revolt
+    id = 200104
+	picture = "taiping_defeated"
+    title = "EVTNAME200104"
+    desc = "EVTDESC200104"
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200104"
+		prestige = 1
+		war = {
+				target = FROM
+				attacker_goal = { casus_belli = become_independent }
+				defender_goal = { casus_belli = add_to_sphere  }
+				call_ally = yes
+			}
+		THIS = {end_war = MEX}
+		THIS = {end_war = GCO}
+		THIS = {end_war = ARG}
+    }
+	
+    triggered_only = yes
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
+
