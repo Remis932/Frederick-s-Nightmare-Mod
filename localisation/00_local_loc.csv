@@ -1,4 +1,50 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+EVTNAME200001;Venetian Thaw;x
+EVTDESC200001; ;x
+EVTOPTA200001;Nothing lasts forever...;x
+EVTNAME200002;The Fall of Venice;x
+EVTDESC200002; ;x
+EVTOPTA200002;Victory!;x
+seperate_german_title;Seperate Ourselves from The Germans;x
+seperate_german_desc;Taking this decision will lock you into the Danubian Confederation Path.;x
+give_in_to_slovak_noble_demands_title;Give In To Slovak Noble Demands;x
+give_in_to_slovak_noble_demands_desc; ;x
+dacian_minority_rights_title;Dacian Minority Rights;x
+dacian_minority_rights_desc; ;x
+south_slavic_compromise_title;South Slavic Compromise;x
+south_slavic_compromise_desc; ;x
+confederation_of_the_danube_title;Confederation of the Danube;x
+confederation_of_the_danube_desc; ;x
+push_to_the_balkans_title;Push To the Balkan Mountains;x
+push_to_the_balkans_desc; ;x
+danubian_integrity_title;Danubian Integrity;x
+danubian_integrity_desc; ;x
+reclaim_our_birthright_title;Reclaim Our Birthright;x
+reclaim_our_birthright_desc;Taking this decision will lock you into South German and North Italian Expansion;x
+throne_of_bavaria_title;Throne of Bavaria;x
+throne_of_bavaria_desc; ;x
+helvetia_and_swabia_title;Helvetia and Swabia;x
+helvetia_and_swabia_desc; ;x
+iron_crown_title;The Iron Crown;x
+iron_crown_desc; ;x
+the_crown_of_tuscany_title;The Crown of Tuscany;x
+the_crown_of_tuscany_desc; ;x
+italian_autonomy_title;Grant Italian Autonomy;x
+italian_autonomy_desc; ;x
+scottish;Scottish;x
+japan_korea_annexation_treaty_title;Japan-Korea Annexation Treaty;x
+japan_korea_annexation_treaty_desc; ;x
+EVTNAME199001;The Symbol of Progress;x
+EVTDESC199001;A railroad has been constructed in Japan, a symbol of how far we've come.;x
+EVTOPTA199001;Hard Work and Toil!;x
+students_in_foreign;Students in Foreign Universities;x
+send_students_to_foreign_countries_title;Send Students to Foreign Countries;x
+send_students_to_foreign_countries_desc;We must send out our young students to study in foreign, more advanced, technologically-wise, nations for our own benefit.;x
+EVTNAME199000;Ezo Identity Perishes;x
+EVTDESC199000;The Japanese Imperial Forces have captured Hakodate and with that, the last of the Ezo surrender themselves to the United Japanese Cause.;x
+EVTOPTA199000;A Good Day for Japan.;x
+finish_off_ezo_title;Finish Off Ezo;x
+finish_off_ezo_desc; ;x
 wallachian_agriculture;Wallachian Agriculture;x
 wallachian_agriculture_title;Reform Agriculture;x
 wallachian_agriculture_desc;The Fertile valleys of Muntenia are perfect for facilitating large quantities of food.;x

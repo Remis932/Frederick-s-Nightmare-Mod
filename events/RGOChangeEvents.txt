@@ -1794,7 +1794,40 @@ province_event = {
         add_province_modifier = { name = switched_production duration = 365 }
     }
 }
+province_event = {
+    id = 1990351
+    title = "EVTNAME199035" #Nagasaki Treaty Port goes bust
+    desc = "EVTDESC199035"
 
+    trigger = {
+        owned_by = THIS
+        controlled_by = THIS
+        owner = {
+           OR = { tag = JAP
+				  tag = TKG
+		   }
+        }
+        
+        province_id = 1661  #Nagasaki, Japan
+           
+        NOT = { trade_goods = coal }
+        NOT = { has_province_modifier = switched_production }
+
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 1
+        
+    }
+
+    option = {
+        name = "EVTOPTA199035"
+        trade_goods = coal
+        add_province_modifier = { name = switched_production duration = 365 }
+    }
+}
 #Iron found
 province_event = {
     id = 199036
@@ -1822,6 +1855,7 @@ province_event = {
         OR = {
             AND = {
                 OR = {
+					province_id = 1522 #Wuchang
                     province_id = 478         #Santander, Spain
                     province_id = 479         #Burgos, Spain
                     province_id = 492         #Bilbao, Spain
@@ -1861,7 +1895,6 @@ province_event = {
                     province_id = 2110 #Hoedspruit
                     province_id = 1727 #Gafsa
                     province_id = 1630 #Kangnung
-                    province_id = 1522 #Wuchang
                     province_id = 1397 #Sandakan
                     province_id = 1303 #Goa
                     province_id = 1528 #Yuezhou
@@ -1955,6 +1988,58 @@ province_event = {
                 add_province_modifier = { name = switched_production duration = 365 }
             }
         }
+    }
+}
+
+province_event = {
+    id = 1990361 #iron in japan
+    title = "EVTNAME199035"
+    desc = "EVTDESC199035"
+
+    trigger = {
+        owned_by = THIS
+        controlled_by = THIS    
+            owner = { civilized = yes }
+        
+        
+            AND = {
+                OR = {
+                    province_id = 1668        #Sendai
+                    province_id = 1672        #Aomori
+                }
+                year = 1840
+            }
+            
+        NOT = { trade_goods = iron }
+        NOT = { has_province_modifier = switched_production }
+
+        owner = {
+            war = no
+        }
+    }
+
+    allow_multiple_instances = no
+
+    mean_time_to_happen = {
+        months = 40
+        modifier = {
+            factor = 0.75
+            year = 1841
+        }
+        modifier = {
+            factor = 0.5
+            year = 1842
+        }
+        modifier = {
+            factor = 0.5
+            year = 1843
+        }
+    }
+
+    option = {
+        name = "EVTOPTA199035"
+        trade_goods = iron
+        add_province_modifier = { name = switched_production duration = 365 }
     }
 }
 

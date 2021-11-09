@@ -10,6 +10,7 @@ political_decisions = {
                 has_country_flag = post_colonial_country
                 exists = SGF
                 exists = GER
+				tag = HPS
                 tag = DNB
                 AND = {
                     tag = AUS
@@ -94,6 +95,7 @@ political_decisions = {
                         tag = KUK
                         tag = AUS
                         tag = DNB
+						tag = HPS
                         tag = BAN
                     }
                     OR = {
@@ -584,6 +586,7 @@ political_decisions = {
                     NOT = { tag = AUS }
                     NOT = { tag = KUK }
                     NOT = { tag = DNB }
+					NOT = { tag = HPS }
                     NOT = { tag = PRU }
                     NOT = { tag = BAN }
                     NOT = { tag = UBD }
@@ -1180,6 +1183,7 @@ political_decisions = {
                 tag = AUS
                 tag = KUK
                 tag = DNB
+				tag = HPS
             }
             revolution_n_counterrevolution = 1
         }
@@ -1241,6 +1245,7 @@ political_decisions = {
                     NOT = { tag = THIS }
                     NOT = { tag = KUK }
                     NOT = { tag = DNB }
+					NOT = { tag = HPS }
                     NOT = { tag = BAN }
                     NOT = { has_country_flag = post_colonial_country }
                     NOT = {

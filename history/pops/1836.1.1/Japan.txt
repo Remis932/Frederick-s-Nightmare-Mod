@@ -2285,7 +2285,7 @@
     farmers = {
         culture = japanese
         religion = shinto
-        size = 50975
+        size = 55975
     }
 
     aristocrats = {
@@ -2347,7 +2347,7 @@
     farmers = {
         culture = japanese
         religion = shinto
-        size = 63800
+        size = 66800
     }
 
     aristocrats = {
@@ -2409,7 +2409,7 @@
     farmers = {
         culture = japanese
         religion = shinto
-        size = 57400
+        size = 67400
     }
 
     aristocrats = {

@@ -1,0 +1,32 @@
+country_event = {
+    id = 199000
+    title = "EVTNAME199000"
+    desc = "EVTDESC199000"
+    picture = "tea_plantation"
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA199000"
+		any_owned = {
+		limit = {is_core = TKG}
+		add_core = JAP
+		remove_core = TKG
+		}
+    }
+	
+    trigger = {
+	has_global_flag=finish_off_ezo
+	any_owned_province = {
+			limit = {
+				is_core = TKG
+			}
+		}
+    }
+
+    
+}
+
+
