@@ -1,3 +1,5 @@
+owner = DAM
+controller = DAM
 add_core = DAM
 add_core = DND
 trade_goods = wool

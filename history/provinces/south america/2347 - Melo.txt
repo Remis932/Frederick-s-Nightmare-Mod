@@ -1,5 +1,6 @@
-owner = ARG
-controller = ARG
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 add_core = ARG
 add_core = URU
 trade_goods = fruit

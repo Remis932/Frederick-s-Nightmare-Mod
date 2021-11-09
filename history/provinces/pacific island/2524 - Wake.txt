@@ -1,4 +1,6 @@
-
+owner = DNN
+controller = DNN
+add_core = NZL
 trade_goods = fish
 life_rating = 31
 

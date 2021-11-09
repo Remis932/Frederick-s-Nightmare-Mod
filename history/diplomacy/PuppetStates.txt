@@ -183,13 +183,14 @@ substate = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
-#French India
+#bokoen india
 vassal = {
-	first = FRA
+	first = DNN
 	second = MYS
 	start_date = 1836.1.1
 	end_date = 1936.1.1
 }
+#French India
 vassal = {
 	first = FRA
 	second = HYD

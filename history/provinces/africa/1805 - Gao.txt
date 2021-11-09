@@ -1,4 +1,5 @@
-
+owner = DND
+controller = DND
 add_core = SEG
 add_core = MAS
 add_core = DND

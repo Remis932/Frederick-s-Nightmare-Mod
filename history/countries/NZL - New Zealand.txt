@@ -1,5 +1,6 @@
 capital = 2512
-primary_culture = australian
+primary_culture = danish
+culture = norwegian
 religion = protestant
 government = hms_government
 plurality = 0.88

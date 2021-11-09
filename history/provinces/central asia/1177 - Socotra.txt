@@ -1,9 +1,6 @@
-owner = IBE
-controller = IBE
-add_core = KTH
-add_core = MHR
-add_core = FDL
-add_core = LHJ
+owner = ENG
+controller = ENG
+add_core = YEM
 trade_goods = fish
 life_rating = 20
 terrain = semidesert

@@ -212,6 +212,7 @@ political_decisions = {
 	limit = {is_core = HPS}
 	add_core = DNB
 	}
+	change_tag = DNB
 	change_tag_no_core_switch = DNB
 	prestige = 5
 	WAL_665 = {add_core = DNB}

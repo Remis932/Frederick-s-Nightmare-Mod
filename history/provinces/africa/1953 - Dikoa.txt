@@ -1,3 +1,5 @@
+owner = SOK
+controller = SOK
 add_core = SOK
 add_core = KBO
 trade_goods = fruit
