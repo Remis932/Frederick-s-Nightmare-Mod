@@ -11,6 +11,12 @@ country_event = {
 	}
     option = {
         name = "EVTOPTA196000" #Grant Province
+		MEX = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
         any_owned = {
 		limit={AND={
 		continent = north_america
@@ -75,6 +81,12 @@ country_event = {
 	}
     option = {
         name = "EVTOPTA196001" #Grant Province
+		GPN = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
 		any_owned = {
 		limit={
 		continent = north_america
@@ -164,6 +176,12 @@ country_event = {
 	}
     option = {
         name = "EVTOPTA196002" #Grant Province
+		QUE = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
         any_owned = {
 		limit={AND={
 		continent = north_america
@@ -236,6 +254,12 @@ country_event = {
 	}
     option = {
         name = "EVTOPTA196003" #Grant Province
+		LOU = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
         any_owned = {
 		limit={AND={
 		NOT = {province_id = 77
@@ -286,6 +310,155 @@ country_event = {
 			}
         }
 		secede_province = LOU
+		}
+      }
+        
+    }
+
+
+country_event = {
+
+    id = 196004 #cede to peru
+    title = "Land Ceded" #Territory Ceded
+    desc = "These territories will be better administrated by a colonial government."
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "They better." #Grant Province
+		PEU = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
+        any_owned = {
+		limit={AND={
+		NOT = {province_id = 77
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+			
+			
+			}
+		NOT = {province_id = 77}
+		continent = south_america
+				NOT={
+				
+				OR={is_core = THIS
+				is_core = GCO
+				is_core = ARG
+				}
+				}
+			}
+        }
+		secede_province = PEU
+		}
+      }
+        
+    }
+	
+	country_event = {
+
+    id = 196005 #cede to argentina
+    title = "Land Ceded" #Territory Ceded
+    desc = "These territories will be better administrated by a colonial government."
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "They better." #Grant Province
+		ARG = {
+		relation = {
+				who = THIS
+				value = 10
+			}
+		}
+        any_owned = {
+		limit={AND={
+		NOT = {province_id = 77
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+			
+			
+			}
+		NOT = {province_id = 77}
+		continent = south_america
+				NOT={
+				
+				OR={is_core = THIS
+				is_core = GCO
+				is_core = PEU
+				}
+				}
+			}
+        }
+		secede_province = ARG
 		}
       }
         
