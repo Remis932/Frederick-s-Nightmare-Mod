@@ -1,67 +1,3 @@
-country_event = {
-    id = 200101
-	picture = "urquiza_victory"
-    title = "EVTNAME200101"
-    desc = "EVTDESC200101"
-	allow_multiple_instances = no	
-	mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = "EVTOPTA200101"
-		prestige = -4
-	THIS = {	
-		any_country = { 
-		limit = {
-		substate_of = THIS
-		NOT = {tag=PEU}
-		}
-				country_event = {
-						id = 200104
-						days = 2
-				}
-		}
-		
-    }
-	THIS = {	
-		any_country = { 
-		limit = {
-		substate_of = THIS
-		tag=MEX
-		any_owned_province = {
-			is_core = TEX
-		}
-		NOT = {has_country_flag = texas_crushed}
-		}
-				country_event = {
-						id = 200102
-						days = 1
-				}
-		}
-		
-    }
-	}
-	
-    trigger = {
-	OR={tag = IBE
-	tag = SPA
-	}
-	num_of_substates = 2
-	any_substate = {
-			substate_of = THIS 
-			NOT = {war_with = THIS}
-
-	}
-	any_owned_province = {
-			NOT = {controlled_by = THIS}
-			province_control_days = 25
-			is_capital = yes
-		}
-
-    }
-}
-
 country_event = { #event for texas to rise up
     id = 200102
 	picture = "rosistas"
@@ -224,6 +160,7 @@ country_event = { #colonies in revolt
 		THIS = {end_war = MEX}
 		THIS = {end_war = GCO}
 		THIS = {end_war = ARG}
+		FROM = {capital_scope={controller = {end_war = THIS}}}
     }
 	
     triggered_only = yes
@@ -305,4 +242,97 @@ country_event = { #petition for independence
 	}
     
 }
+
+country_event = { #keep at the end of this doc
+    id = 200101
+	picture = "urquiza_victory"
+    title = "EVTNAME200101"
+    desc = "EVTDESC200101"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "EVTOPTA200101"
+		prestige = -4
+	THIS = {	
+		any_country = { 
+		limit = {
+		substate_of = THIS
+		NOT = {tag=PEU}
+		}
+				country_event = {
+						id = 200104
+						days = 2
+				}
+		}
+		
+    }
+	THIS = {	
+		any_country = { 
+		limit = {
+		substate_of = THIS
+		tag=MEX
+		any_owned_province = {
+			is_core = TEX
+		}
+		NOT = {has_country_flag = texas_crushed}
+		}
+				country_event = {
+						id = 200102
+						days = 1
+				}
+		}
+		
+    }
+	}
+	
+    trigger = {
+	OR={tag = IBE
+	tag = SPA
+	}
+	any_owned_province = {
+			NOT = {controlled_by = THIS}
+			province_control_days = 25
+			is_capital = yes
+		}
+	OR = {
+		any_sphere_member = {
+			NOT = {tag = THIS}
+			vassal_of = THIS 
+			OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america}
+			}
+			NOT = {TAG = PEU}
+			NOT = {TAG = TEX}
+		}
+		any_sphere_member = {
+			NOT = {tag = THIS}
+			substate_of_of = THIS 
+			OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america}
+			}
+			NOT = {TAG = PEU}
+			NOT = {TAG = TEX}
+		}
+	}
+	
+	AND = {MEX = 	{NOT = {war_with = THIS}}
+		   MEX = {in_sphere = THIS}
+	}
+	AND = {ARG = 	{NOT = {war_with = THIS}}
+		   ARG = {in_sphere = THIS}
+	}
+	AND = {GCO = 	{NOT = {war_with = THIS}}
+		   GCO = {in_sphere = THIS}
+	}
+	
+
+    }
+}
+
+
 
