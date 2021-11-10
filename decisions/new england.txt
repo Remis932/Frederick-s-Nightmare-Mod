@@ -1,0 +1,51 @@
+political_decisions = {
+	purchase_florida = {
+	
+	potential = {
+		tag = USA
+		NOT = {has_country_flag = florida_purchase}
+		NOT = {197 = {owned_by=THIS}}
+		NOT = {198 = {owned_by=THIS}}
+		NOT = {199 = {owned_by=THIS}}
+		NOT = {200 = {owned_by=THIS}}
+	}
+	
+	allow = {
+		money = 100000
+		197 = {owned_by=IBE}
+		198 = {owned_by=IBE}
+		199 = {owned_by=IBE}
+		200 = {owned_by=IBE}
+		war = no
+		all_core = {owned_by=THIS}
+	}
+	
+	effect = {
+		THIS = {IBE={country_event = 200301}}
+		THIS = {IBE={country_event = 200302}}
+		set_country_flag = florida_purchase
+	}
+	
+	}
+	}
+	
+	march_into_florida = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+	}
+	
+	allow = {
+		military_score = 50
+	}
+	
+	effect = {
+		197 = {add_core = THIS}
+		198 = {add_core = THIS}
+		199 = {add_core = THIS}
+		200 = {add_core = THIS}
+		badboy = 2
+	}
+	
+	}
+}

@@ -1,0 +1,52 @@
+country_event = { #mexican-texas war
+    id = 200301
+	picture = "urquiza_victory"
+    title = "The United Commonwealth Seeks to Purchase Florida"
+    desc = " "
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Yes."
+		treasury = 50000
+		FROM = {treasury = -50000}
+		198 = {secede_province = FROM}
+		199 = {secede_province = FROM}
+		200 = {secede_province = FROM}
+    }
+	option = {
+        name = "No."
+    }
+	
+    trigger = {															
+	has_country_flag = impossible  
+	}
+}
+
+country_event = { #mexican-texas war
+    id = 200302
+	picture = "urquiza_victory"
+    title = "The United Commonwealth Seeks to Purchase Alabama"
+    desc = " "
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Yes."
+		treasury = 50000
+		FROM = {treasury = -50000}
+		197 = {secede_province = FROM}
+    }
+	option = {
+        name = "No."
+    }
+	
+    trigger = {															
+	has_country_flag = impossible  
+	}
+}
+
