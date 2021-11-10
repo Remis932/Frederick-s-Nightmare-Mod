@@ -2654,6 +2654,11 @@ land_grants_tex = {
 	global_assimilation_rate = 0.2
 	icon = 19
 }
+texan_oil_boom = {
+	global_immigrant_attract = 2.5
+	RGO_output = 0.1
+	icon = 19
+}
 german_boom = {
 	population_growth = 0.001
 	icon = 19

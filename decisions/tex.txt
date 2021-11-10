@@ -67,4 +67,33 @@ political_decisions = {
 		set_country_flag = texan_separatism
 	 }
 	}
+	
+	texan_oil_boom = {
+	picture = "change_border_policy"
+	potential = {
+	NOT = {has_country_flag = texan_oil_boom}
+	tag = TEX
+	}
+	allow = {
+	OR = {
+	AND = {
+	132 = {owned_by = THIS}
+	132 = {trade_goods = oil}
+	}
+	AND = {
+	133 = {owned_by = THIS}
+	133 = {trade_goods = oil}
+	}
+	AND = {
+	43 = {owned_by = THIS}
+	43 = {trade_goods = oil}
+	}
+	}
+	war = no
+	}
+	effect = {
+		add_country_modifier = { name = texan_oil_boom duration = 3650 }
+		set_country_flag = texan_oil_boom
+	 }
+	}
 }
