@@ -91,18 +91,19 @@ country_event = { #event for texas to rise up
     }
 	
     trigger = {
-	NOT = {has_country_flag = texas_crushed}
-	NOT = {has_country_flag = texan_revolt}
-	tag = MEX
-		OR = {
-			war_with = SPA
-			
-			war_with = IBE
-			
-		}
-		any_owned_province = {
-			is_core = TEX
-		}
+	#NOT = {has_country_flag = texas_crushed}
+	#NOT = {has_country_flag = texan_revolt}
+	#tag = MEX
+	#	OR = {
+	#		war_with = SPA
+	#		
+	#		war_with = IBE
+	#		
+	#	}
+	#	any_owned_province = {
+	#		is_core = TEX
+	#	}
+	has_country_flag = impossible
 	}
 
     
@@ -242,7 +243,46 @@ country_event = { #petition for independence
 	}
     
 }
+country_event = { #mexican-texas war
+    id = 2001011
+	picture = "urquiza_victory"
+    title = "EVTNAME200101"
+    desc = "EVTDESC200101"
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
 
+    option = {
+        name = "EVTOPTA200101"
+	
+			MEX = {	country_event = {
+						id = 200102
+						days = 1
+				}
+			}
+		
+		
+    }
+	
+	
+    trigger = {															
+	OR={tag = IBE                                                       
+	tag = SPA                                                           
+	}                                                                   
+	                                                                    
+		MEX = {war_with = THIS}                                         
+		MEX = {in_sphere = THIS}                                        
+		MEX = {NOT = {has_country_flag = texas_crushed}}
+		MEX = {NOT = {has_country_flag = texan_revolt}}
+		NOT = {exists = TEX}                                            
+	    MEX= {
+			any_owned_province = {
+				is_core = TEX
+			}	
+		}  
+}
+}
 country_event = { #keep at the end of this doc
     id = 200101
 	picture = "urquiza_victory"
@@ -269,23 +309,23 @@ country_event = { #keep at the end of this doc
 		}
 		
     }
-	THIS = {	
-		any_country = { 
-		limit = {
-		substate_of = THIS
-		tag=MEX
-		any_owned_province = {
-			is_core = TEX
-		}
-		NOT = {has_country_flag = texas_crushed}
-		}
-				country_event = {
-						id = 200102
-						days = 1
-				}
-		}
-		
-    }
+	#THIS = {	
+	#	any_country = { 
+	#	limit = {
+	#	substate_of = THIS
+	#	tag=MEX
+	#	any_owned_province = {
+	#		is_core = TEX
+	#	}
+	#	NOT = {has_country_flag = texas_crushed}
+	#	}
+	#			country_event = {
+	#					id = 200102
+	#					days = 1
+	#			}
+	#	}
+	#	
+    #}
 	}
 	
     trigger = {
