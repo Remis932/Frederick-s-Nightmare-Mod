@@ -643,6 +643,7 @@ province_event = {
         owner = {
             war = no
             OR = {
+			tag = ROM
                 any_owned_province = {
                     trade_goods = oil
                     NOT = { unemployment_by_type = { value = 0.05 type = labourers } }

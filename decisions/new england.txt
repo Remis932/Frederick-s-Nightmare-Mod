@@ -33,6 +33,7 @@ political_decisions = {
 	picture = "romanians_marching"
 	potential = {
 		tag = USA
+		NOT = {has_country_flag = march_into_florida}
 	}
 	
 	allow = {
@@ -44,6 +45,7 @@ political_decisions = {
 		198 = {add_core = THIS}
 		199 = {add_core = THIS}
 		200 = {add_core = THIS}
+		set_country_flag = march_into_florida
 		badboy = 2
 	}
 	

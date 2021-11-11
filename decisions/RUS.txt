@@ -2,6 +2,7 @@ political_decisions = {
 	integrate_circassia= {
 	picture = "embrace_minority"
 	potential={
+	NOT = {has_country_flag =integrate_circassia}
 		OR={
 			CIR = {vassal_of=THIS}
 			CIR = {substate_of = THIS}
@@ -16,6 +17,7 @@ political_decisions = {
 	}
 	
 	effect = {
+		set_country_flag = integrate_circassia
 		prestige = 5
 		inherit = CIR
 		add_accepted_culture = circassian
