@@ -19,12 +19,12 @@ party = {
 party = {
     name = "ITA_conservative"
     start_date = 1830.1.1
-    end_date = 1913.1.1
+    end_date = 1936.1.1
 
     ideology = conservative
 
     social_policy = no_position_set
-    economic_policy = interventionism
+    economic_policy = state_capitalism
     trade_policy = free_trade
     religious_policy = moralism
     citizenship_policy = limited_citizenship

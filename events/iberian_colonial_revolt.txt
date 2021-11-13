@@ -178,7 +178,7 @@ country_event = { #remove texan war modifier
     desc = "EVTDESC200105"
 	allow_multiple_instances = yes	
 	mean_time_to_happen = {
-        days = 1
+        days = 5
     }
 
     option = {

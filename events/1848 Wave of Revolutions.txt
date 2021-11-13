@@ -1,0 +1,508 @@
+country_event = {
+    id = 184800101
+    title = "The Great Revolt" 
+    desc = "EVTDESC184800101"
+    picture = "arrested"
+	trigger = {
+	tag = ENG
+	year = 1847
+	NOT = {has_global_flag = the_great_revolt}
+	any_owned_province = {any_pop = {has_pop_religion = protestant}}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Defend the Crown"
+		ai_chance = {
+		factor = 10
+		#modifier = {
+        #        factor = 0.1
+        #        pop_majority_religion = protestant
+        #    }
+		}
+        any_pop = { limit = {has_pop_religion = protestant} militancy = 15 consciousness = 10}
+		set_global_flag = the_great_revolt
+        }
+	option = {
+        name = "For the Republic!"
+		prestige = -2
+		ai_chance = {
+		factor = 10
+		}
+        any_pop = { limit = {has_pop_religion = protestant} militancy = -5 consciousness = -5}
+		relation = {
+			who = FRA
+			value = -100
+		}
+		government = democracy
+		religion = protestant
+		any_owned = {
+				limit = {
+				  OR = {
+				  is_core = IRE
+				  is_core = SCO	
+				  }	
+				}	
+			add_core = LEG
+		}
+			release = LEG
+			war = {
+				target = LEG
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = conquest }
+				call_ally = no
+			}
+			LEG = {
+			add_country_modifier = {name = his_majestys_loyal_subjects duration = -1}
+			create_alliance = FRA
+				define_general = {
+					name = "William Wallace"
+					personality = merciless
+					background = highlander
+				}
+				define_general = {
+					name = "Robert Bruce"
+					personality = cautious
+					background = coolminded
+				}
+				define_general = {
+					name = "Henry MacKenzie"
+					personality = polite
+					background = coolminded
+				}
+
+			}
+			set_global_flag = the_great_revolt
+			set_global_flag = for_the_republic
+        }
+		
+		option = {
+        name = "We must restore order! (switch to the loyalists)"
+		prestige = -2
+		ai_chance = {
+		factor = 10
+		}
+        any_pop = { limit = {has_pop_religion = protestant} militancy = -5 consciousness = -5}
+		relation = {
+			who = FRA
+			value = -100
+		}
+		government = democracy
+		religion = protestant
+		any_owned = {
+				limit = {
+				  OR = {
+				  is_core = IRE
+				  is_core = SCO	
+				  }	
+				}	
+			add_core = LEG
+		}
+			release = LEG
+			war = {
+				target = LEG
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = conquest }
+				call_ally = no
+			}
+			LEG = {
+			add_country_modifier = {name = his_majestys_loyal_subjects duration = -1}
+			create_alliance = FRA
+				define_general = {
+					name = "William Wallace"
+					personality = merciless
+					background = highlander
+				}
+				define_general = {
+					name = "Robert Bruce"
+					personality = cautious
+					background = coolminded
+				}
+				define_general = {
+					name = "Henry MacKenzie"
+					personality = polite
+					background = coolminded
+				}
+
+			}
+			change_tag_no_core_switch = LEG
+			set_global_flag = the_great_revolt
+			set_global_flag = for_the_republic
+        }
+    }
+	
+	country_event = {
+    id = 184800102 #monarchist victory
+    title = "The End of the Civil War" 
+    desc = "Hurray!"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		tag = LEG
+		NOT = {exists = ENG}
+	}
+	
+	has_global_flag = for_the_republic
+	NOT = {has_global_flag = civil_war_end_eng}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Hurray for us!"
+			set_global_flag = civil_war_end_eng
+			LEG = {all_core = { remove_core = LEG }}
+			change_tag = ENG
+			change_tag_no_core_switch = ENG
+			government = absolute_monarchy
+			remove_country_modifier = his_majestys_loyal_subjects
+			add_accepted_culture = british
+			capital = 300
+		}
+	}
+	
+	country_event = {
+    id = 184800103 #republican victory
+    title = "The End of the Civil War" 
+    desc = "Hurrah!"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		tag = ENG
+		NOT = {exists = LEG}
+	}
+	
+	has_global_flag = for_the_republic
+	NOT = {has_global_flag = civil_war_end_eng}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Hurray for us!"
+			set_global_flag = civil_war_end_eng
+			LEG = {all_core = { remove_core = LEG }}
+			any_owned = {
+				limit = {OR={pop_majority_culture = irish pop_majority_culture = scottish}}
+				add_province_modifier = {
+					name = bitter_sentiment
+					duration = 2922
+				}
+			
+			}
+		}
+	}
+	
+	country_event = {
+    id = 184800104
+    title = "German Nationalist Sentiment" 
+    desc = "EVTDESC184800104"
+    picture = "nationalists"
+	trigger = {
+	tag = HRE
+	year = 1848
+	NOT = {has_global_flag = german_nationalist_sentiment}
+	OR = {
+	government = prussian_constitutionalism
+	government = absolute_monarchy
+	government = hms_government
+	}
+		OR = {
+			any_owned_province = {any_pop = {has_pop_culture  = south_german}}
+			any_owned_province = {any_pop = {has_pop_culture  = north_german}}
+		}
+	}
+	allow_multiple_instances = no
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Do not bow to carpenters."
+		ai_chance = {
+		factor = 10
+		#modifier = {
+        #        factor = 0.1
+        #        pop_majority_religion = protestant
+        #    }
+		}
+        any_pop = { limit = {has_pop_culture = north_german} militancy = 5 consciousness = 5}
+		any_pop = { limit = {has_pop_culture = south_german} militancy = 5 consciousness = 5}
+		set_global_flag = german_nationalist_sentiment
+		set_country_flag = surpress_carpenters
+        }
+	option = {
+        name = "Issue a Constitution"
+		prestige = -1
+		ai_chance = {
+		factor = 10
+		}
+        
+		government = hms_government
+			any_pop = { limit = {has_pop_culture = north_german} militancy = 1 consciousness = 1}
+			any_pop = { limit = {has_pop_culture = south_german} militancy = 1 consciousness = 1}
+			set_global_flag = german_nationalist_sentiment
+			set_country_flag = issue_constitution
+        }
+		
+		option = {
+        name = "Reisst die Konkubine aus dem Pfaffenbett!"
+		prestige = -5
+		ai_chance = {
+		factor = 5
+		}
+        
+		government = democracy
+			any_pop = { limit = {has_pop_culture = north_german} militancy = -2 consciousness = -4}
+			any_pop = { limit = {has_pop_culture = south_german} militancy = -2 consciousness = -4}
+			political_reform = universal_voting
+			political_reform = gerrymandering
+			political_reform = population_equal_weight
+			political_reform = free_press
+			set_global_flag = german_nationalist_sentiment
+			set_country_flag = democratic_hre
+        }
+    }
+	
+	country_event = {
+    id = 184800105
+    title = "The Death of Kaiser Louis" 
+    desc = "EVTDESC184800105"
+    picture = "regency"
+	trigger = {
+	tag = HRE
+	year = 1836
+	NOT = {has_global_flag = rip_kaiser_louis}
+	OR = {
+	government = prussian_constitutionalism
+	government = absolute_monarchy
+	government = hms_government
+	}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 8
+	}
+    option = {
+        name = "Horror!"
+        any_pop = { limit = {has_pop_culture = north_german} militancy = 1 consciousness = 4}
+		any_pop = { limit = {has_pop_culture = south_german} militancy = 1 consciousness = 4}
+		set_global_flag = rip_kaiser_louis
+        }
+	
+    }
+	
+	
+	country_event = {
+    id = 184800106
+    title = "The Electorates Cast Their Votes" 
+    desc = "EVTDESC184800106"
+    picture = "norwegian_storting"
+	trigger = {
+	tag = HRE
+	year = 1836
+	NOT = {has_global_flag = electorates_vote}
+	has_global_flag = rip_kaiser_louis
+	OR = {
+	government = prussian_constitutionalism
+	government = absolute_monarchy
+	government = hms_government
+	}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 1
+	}
+    option = {
+        name = "William,Grand Duke of Hesse"
+		government = hms_government
+		political_reform = wealth_weighted_voting
+		political_reform = state_equal_weight
+		political_reform = free_press
+		political_reform = gerrymandering
+		social_reform = culture_voting_only
+        any_pop = { limit = {has_pop_culture = north_german has_pop_religion = protestant} militancy = -2 consciousness = -2}
+		any_pop = { limit = {has_pop_culture = south_german has_pop_religion = protestant} militancy = -2 consciousness = -2}
+		any_pop = { limit = {NOT = {has_pop_religion = protestant}} militancy = 3 consciousness = 5}
+		set_global_flag = electorates_vote
+		set_country_flag = william
+        }
+	option = {
+        name = "The Absolutist Candidate"
+		government = absolute_monarchy
+		political_reform = none_voting
+		political_reform = mandatory_service
+		political_reform = state_press
+		social_reform = all_voting_pops
+        any_pop = { limit = {has_pop_culture = north_german} militancy = 3 consciousness = 5}
+		any_pop = { limit = {has_pop_culture = south_german} militancy = 3 consciousness = 5}
+		any_pop = { limit = {NOT = {has_pop_culture = north_german}} militancy = -1}
+		any_pop = { limit = {NOT = {has_pop_culture = south_german}} militancy = -1}
+		set_global_flag = electorates_vote
+		set_country_flag = absolutist_candidate
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800107
+    title = "Parthenopaean Revolt" 
+    desc = "EVTDESC184800107"
+    picture = "deputation_to_milos"
+	trigger = {
+	NOT = {tag = NAP}
+	year = 1848
+	NOT = {has_global_flag = parthenopaean_revolt}
+	any_owned_province = {is_core = NAP}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 5
+	}
+    option = {
+        name = "Damn them!"
+		release = NAP
+			war = {
+				target = NAP
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = humiliate }
+				call_ally = no
+			}
+		set_global_flag = parthenopaean_revolt
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800109
+    title = "War" 
+    desc = "War"
+    picture = "deputation_to_milos"
+	trigger = {
+	tag = NAP
+	has_global_flag = parthenopaean_revolt
+	NOT = {has_global_flag = against_iberian_war}
+	war = yes
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "For Victory!"
+			add_country_modifier = {
+				name = italian_dream
+				duration = -1
+			}
+			
+				define_general = {
+					name = "Mario The Bloody"
+					personality = merciless
+					background = highlander
+				}
+			political_reform = universal_voting
+			political_reform = gerrymandering
+			political_reform = population_equal_weight
+			political_reform = free_press
+			
+		set_global_flag = against_iberian_war
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800108
+    title = "End of the War" 
+    desc = "Our rebellion was successful!"
+    picture = "commodore_perry"
+	trigger = {
+	war = no
+	has_country_modifier = italian_dream 
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Hurrah!"
+		prestige = 1
+		remove_country_modifier = italian_dream
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800110
+    title = "The $MONTH$ Uprising" 
+    desc = "Lots of Anti-Bourbon riots have been happening in major cities."
+    picture = "commodore_perry"
+	trigger = {
+	tag = BIT
+	is_vassal = yes
+	year = 1848
+	NOT = {has_global_flag = bitalian_uprising}
+	OR = {
+	government = prussian_constitutionalism
+	government = hms_government
+	government = absolute_monarchy
+	}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 3
+	}
+    option = {
+        name = "Protect the House of Bourbon"
+        any_pop = { limit = {has_pop_culture = french} militancy = -2 consciousness = -2}
+		any_pop = { limit = {has_pop_culture = occitan} militancy = -2 consciousness = -2}
+		any_pop = { limit = {has_pop_culture = north_italian} militancy = 4 consciousness = 2}
+		any_pop = { limit = {has_pop_culture = south_italian} militancy = 3 consciousness = 2}
+		set_global_flag = bitalian_uprising
+        }
+	option = {
+        name = "Give In"
+		ai_chance = {
+		factor = 10
+		}
+		prestige = -2
+		government = democracy
+		political_reform = wealth_weighted_voting
+		political_reform = state_equal_weight
+		political_reform = free_press
+		political_reform = gerrymandering
+		social_reform = all_voting_pops
+        any_pop = { limit = {has_pop_culture = french} militancy = 2 consciousness = 2}
+		any_pop = { limit = {has_pop_culture = occitan} militancy = 2 consciousness = 2}
+		any_pop = { limit = {has_pop_culture = north_italian} militancy = -4 consciousness = -2}
+		any_pop = { limit = {has_pop_culture = south_italian} militancy = -3 consciousness = -2}
+		set_global_flag = bitalian_uprising
+        }
+	
+    }
+	
+

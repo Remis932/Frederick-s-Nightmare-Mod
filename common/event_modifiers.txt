@@ -1438,12 +1438,12 @@ silk_famine = {
     icon = 14
 }
 
-# blood_and_iron_mine = {
-    # mine_rgo_eff = 0.5
-    # mine_rgo_size = 0.25
-    # pop_consciousness_modifier = 0.01
-    # icon = 14
-# }
+ blood_and_iron_mine = {
+     mine_rgo_eff = 0.5
+     mine_rgo_size = 0.25
+     pop_consciousness_modifier = 0.01
+     icon = 14
+ }
 
 ##### TEMPERANCE LEAGUE #####
 libertine_culture = {
@@ -1732,9 +1732,9 @@ economic_boom = {
 
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
-    max_tariff = -0.05
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.01
+    max_tariff = 0.05
+    tax_efficiency = 0.1
+	poor_life_needs = 0.1
     icon = 1
 }
 
@@ -2565,6 +2565,21 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+his_majestys_loyal_subjects = {
+	mobilisation_size = 0.2
+	land_organisation = 0.1
+	RGO_throughput = 0.1
+	non_accepted_pop_militancy_modifier = 0.008
+	core_pop_militancy_modifier = -0.01
+	icon = 17
+}
+italian_dream = {
+	mobilisation_size = 0.4
+	RGO_throughput = 0.05
+	non_accepted_pop_militancy_modifier = 0.008
+	core_pop_militancy_modifier = -0.01
+	icon = 17
+}
 texan_war = {
 	mobilisation_size = 0.73
 	global_immigrant_attract = -1
@@ -2626,6 +2641,17 @@ recently_sacked = {
 modernized_irrigation = {
 	local_RGO_output = 0.2
 	population_growth = 0.001
+	icon = 19
+}
+bitter_sentiment = {
+	poor_life_needs = 0.25
+	middle_life_needs = 0.25
+	rich_life_needs = 0.25
+	immigrant_attract = -2
+	icon = 20
+}
+hong_kong_buildup = {
+	immigrant_attract = 1.5
 	icon = 19
 }
 rome_renovated = {

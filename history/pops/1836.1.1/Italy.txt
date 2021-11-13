@@ -94,33 +94,33 @@
     }
     ########
 
-    ########Swiss Pops
+    ########north_italian Pops
     capitalists = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
@@ -470,45 +470,45 @@
     }
     ########
 
-    ########Swiss Pops
+    ########north_italian Pops
     aristocrats = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     capitalists = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 75
     }
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 175
     }
 
     craftsmen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 300
     }
 
     farmers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 200
     }
@@ -1477,28 +1477,28 @@
     }
     ########
 
-    ########Swiss Pops
+    ########north_italian Pops
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 200
     }
 
     farmers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
@@ -1715,7 +1715,7 @@
     ########
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 1100
     }
@@ -1994,39 +1994,39 @@
         size = 207113
     }
 
-    ########Swiss Pops
+    ########north_italian Pops
     capitalists = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 100
     }
 
     craftsmen = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 225
     }
 
     artisans = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 300
     }
 
     farmers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 200
     }
@@ -2090,7 +2090,7 @@
     }
 
     soldiers = {
-        culture = swiss
+        culture = north_italian
         religion = catholic
         size = 1100
     }

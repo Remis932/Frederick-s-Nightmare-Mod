@@ -1,6 +1,6 @@
-owner = HPS
-controller = HPS
-add_core = HPS
+owner = EPI
+controller = EPI
+add_core = EPI
 add_core = SER
 add_core = ALB
 trade_goods = timber

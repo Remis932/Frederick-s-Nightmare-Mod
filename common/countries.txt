@@ -101,6 +101,7 @@ UNM        = "countries/New Mexico.txt"
 UOR        = "countries/Oregon.txt"
 
 #Europe
+EPI		   = "countries/Albania-Epirus.txt"
 HPS		   = "countries/Hapsburgs.txt"
 BRN        = "countries/Brandenburg.txt"
 BIT 	   = "countries/Bourbon Italy.txt"
@@ -326,6 +327,7 @@ SCA        = "countries/Scandinavia.txt"
 SWE        = "countries/Sweden.txt"
 
 # Western Europe
+LEG		   = "countries/Legitimists.txt"
 BEL        = "countries/Belgium.txt"
 CAT        = "countries/Catalonia.txt"
 FLA        = "countries/Flanders.txt"
@@ -371,6 +373,7 @@ MOD        = "countries/Modena.txt"
 PAP        = "countries/Papal States.txt"
 PAR        = "countries/Parma.txt"
 SAR        = "countries/Sardinia-Piedmont.txt"
+NAP        = "countries/Naples.txt"
 SIC        = "countries/Two Sicilies.txt"
 TRE        = "countries/Trieste.txt"
 TUS        = "countries/Tuscany.txt"

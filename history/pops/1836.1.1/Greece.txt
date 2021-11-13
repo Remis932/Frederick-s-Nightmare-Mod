@@ -1605,8 +1605,8 @@
     }
 
     soldiers = {
-        culture = south_german
-        religion = catholic
+        culture = bulgarian
+        religion = orthodox
         size = 1000
     }
 

@@ -143,61 +143,61 @@
 269 = {
     aristocrats = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 1100
     }
 
     officers = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 1200
     }
 
     clergymen = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 1375
     }
 
     capitalists = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 550
     }
 
     bureaucrats = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 2100
     }
 
     clerks = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 400
     }
 
     craftsmen = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 8000
     }
 
     artisans = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 6000
     }
 
     soldiers = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 2500
     }
 
     farmers = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 69175
     }
 
@@ -279,49 +279,49 @@
 271 = {
     aristocrats = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 800
     }
 
     clergymen = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 1500
     }
 
     clerks = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 10850
     }
 
     craftsmen = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 55000
     }
 
     artisans = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 10000
     }
 
     artisans = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 2000
     }
 
     soldiers = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 3000
     }
 
@@ -353,25 +353,25 @@
 272 = {
     aristocrats = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
     clergymen = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 100
     }
 
     artisans = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 2000
     }
 
     labourers = {
         culture = scottish
-        religion = protestant
+        religion = catholic
         size = 58800
     }
 

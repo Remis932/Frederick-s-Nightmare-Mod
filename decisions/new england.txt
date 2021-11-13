@@ -27,17 +27,18 @@ political_decisions = {
 	}
 	
 	}
-	}
+	
 	
 	march_into_florida = {
 	picture = "romanians_marching"
 	potential = {
 		tag = USA
-		NOT = {has_country_flag = march_into_florida}
+		NOT = {has_global_flag = march_into_florida}
 	}
 	
 	allow = {
 		military_score = 50
+		all_core = {owned_by = THIS}
 	}
 	
 	effect = {
@@ -45,7 +46,8 @@ political_decisions = {
 		198 = {add_core = THIS}
 		199 = {add_core = THIS}
 		200 = {add_core = THIS}
-		set_country_flag = march_into_florida
+		
+		set_global_flag = march_into_florida
 		badboy = 2
 	}
 	

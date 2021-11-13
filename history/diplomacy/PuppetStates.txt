@@ -183,6 +183,14 @@ substate = {
     start_date = 1836.1.1
     end_date = 1936.1.1
 }
+#hapsburg-epirus
+vassal = {
+	first = HPS
+	second = EPI
+	start_date = 1836.1.1
+	end_date = 1936.1.1
+}
+
 #bokoen india
 vassal = {
 	first = DNN

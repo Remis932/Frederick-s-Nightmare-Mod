@@ -1,4 +1,49 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+italian_dream;Dreams of Italy;x
+italian_dream_desc; ;x
+EVTDESC184800107;The Parthenopaean Republic, uncontent with our rule over Southern Italy has risen up!;x
+NAP;Naples;x
+NAP_democracy;Parthenopaean Republic;x
+NAP_bourgeois_dictatorship;Parthenopaean Republic;x
+NAP_proletariat_dictatorship;Parthenopean Commune;x
+NAP_fascist_dictatorship;Parthenopean Social Republic;x
+NAP_prussian_constitutionalism;Kingdom of Naples;x
+NAP_hms_government;Kingdom of Naples;x
+NAP_absolute_monarchy;Kingdom of Naples;x
+NAP_democracy_ADJ;Parthenopaean;x
+NAP_bourgeois_dictatorship_ADJ;Parthenopaean;x
+NAP_proletariat_dictatorship_ADJ;Parthenopaean;x
+NAP_prussian_constitutionalism_ADJ;Parthenopaean;x
+NAP_fascist_dictatorship_ADJ;Parthenopaean;x
+NAP_ADJ;Neapolitan;x
+a_german_empire_title;A German Empire;x
+a_german_empire_desc; ;x
+the_roman_empire_title;The Roman Empire;x
+the_roman_empire_desc; ;x
+infamy_sanctions;International Sanctions;x
+infamy_sanctions_desc;Cope and Seethe;x
+EVTDESC184800105;Kaiser Louis, our beloved emperor has passed into the afterlife. May God rest his soul.;x
+EVTDESC184800104;The people are calling for reform, some, horrificly are even calling for the monarchy to be abolished entirely!;x
+outlaw_child_labour_title;Outlaw Child Labour;x
+outlaw_child_labour_desc;Protestant teachings say that if a child works instead of going to sunday school, then they will turn into a catholic.;x
+hong_kong_buildup;Hong Kong Buildup;x
+gateway_into_china_title;Gateway Into China;x
+gateway_into_china_desc;With India in the claws of other powers, we must set our sights on China!;x
+the_corn_laws_eng_title;Introduce the Corn Laws;x
+the_corn_laws_eng_desc; ;x
+corn_laws_repealed;Corn Laws;x
+highlander;Highlander;x
+EVTDESC184800101;A series of unfortunate events have lead to the Protestant population to despise our monarch and some are even calling for it to be overthrown and replaced with a republic! However, it is worth noting that the mostly catholic Scottish and Irish still support House Stuart, if we are to give into the rebels' demands we would anger them quite a lot.;x
+restore_albania_epirs_title;Restore Albania-Epirus;x
+restore_albania_epirs_desc; ;x
+LEG;The Legitimists;x
+LEG_ADJ;Legitimist;x
+bitter_sentiment;Bitter Sentiment;x
+bitter_sentiment_desc;The population in this province is coping and ,quite possibly, seething at their loss.
+his_majestys_loyal_subjects;His Majesty's Loyal Subjects;x
+his_majestys_loyal_subjects_desc;The whole population, with some exceptions, are fighting to restore the Monarch to the throne.;x
+EPI;Epirus;x
+EPI_ADJ;Epirote;x
 dacian_oil_title;Dacian Oil;x
 dacian_oil_desc; ;x
 march_into_florida_title;March Into Florida;x
@@ -310,6 +355,14 @@ BRN;Brandenburg;x
 BRN;Brandenburger;x
 HRE;Holy Roman Empire;;;;;;;;;;;;;
 HRE_ADJ;Holy Roman;;;;;;;;;;;;;
+HRE_democracy;German Republic;;;;;;;;;;;;;
+HRE_democracy_ADJ;German;;;;;;;;;;;;;
+HRE_proletariat_dictatorship;German People's Republic;;;;;;;;;;;;;
+HRE_proletariat_dictatorship_ADJ;German;;;;;;;;;;;;;
+HRE_fascist_dictatorship;Deutches Reich;x
+HRE_fascist_dictatorship_ADJ;German;x
+HRE_bourgeois_dictatorship;German Republic;x
+HRE_bourgeois_dictatorship_ADJ;German;x
 DNN;Denmark-Norway;;;;;;;;;;;;;
 DNN_democracy;Republic of Denmark-Norway;;;;;;;;;;;;;
 DNN_ADJ;Danish-Norwegian;;;;;;;;;;;;;

@@ -382,7 +382,7 @@ political_reforms = {
         }
 
     }
-    press_rights = {
+    press_rights = { 
         next_step_only = yes
         state_press = {
             ruling_party_support = 0.25

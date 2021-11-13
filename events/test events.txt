@@ -1,0 +1,17 @@
+country_event = {
+    id = 1234567891
+    title = "Infamy!" 
+    desc = "Infamy!"
+    picture = "norwegian_storting"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+	option = {
+        name = "Infamy!"
+		badboy = 32.5
+        }
+	
+    }

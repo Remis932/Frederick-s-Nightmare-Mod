@@ -29,7 +29,51 @@ political_decisions = {
 	set_country_flag=german_boom
 	}
 	}
-
+	
+	a_german_empire = {
+	picture = "claim_voralberg"
+	potential = {
+	NOT={has_country_flag=a_german_empire}
+	tag = HRE
+	#OR = {
+	#has_country_flag = democratic_hre
+	#has_country_flag = issue_constitution
+	#}
+	has_country_flag = william
+	}
+	allow = {
+	nationalism_n_imperialism=1
+	
+	}
+	effect={
+	PRU_682 = {add_core = THIS}
+	AUS_626 = {add_core = THIS}
+	AUS_625 = {add_core = THIS}
+	AUS_627 = {add_core = THIS}
+	PRU_701 = {add_core = THIS}
+	692 = {add_core = THIS}
+	PRU_695 = {add_core = THIS}
+	PRU_690 = {add_core = THIS}
+	set_country_flag=a_german_empire
+	}
+	}
+	
+	the_roman_empire = {
+	picture = "faidherbe"
+	potential = {
+	NOT={has_country_flag=the_roman_empire}
+	tag = HRE
+	has_country_flag = absolutist_candidate
+	}
+	allow = {
+	nationalism_n_imperialism=1
+	
+	}
+	effect={
+	
+	set_country_flag=the_roman_empire
+	}
+	}
 
 
 }

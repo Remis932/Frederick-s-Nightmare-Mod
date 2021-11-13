@@ -42,6 +42,11 @@ personality = {
     coolminded = {
         defence = 2
     }
+	highlander = {
+		attack = 3
+		speed = 0.2
+		morale = 0.2
+	}
     inspiring = {
         morale = 0.10
     }
