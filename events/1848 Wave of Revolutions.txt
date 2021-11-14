@@ -456,7 +456,7 @@ country_event = {
 	
 	country_event = {
     id = 184800110
-    title = "The $MONTH$ Uprising" 
+    title = "The Italian Spring" 
     desc = "Lots of Anti-Bourbon riots have been happening in major cities."
     picture = "commodore_perry"
 	trigger = {
@@ -505,4 +505,179 @@ country_event = {
 	
     }
 	
-
+	country_event = {
+    id = 184800111
+    title = "The Epirote Uprising" 
+    desc = "The $OVERLORD$ 's Grip on our country has been weakening and with the people in revolt we will surely win our independence."
+    picture = "commodore_perry"
+	trigger = {
+	tag = EPI
+	is_vassal = yes
+	year = 1848
+	NOT = {has_global_flag = epirote_uprising}
+	
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 4
+	}
+    option = {
+        name = "Allah is Mighty!"
+		prestige = 4
+		overlord = {release_vassal = EPI}
+        add_country_modifier = {
+		name = epirote_independence_war
+		duration = -1
+		}
+			overlord = {
+				country_event = {
+					id = 1848001111
+					days = 1
+				}
+			}
+		set_global_flag = epirote_uprising
+        }
+	
+	
+    }
+	
+	country_event = {
+    id = 1848001111
+    title = "The Revolt of Ali Pasha" 
+    desc = "Ali Pasha, the leader of our Epirote Vassal, has somehow managed to convince his poor subjects to rise up for his personal benefit."
+    picture = "commodore_perry"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+    option = {
+        name = "Crush them!"
+			war = {
+				target = EPI
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = humiliate }
+				call_ally = yes
+			}
+			diplomatic_influence = {
+				who = EPI
+				value = -400
+			}
+        }
+	
+	
+    }
+	
+	country_event = {
+    id = 184800112
+    title = "End of the War" 
+    desc = "Our rebellion was successful!"
+    picture = "commodore_perry"
+	trigger = {
+	war = no
+	has_country_modifier = epirote_independence_war 
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Hurrah!"
+		prestige = 1
+		remove_country_modifier = epirote_independence_war
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800113
+    title = "Morean Revolt" 
+    desc = "Our Greek Colony of Morea has revolted!"
+    picture = "deputation_to_milos"
+	trigger = {
+	tag = VEN
+	year = 1848
+	NOT = {has_global_flag = morean_revolt}
+	any_owned_province = {is_core = MEA}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	months = 5
+	}
+    option = {
+        name = "Damn them!"
+		any_owned = {
+		limit = {is_core = MEA}
+		secede_province = MEA
+		}
+			war = {
+				target = MEA
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = humiliate } #ideally, retake morea
+				call_ally = no
+			}
+		set_global_flag = morean_revolt
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800114
+    title = "Loyalties to Byzantium" 
+    desc = "EVTDESC184800114"
+    picture = "deputation_to_milos"
+	trigger = {
+	tag = BYZ
+	BYZ = {neighbour = MEA}
+	exists = MEA
+	MEA = {NOT = {war_with = VEN}}
+	NOT = {has_global_flag = morean_revolt}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "All must bow down to the Patriarch of Constantinople."
+		inherit = MEA
+		set_global_flag = morean_revolt_won
+        }
+	
+    }
+	
+	country_event = {
+    id = 184800115
+    title = "Leonidas II" 
+    desc = "EVTDESC184800115"
+    picture = "deputation_to_milos"
+	trigger = {
+	tag = MEA
+	MEA = {war_with = VEN}
+	NOT = {has_global_flag = morean_start}
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "For God!"
+		define_general = {
+					name = "Achelous "Leonidas" "
+					personality = gallant
+					background = spartan
+				}
+		set_global_flag = morean_start
+        }
+	
+    }

@@ -183,6 +183,11 @@ personality = {
     disciplined = {
         attack = 2
     }
+	spartan = {
+		attack = 5
+		defence = 6
+		speed = 0.01
+	}
     unflinching = {
         attack = 3
     }

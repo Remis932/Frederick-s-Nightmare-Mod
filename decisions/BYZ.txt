@@ -412,10 +412,10 @@ political_decisions = {
         picture = "government_decisions"
         potential = {
            tag = BYZ
-		 OR={  
-			has_country_flag = turkish_compromise
-			has_country_flag = reassert_greek_superiority
-		 }
+		 #OR={  
+		#	has_country_flag = turkish_compromise
+		#	has_country_flag = reassert_greek_superiority
+		 #}
 		   NOT = {has_country_flag = reintegrate_peloponese}
         }
 
@@ -423,11 +423,10 @@ political_decisions = {
             war = no
             840 = {owned_by = BYZ}
 			839 = {owned_by = BYZ}
-			827 = {owned_by = BYZ}
-			828 = {owned_by = BYZ}
 			841 = {owned_by = BYZ}
 			842 = {owned_by = BYZ}
-			
+			#827 = {owned_by = BYZ}
+			#828 = {owned_by = BYZ}
         }
 
         effect = {
@@ -461,7 +460,7 @@ political_decisions = {
         allow = {
             war = no
             is_greater_power = yes
-			
+			all_core = {owned_by = THIS}
         }
 
         effect = {
@@ -547,9 +546,35 @@ political_decisions = {
 			751 = {add_core = BYZ}
 			752 = {add_core = BYZ}
 			add_accepted_culture = south_italian
-            set_country_flag = dominance_in_the_balkans
+            set_country_flag = dreams_of_rome
         }
         ai_will_do = { factor = 0 }
     }
+	
+	intervene_in_morea = {
+        picture = "belgrade_view"
+        potential = {
+           tag = BYZ
+		   exists = MEA
+		   MEA = {war_with = VEN}
+		   NOT = {has_country_flag = intervene_in_morea}
+        }
 
+        allow = {
+            BYZ = {neighbour = MEA}
+        }
+
+        effect = {
+			create_vassal = MEA
+			MEA = {end_war = VEN}
+			war = {
+				target = VEN
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal = { casus_belli = humiliate }
+				call_ally = yes
+			}
+            set_country_flag = intervene_in_morea
+        }
+        ai_will_do = { factor = 0 }
+    }
 }

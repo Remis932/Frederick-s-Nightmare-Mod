@@ -2565,6 +2565,12 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+epirote_independence_war = {
+	land_organisation = 0.05
+	mobilisation_economy_impact = -0.8
+	mobilisation_size = 0.8
+	icon = 17
+}
 his_majestys_loyal_subjects = {
 	mobilisation_size = 0.2
 	land_organisation = 0.1

@@ -380,6 +380,7 @@ TUS        = "countries/Tuscany.txt"
 VEN        = "countries/Venice.txt"
 
 # Eastern Europe
+MEA		   = "countries/Morea.txt"
 BOH        = "countries/Bohemia-Moravia.txt"
 KRA        = "countries/Krakow.txt"
 CRI        = "countries/Crimea.txt"

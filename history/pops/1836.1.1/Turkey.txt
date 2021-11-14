@@ -3108,12 +3108,21 @@
 }
 #Erzincan (312000/78000 POPS)
 888 = {
+	bureaucrats = {
+		culture = greek
+		religion = orthodox
+		size = 450
+	}
     aristocrats = {
-        culture = turkish
-        religion = sunni
+        culture = greek
+        religion = orthodox
         size = 450
     }
-
+	clergymen = {
+        culture = greek
+        religion = orthodox
+        size = 225
+    }
     clergymen = {
         culture = turkish
         religion = sunni
@@ -3160,6 +3169,12 @@
         culture = armenian
         religion = coptic
         size = 33850
+    }
+	
+	farmers = {
+        culture = greek
+        religion = orthodox
+        size = 3850
     }
 
     aristocrats = {

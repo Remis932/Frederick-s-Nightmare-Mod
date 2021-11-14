@@ -1,6 +1,11 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+EVTDESC184800114;The leaders of Morea approached us with a very one-sided proposal, which is to say, one-sided for us. The leaders of the Morean revolt, being Orthodox clergymen see it fit that their country with its Greek heritage, be incorporated into the Byzantine Empire.;x
+intervene_in_morea_title;Intervene in Morea;x
+intervene_in_morea_desc;Our Greek Brothers call for our aid!;x
+epirote_independence_war;Epirote Independence War;x
 italian_dream;Dreams of Italy;x
 italian_dream_desc; ;x
+spartan;Spartan;x
 EVTDESC184800107;The Parthenopaean Republic, uncontent with our rule over Southern Italy has risen up!;x
 NAP;Naples;x
 NAP_democracy;Parthenopaean Republic;x
@@ -16,6 +21,20 @@ NAP_proletariat_dictatorship_ADJ;Parthenopaean;x
 NAP_prussian_constitutionalism_ADJ;Parthenopaean;x
 NAP_fascist_dictatorship_ADJ;Parthenopaean;x
 NAP_ADJ;Neapolitan;x
+MEA;Morea;x
+MEA_democracy;Morea;x
+MEA_bourgeois_dictatorship;Morea;x
+MEA_proletariat_dictatorship;Commune of Sparta;x
+MEA_fascist_dictatorship;Sparta;x
+MEA_prussian_constitutionalism;Morea;x
+MEA_hms_government;Morea;x
+MEA_absolute_monarchy;Morea;x
+MEA_democracy_ADJ;Morean;x
+MEA_bourgeois_dictatorship_ADJ;Morean;x
+MEA_proletariat_dictatorship_ADJ;Morean;x
+MEA_prussian_constitutionalism_ADJ;Morean;x
+MEA_fascist_dictatorship_ADJ;Morean;x
+MEA_ADJ;Morean;x
 a_german_empire_title;A German Empire;x
 a_german_empire_desc; ;x
 the_roman_empire_title;The Roman Empire;x
