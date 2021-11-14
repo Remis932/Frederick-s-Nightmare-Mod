@@ -526,17 +526,23 @@ country_event = {
     option = {
         name = "Allah is Mighty!"
 		prestige = 4
-		overlord = {release_vassal = EPI}
-        add_country_modifier = {
-		name = epirote_independence_war
-		duration = -1
-		}
-			overlord = {
+		overlord = {
 				country_event = {
 					id = 1848001111
 					days = 1
 				}
 			}
+		overlord = {release_vassal = EPI}
+		define_general = {
+					name = "Al Albania"
+					personality = gallant
+					background = weakest_albanian
+				}
+        add_country_modifier = {
+		name = epirote_independence_war
+		duration = -1
+		}
+			
 		set_global_flag = epirote_uprising
         }
 	
@@ -638,7 +644,7 @@ country_event = {
 	BYZ = {neighbour = MEA}
 	exists = MEA
 	MEA = {NOT = {war_with = VEN}}
-	NOT = {has_global_flag = morean_revolt}
+	NOT = {has_global_flag = morean_revolt_won}
 	}
 	
 	allow_multiple_instances = no

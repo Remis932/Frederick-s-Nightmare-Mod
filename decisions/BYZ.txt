@@ -566,11 +566,12 @@ political_decisions = {
 
         effect = {
 			create_vassal = MEA
+			create_alliance = MEA
 			MEA = {end_war = VEN}
 			war = {
 				target = VEN
 				attacker_goal = { casus_belli = humiliate }
-				defender_goal = { casus_belli = humiliate }
+				defender_goal = { casus_belli = acquire_state state_province_id = 839 }
 				call_ally = yes
 			}
             set_country_flag = intervene_in_morea

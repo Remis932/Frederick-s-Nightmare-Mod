@@ -183,6 +183,11 @@ personality = {
     disciplined = {
         attack = 2
     }
+	weakest_albanian = {
+		attack = 5
+		defence = 5
+		speed = 0.01
+	}
 	spartan = {
 		attack = 5
 		defence = 6
