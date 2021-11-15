@@ -334,7 +334,7 @@ country_event = { #keep at the end of this doc
 	}
 	any_owned_province = {
 			NOT = {controlled_by = THIS}
-			province_control_days = 25
+			province_control_days = 7
 			is_capital = yes
 		}
 	OR = {
@@ -349,6 +349,27 @@ country_event = { #keep at the end of this doc
 			NOT = {TAG = TEX}
 		}
 		any_sphere_member = {
+			NOT = {tag = THIS}
+			substate_of_of = THIS 
+			OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america}
+			}
+			NOT = {TAG = PEU}
+			NOT = {TAG = TEX}
+		}
+
+		any_substate = {
+			NOT = {tag = THIS}
+			vassal_of = THIS 
+			OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america}
+			}
+			NOT = {TAG = PEU}
+			NOT = {TAG = TEX}
+		}
+		any_substate = {
 			NOT = {tag = THIS}
 			substate_of_of = THIS 
 			OR = {

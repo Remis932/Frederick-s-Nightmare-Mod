@@ -363,6 +363,24 @@ country_event = {
         name = "EVTOPTA197007"
 		
     }
-        
-    
+}
+
+country_event = {
+	id = 197008 #free researchpoints
+	title = "Napoleone Buonaparte's Last Work"
+	desc = "EVTDESC197008"
+	picture = "napoleone"
+	
+	trigger = {
+	NOT = {has_global_flag = napoleone}
+	473 = {owned_by = THIS}
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	option = {
+	name = "His final service to the nation"
+	set_global_flag = napoleone
+	research_points = 400
+	}
 }
