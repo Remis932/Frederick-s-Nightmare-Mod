@@ -1,4 +1,31 @@
 political_decisions = {
+	reform_colonial_administration_sca = {
+		picture = "bahrain_trade"
+		potential = {
+		NOT = {has_global_flag = nzl_reform}
+		OR={tag = DNN
+			tag = DEN
+			tag = NOR
+			tag = SCA
+		}
+			ENG_2509 = {owned_by = THIS}
+			ENG_2513 = {owned_by = THIS}
+		}
+		allow = {
+		OR = {NOT = {exists = NZL}
+			  NZL = {vassal_of = THIS}
+			}
+		nationalism_n_imperialism = 1
+		}
+		effect = {
+		release = NZL
+		create_vassal = NZL
+		NZL = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+		NZL = {add_country_modifier = { name = language_reform duration = 1650}}
+		set_global_flag = nzl_reform
+		}
+		ai_will_do = { factor = 1 }
+	}
 	integrate_the_finns = {
 		picture = "greater_finland"
 		potential = {
@@ -15,7 +42,7 @@ political_decisions = {
 		RUS_345 = {owned_by = THIS}
 		}
 		effect = {add_accepted_culture = finnish}
-	
+		ai_will_do = { factor = 1 }
 	}
     scandinavian_federalism = {
 	picture = "SCA_political_union"
@@ -66,6 +93,7 @@ political_decisions = {
 		add_accepted_culture = norwegian
 		add_accepted_culture = zeelander
 	 }
+	 ai_will_do = { factor = 1 }
 	}
 	
 	baltikum_är_vårt = {
@@ -92,6 +120,7 @@ political_decisions = {
 		RUS_354 = {add_core = THIS}
 		RUS_360 = {add_core = THIS}
 	 }
+	 ai_will_do = { factor = 1 }
 	}
 	
 	claim_novgorod = {
@@ -115,6 +144,7 @@ political_decisions = {
 		994 = {add_core = THIS}
 		RUS_981 = {add_core = THIS}
 	 }
+	 ai_will_do = { factor = 1 }
 	}
 }
 

@@ -38,6 +38,9 @@ political_decisions = {
 			892 = {add_core = THIS}
             add_accepted_culture = armenian
         }
+		ai_will_do = {					
+		factor = 1
+		}
         
     }
 
@@ -78,7 +81,7 @@ political_decisions = {
                 militancy = -1
             }
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	patriarchate_of_alexandria = {
         picture = "build_teresina"
@@ -114,7 +117,7 @@ political_decisions = {
                 militancy = -1
             }
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	patriarchate_of_rome = {
@@ -171,7 +174,7 @@ political_decisions = {
 			add_accepted_culture = turkish
 			set_country_flag = turkish_compromise
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 } 
     }
 	
 	reassert_greek_superiority = {
@@ -198,7 +201,7 @@ political_decisions = {
 			}
 			set_country_flag = reassert_greek_superiority
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	byz_the_holy_city = {
@@ -230,7 +233,7 @@ political_decisions = {
 			917 = {add_province_modifier={name=holy_city_jerusalem duration = -1}}
 			set_country_flag = the_holy_city
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	sack_mecca_medina = {
@@ -334,7 +337,7 @@ political_decisions = {
 							}
 			set_country_flag = sack_mecca_medina
         }
-        ai_will_do = { factor = -1 }
+        ai_will_do = { factor = 0 }
     }
 	
 	settle_the_aegean_coast = {
@@ -405,7 +408,7 @@ political_decisions = {
 			872 = {add_province_modifier ={name=settle_the_aegean_coast duration = 1825}}
             set_country_flag = settle_the_aegean_coast
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	reintegrate_peloponese = {
@@ -443,7 +446,7 @@ political_decisions = {
 			857 = {add_core = BYZ}
             set_country_flag = reintegrate_peloponese
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	dominance_in_the_balkans = {
@@ -503,7 +506,7 @@ political_decisions = {
 			782 = {add_core = BYZ}
             set_country_flag = dominance_in_the_balkans
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	dreams_of_rome = {
@@ -548,7 +551,7 @@ political_decisions = {
 			add_accepted_culture = south_italian
             set_country_flag = dreams_of_rome
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 	
 	intervene_in_morea = {
@@ -576,6 +579,6 @@ political_decisions = {
 			}
             set_country_flag = intervene_in_morea
         }
-        ai_will_do = { factor = 0 }
+        ai_will_do = { factor = 1 }
     }
 }

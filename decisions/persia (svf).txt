@@ -14,7 +14,9 @@ political_decisions = {
 	TUR_894 = {add_core = THIS}
 	set_country_flag = reach_for_the_mediterranean
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	finish_off_afghanistan = {
@@ -45,7 +47,9 @@ political_decisions = {
 	set_country_flag = finish_off_afghanistan
 	}
 	
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	expand_into_india = {
@@ -68,7 +72,9 @@ political_decisions = {
 	1288 = {add_core = THIS}
 	set_country_flag = expand_into_india
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	
 	}
 	
@@ -95,7 +101,9 @@ political_decisions = {
 	set_country_flag = cross_the_indus
 	}
 	
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	into_arabia = {
@@ -129,7 +137,9 @@ political_decisions = {
 	}
 	
 	
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	
 	}
 	
@@ -163,7 +173,9 @@ political_decisions = {
 	}
 	
 	
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	
 	}
 	
@@ -188,12 +200,14 @@ political_decisions = {
 	add_accepted_culture = azerbaijani
 	set_country_flag = caucasus_compromise
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	potential ={
 	NOT = {has_country_flag = caucasus_compromise}
 	tag = SVF
 	any_owned_province = {
-	limit = {is_core = AZB}
+	is_core = AZB
 	}
 	
 	}

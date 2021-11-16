@@ -40,7 +40,9 @@ political_decisions = {
 	1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
 	set_country_flag = modernize_nile_irrigation
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	########################
 	#non-mutually exclusive#
@@ -68,7 +70,9 @@ political_decisions = {
 	HDJ_1151 = {add_core = THIS}
 	set_country_flag = integrate_hedjaz
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	proclaim_the_new_caliphate_egy = {
 	picture = conquest_of_the_south
@@ -105,7 +109,9 @@ political_decisions = {
 	add_country_modifier = {name = caliph_egy duration = 999999}
 	set_country_flag = proclaim_the_new_caliphate
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	conquer_cyrenaica = {
 	picture = conquest_of_the_south
@@ -129,7 +135,9 @@ political_decisions = {
 	1735 = {add_core = THIS}
 	
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	##############################
 	#master of the levant branch##
@@ -149,7 +157,9 @@ political_decisions = {
 	prestige = 1
 	set_country_flag = master_of_the_levant
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	
@@ -169,7 +179,9 @@ political_decisions = {
 	TUR_876 = {add_core = EGY}
 	set_country_flag = push_into_anatolia
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	the_coast = {
@@ -187,7 +199,9 @@ political_decisions = {
 	
 	set_country_flag = push_into_anatolia
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	the_islands = {
@@ -205,7 +219,9 @@ political_decisions = {
 	TUR_855 = {add_core = EGY}
 	set_country_flag = the_islands
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	integrate_the_turkish = {
@@ -224,7 +240,9 @@ political_decisions = {
 	prestige = 5
 	set_country_flag = integrate_the_turkish
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	our_greek_brothers = {
 	picture = conquest_of_the_south
@@ -247,7 +265,9 @@ political_decisions = {
 	prestige = 10
 	set_country_flag = our_greek_brothers
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	the_new_egyptian_empire = {
@@ -274,7 +294,9 @@ political_decisions = {
 	change_tag_no_core_switch = EGE
 	set_country_flag = the_new_egyptian_empire
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	########################################
 	#end of the master of the levant branch#
@@ -299,7 +321,9 @@ political_decisions = {
 	prestige = 1
 	set_country_flag = dreams_of_arabia
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	conquer_the_peninsula = {
 	picture = conquest_of_the_south
@@ -325,7 +349,9 @@ political_decisions = {
 	1158 = {add_core = THIS}
 	945 = {add_core = THIS}
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	unite_the_arabians = {
@@ -356,7 +382,9 @@ political_decisions = {
 	change_tag_no_core_switch = ARA
 	set_country_flag = unite_the_arabians
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 	
@@ -384,7 +412,9 @@ political_decisions = {
 	1741 = {add_core = THIS}
 	
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	conquer_tunis = {
 	picture = conquest_of_the_south
@@ -409,7 +439,9 @@ political_decisions = {
 	1725 = {add_core = THIS}
 	1726 = {add_core = THIS}
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	barbary_coast = {
 	picture = conquest_of_the_south
@@ -432,7 +464,9 @@ political_decisions = {
 	ALD_1704 = {add_core = THIS}
 	FRA_1700 = {add_core = THIS}
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	conquer_morocco = {
 	picture = conquest_of_the_south
@@ -454,7 +488,9 @@ political_decisions = {
 	MOR_1694 = {add_core = THIS}
 	MOR_1693 = {add_core = THIS}
 	}
-	
+	ai_will_do = {					
+		factor = 1
+	}
 	}
 	
 

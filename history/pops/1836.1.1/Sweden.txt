@@ -244,7 +244,7 @@
     farmers = {
         culture = swedish
         religion = protestant
-        size = 25250
+        size = 35250
     }
 }
 #Falun (144000/36000 POPS)
@@ -276,7 +276,7 @@
     farmers = {
         culture = swedish
         religion = protestant
-        size = 32750
+        size = 42750
     }
 }
 #Uppsala (88000/22000 POPS)
@@ -308,7 +308,7 @@
     farmers = {
         culture = swedish
         religion = protestant
-        size = 19525
+        size = 29525
     }
 }
 #Norrkoping (221000/55250 POPS)
@@ -372,7 +372,7 @@
     farmers = {
         culture = swedish
         religion = protestant
-        size = 48750
+        size = 58750
     }
 }
 #Orebro (127000/31750 POPS)
