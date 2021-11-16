@@ -1,48 +1,48 @@
-# Coronation of Queen Victoria
-country_event = {
-    id = 36898
-    title = "EVTNAME36898"
-    desc = "EVTDESC36898"
-    news = yes
-    news_desc_long = "EVTDESC36898_NEWS_LONG"
-    news_desc_medium = "EVTDESC36898_NEWS_MEDIUM"
-    news_desc_short = "EVTDESC36898_NEWS_SHORT"
-    picture = "queenvictoria"
-
-
-    trigger = {
-        OR = {
-            tag = ENG
-            tag = ENL
-        }
-        year = 1837
-        OR = {
-            government = absolute_monarchy
-            government = prussian_constitutionalism
-            government = hms_government
-        }
-        NOT = { year = 1860 }
-    }
-
-    major = yes
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        months = 5
-        modifier = {
-            factor = 0.1
-            month = 5
-            NOT = { month = 7 }
-        }
-    }
-
-    option = {
-        name = "EVTOPTA36898"
-        random_owned = { limit = { owner = { is_our_vassal = HAN } } owner = { release_vassal = HAN diplomatic_influence = { who = HAN value = -200 } } }
-        prestige = 5
-        election = yes
-    }
-}
+## Coronation of Queen Victoria
+#country_event = {
+#    id = 36898
+#    title = "EVTNAME36898"
+#    desc = "EVTDESC36898"
+#    news = yes
+#    news_desc_long = "EVTDESC36898_NEWS_LONG"
+#    news_desc_medium = "EVTDESC36898_NEWS_MEDIUM"
+#    news_desc_short = "EVTDESC36898_NEWS_SHORT"
+#    picture = "queenvictoria"
+#
+#
+#    trigger = {
+#        OR = {
+#            tag = ENG
+#            tag = ENL
+#        }
+#        year = 1837
+#        OR = {
+#            government = absolute_monarchy
+#            government = prussian_constitutionalism
+#            government = hms_government
+#        }
+#        NOT = { year = 1860 }
+#    }
+#
+#    major = yes
+#    fire_only_once = yes
+#
+#    mean_time_to_happen = {
+#        months = 5
+#        modifier = {
+#            factor = 0.1
+#            month = 5
+#            NOT = { month = 7 }
+#        }
+#    }
+#
+#    option = {
+#        name = "EVTOPTA36898"
+#        random_owned = { limit = { owner = { is_our_vassal = HAN } } owner = { release_vassal = HAN diplomatic_influence = { who = HAN value = -200 } } }
+#        prestige = 5
+#        election = yes
+#    }
+#}
 
 country_event = {
 

@@ -1580,6 +1580,14 @@ pan_nationalist_rebels = {
             factor = 0.5
             has_country_modifier = global_liberal_agitation
         }
+		modifier = {
+			factor = -10
+			OR = {
+                    culture = south_german
+                    culture = north_german	
+                }
+			exists = HRE
+		}
     }
 
     # The rebel type with the highest modifier for this pop gets picked

@@ -361,16 +361,6 @@ country_event = { #keep at the end of this doc
 
 		any_substate = {
 			NOT = {tag = THIS}
-			vassal_of = THIS 
-			OR = {
-			capital_scope = { continent = north_america }
-			capital_scope = { continent = south_america}
-			}
-			NOT = {TAG = PEU}
-			NOT = {TAG = TEX}
-		}
-		any_substate = {
-			NOT = {tag = THIS}
 			substate_of_of = THIS 
 			OR = {
 			capital_scope = { continent = north_america }

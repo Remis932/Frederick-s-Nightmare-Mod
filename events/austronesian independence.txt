@@ -36,3 +36,31 @@ country_event = {
 
     
 }
+
+country_event = {
+    id = 200202
+	picture = "urquiza_victory"
+    title = "The End of the Union"
+    desc = "The Union of Denmark-Norway has fallen apart."
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "A sad day."
+		prestige = -4
+		change_tag = DEN
+		change_tag_no_core_switch = DEN
+    }
+	
+    trigger = {
+	tag = DNN
+		NOT = {
+			any_owned_province = {is_core = NOR}
+		}
+	}
+	
+    }
+
+    
