@@ -1,0 +1,62 @@
+country_event = {
+    id = 1234567892
+    title = "The Situation of the Commonwealth" 
+    desc = "EVTDESC1234567892"
+    picture = "norwegian_storting"
+	trigger = {
+	tag = PLC
+	NOT = {has_global_flag = plc_start}
+	}
+	mean_time_to_happen = {
+	days = 1
+	}
+	allow_multiple_instances = no
+	
+	option = {
+        name = "Okay."
+		set_global_flag = plc_start
+		964 = {add_province_modifier = {name = tatar_autonomy duration = -1}}
+		967 = {add_province_modifier = {name = tatar_autonomy duration = -1}}
+		966 = {add_province_modifier = {name = tatar_autonomy duration = -1}}
+			AUS_702 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.30 }
+			}
+			RUS_964 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.40 }
+			}
+			RUS_958 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.40 }
+			}
+			RUS_718 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.40 }
+			}
+			RUS_973 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_968 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_955 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_978 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_977 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_360 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_707 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_959 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+			RUS_940 = {
+				any_pop = { limit = {is_accepted_culture = yes} literacy = -0.45 }
+			}
+        }
+	
+    }

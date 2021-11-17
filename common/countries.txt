@@ -271,6 +271,7 @@ XHO        = "countries/Xhosa.txt"
 ZAM        = "countries/Zambia.txt"
 
 # Eastern Asia
+RCH		   = "countries/Russian Manchuria.txt"
 DJA        = "countries/Jambi.txt"
 FJN        = "countries/Fujian.txt"
 GMJ        = "countries/Guominjun.txt"

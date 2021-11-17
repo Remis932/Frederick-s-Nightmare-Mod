@@ -1,0 +1,28 @@
+country_event = {
+    id = 2300102 #rippus
+    title = "Russian Authority Vanishes" 
+    desc = "no more vodka smh"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		tag = RCH
+		NOT = {vassal_of = RCH}
+	}
+
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "oh no"
+			RCH = {all_core = { remove_core = RCH }}
+			change_tag = MCK
+			change_tag_no_core_switch = MCK
+			primary_culture = manchu
+			capital = 1555
+		}
+	}

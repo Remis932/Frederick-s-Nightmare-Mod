@@ -286,19 +286,19 @@
     clergymen = {
         culture = scottish
         religion = catholic
-        size = 1500
+        size = 2500
     }
 
     clerks = {
         culture = scottish
         religion = catholic
-        size = 10850
+        size = 12850
     }
 
     craftsmen = {
         culture = scottish
         religion = catholic
-        size = 55000
+        size = 52000
     }
 
     artisans = {
@@ -322,7 +322,7 @@
     soldiers = {
         culture = scottish
         religion = catholic
-        size = 3000
+        size = 7000
     }
 
     farmers = {
@@ -340,7 +340,7 @@
     farmers = {
         culture = scottish
         religion = catholic
-        size = 74900
+        size = 94900
     }
 
     craftsmen = {
@@ -777,6 +777,42 @@
         religion = catholic
         size = 2000
     }
+	
+	aristocrats = {
+        culture = scottish
+        religion = catholic
+        size = 25
+    }
+
+    clergymen = {
+        culture = scottish
+        religion = catholic
+        size = 25
+    }
+
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 400
+    }
+
+    soldiers = {
+        culture = scottish
+        religion = catholic
+        size = 50
+    }
+
+    farmers = {
+        culture = scottish
+        religion = catholic
+        size = 4600
+    }
+
+    farmers = {
+        culture = scottish
+        religion = catholic
+        size = 200
+    }
 
     farmers = {
         culture = irish
@@ -827,6 +863,47 @@
         culture = british
         religion = protestant
         size = 98850
+    }
+	
+	aristocrats = {
+        culture = scottish
+        religion = catholic
+        size = 110
+    }
+
+    clergymen = {
+        culture = scottish
+        religion = catholic
+        size = 75
+    }
+
+    craftsmen = {
+        culture = scottish
+        religion = catholic
+        size = 3000
+    }
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 1000
+    }
+
+    artisans = {
+        culture = scottish
+        religion = catholic
+        size = 590
+    }
+
+    soldiers = {
+        culture = scottish
+        religion = catholic
+        size = 150
+    }
+
+    labourers = {
+        culture = scottish
+        religion = catholic
+        size = 9885
     }
 
     labourers = {

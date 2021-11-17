@@ -1,4 +1,22 @@
 political_decisions = {
+	###maximum autism decision
+	crimea_rightful = {
+		picture = unite_with_greece
+		potential = {
+		OR = {
+			tag = BYZ
+			tag = GRE
+			}
+		NOT = {has_country_flag = crimea_rightful}
+		967 = {owned_by = THIS}
+		966 = {owned_by = THIS}
+		}
+		effect = {
+		set_country_flag = crimea_rightful
+		967 = {add_core = THIS}
+		966 = {add_core = THIS}
+		}
+	}
 	integrate_the_armenians = {
         picture = "build_teresina"
 		ai_will_do = { factor = 0 }

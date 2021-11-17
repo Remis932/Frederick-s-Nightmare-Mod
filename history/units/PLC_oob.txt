@@ -6,61 +6,102 @@ army = {
     regiment = {
         name= "1.Brygada Piechoty"
         type = infantry
-        home = 1009
+        home = 718
     }
 
     regiment = {
         name= "2.Brygada Piechoty"
         type = infantry
-        home = 1025
+        home = 718
     }
 
     regiment = {
         name= "3.Brygada Piechoty"
         type = infantry
-        home = 1025
+        home = 718
     }
 
     regiment = {
         name= "4.Brygada Piechoty"
         type = infantry
-        home = 1025
+        home = 706
     }
 
     regiment = {
         name= "5.Brygada Piechoty"
         type = infantry
-        home = 1025
+        home = 936
     }
 
     regiment = {
         name= "6.Brygada Kawalerii"
         type = cavalry
-        home = 1021
+        home = 936
     }
 
     regiment = {
         name= "7.Brygada Kawalerii"
         type = cavalry
-        home = 1021
+        home = 937
     }
 
     regiment = {
         name= "8.Brygada Kawalerii"
         type = cavalry
-        home = 1021
+        home = 937
     }
 
     regiment = {
         name= "9.Brygada Artylerii"
         type = artillery
-        home = 979
+        home = 714
     }
 
     regiment = {
         name= "10.Brygada Artylerii"
         type = artillery
-        home = 1019
+        home = 955
+    }
+
+}
+
+army = {
+    name = "Cossacks"
+    location = 980
+    regiment = {
+        name= "1.Don Cossacks"
+        type = cavalry
+        home = 980
+    }
+
+    regiment = {
+        name= "2.Don Cossacks"
+        type = cavalry
+        home = 980
+    }
+
+    regiment = {
+        name= "3.Don Cossacks"
+        type = cavalry
+        home = 969
+    }
+
+    regiment = {
+        name= "4. Don Cossacks"
+        type = cavalry
+        home = 969
+    }
+
+    regiment = {
+        name= "5. Don Cossacks"
+        type = cavalry
+        home = 961
+    }
+
+    regiment = {
+        name= "6. Don Cossacks"
+        type = cavalry
+        home = 961
     }
 
 }
@@ -72,60 +113,84 @@ army = {
     regiment = {
         name = "1.Brygada Piechoty"
         type = infantry
-        home = 939
+        home = 963
     }
 
     regiment = {
         name = "2.Brygada Piechoty"
         type = infantry
-        home = 938
+        home = 963
     }
 
     regiment = {
         name = "3.Brygada Piechoty"
         type = infantry
-        home = 947
+        home = 963
     }
 
     regiment = {
         name = "4.Brygada Piechoty"
         type = infantry
-        home = 947
+        home = 963
     }
 
     regiment = {
         name = "5.Brygada Piechoty"
         type = infantry
-        home = 360
+        home = 963
     }
 
     regiment = {
         name = "6.Brygada Piechoty"
         type = infantry
-        home = 940
+        home = 963
     }
 
     regiment = {
         name = "7.Brygada Kawalerii"
         type = dragoon
-        home = 362
+        home = 958
     }
 
     regiment = {
         name = "8.Brygada Kawalerii"
         type = dragoon
-        home = 361
+        home = 958
     }
 
     regiment = {
         name = "9.Brygada Artylerii"
         type = artillery
-        home = 364
+        home = 959
     }
 
     regiment = {
         name = "10.Brygada Artylerii"
         type = artillery
-        home = 941
+        home = 959
     }
+}
+
+leader = {
+    name = "Przemek Seda"
+    date = 1835.1.1
+    type = land
+    personality = gallant
+    background = spartan
+}
+
+leader = {
+    name = "Wawrzyniec Orlich"
+    date = 1830.1.1
+    type = land
+    personality = implacable
+    background = artillerist
+}
+
+leader = {
+    name = "Aleksander Pankowski"
+    date = 1824.1.1
+    type = land
+    personality = mediocre
+    background = artillerist
 }

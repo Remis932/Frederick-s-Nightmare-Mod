@@ -1,4 +1,9 @@
 # Country unit colors.
+RCH = {
+	color1= { 103 115 65  }
+    color2= { 144 52 53  }
+    color3= { 107 170 77  }
+}
 MEA = {
 	color1 = {252 36 3}
 	color2 = {120 30 20}
