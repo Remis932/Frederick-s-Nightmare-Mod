@@ -1,4 +1,20 @@
 political_decisions = {
+	our_homeland_returned = {
+		potential = {
+		NOT = {has_country_flag = our_homeland_returned}
+		tag = ROM
+		}
+		allow = {
+		656 = {owned_by = THIS}
+		}
+		effect = {
+		capital = 656
+		prestige = 9
+		set_country_flag = our_homeland_returned
+		656 = {add_province_modifier = {name = sarmisegetuza duration = 2700}}
+		656 = {change_province_name = "Sarmisegetuza"}
+		}
+	}
 	overthrow_russians = {
 	potential = {
 	tag = ROM

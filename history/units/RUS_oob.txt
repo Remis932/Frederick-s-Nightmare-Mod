@@ -276,24 +276,24 @@ army = {
 
 army = {
     name = "4-i Armeiskii Korpus" #Kiev/Ukrainian Army
-    location = 962
+    location = 1016
 
     regiment = {
         name = "4.1-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 977
+        home = 944
     }
 
     regiment = {
         name = "4.2-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 977
+        home = 944
     }
 
     regiment = {
         name = "4.3-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 978
+        home = 946
     }
 
     regiment = {
@@ -311,7 +311,7 @@ army = {
     regiment = {
         name = "4.5-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 980
+        home = 946
     }
 
     regiment = {
@@ -466,67 +466,67 @@ army = {
 
 army = {
     name = "8-i Armeiskii Korpus" #Sevastopol Army
-    location = 966
+    location = 1049
 
 
     regiment = {
         name= "8.1-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 963
+        home = 1028
     }
 
     regiment = {
         name= "8.2-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 963
+        home = 1057
     }
 
     regiment = {
         name= "8.3-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 963
+        home = 1056
     }
 
     regiment = {
         name= "8.4-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 963
+        home = 1056
     }
 
     regiment = {
         name= "8.5-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 963
+        home = 1055
     }
 
     regiment = {
         name= "8.6-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 978
+        home = 1055
     }
 
     regiment = {
         name= "8.7-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 978
+        home = 1055
     }
 
     regiment = {
         name= "8.8-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 962
+        home = 1055
     }
 
     regiment = {
         name= "8.9-ya Pekhotnaya Diviziya"
         type = infantry
-        home = 977
+        home = 1054
     }
 
     regiment = {
         name= "8.1-ya Kavalerijskaya Diviziya"
         type = cavalry
-        home = 1019
+        home = 1054
     }
 }
 
@@ -567,7 +567,7 @@ army = {
     regiment = {
         name= "1.6-ya Kavkazskii Pekhotnaya Diviziya"
         type = infantry
-        home = 962
+        home = 1039
     }
 
     regiment = {
@@ -676,7 +676,7 @@ army = {
 
 navy = {
     name = "Imperial Black Sea Fleet"
-    location = 967
+    location = 979
     ship = {
         name= "Nord Adler"
         type = manowar

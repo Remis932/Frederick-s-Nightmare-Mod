@@ -1796,50 +1796,50 @@ country_event = {
 
 }
 
-#Treaty of Waitangi
-country_event = {
-
-    id = 36940
-    title = "EVTNAME36940"
-    desc = "EVTDESC36940"
-    news = yes
-    news_desc_long = "EVTDESC36940_NEWS_LONG"
-    news_desc_medium = "EVTDESC36940_NEWS_MEDIUM"
-    news_desc_short = "EVTDESC36940_NEWS_SHORT"
-    picture = "Waitangi"
-
-    trigger = {
-        NOT = { has_global_flag = treaty_of_waitangi }
-        owns = 2509 #Auckland
-        year = 1840
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen =  {
-        months = 5
-        modifier = {
-            factor = 0.75 #increase likelihood to happen
-            year = 1842
-        }
-        modifier = {
-            factor = 0.95 #increase likelihood to happen
-            year = 1845
-        }
-    }
-
-    option = {
-        name = "EVTOPTA36940"
-        set_global_flag = treaty_of_waitangi
-        prestige = 5
-        ENG_2509 = { add_core = THIS add_core = NZL } #North Island
-        ENG_2513 = { add_core = THIS add_core = NZL } #South Island
-        any_pop = {
-            limit = { has_pop_culture = maori }
-            militancy = -3
-        }
-    }
-}
+##Treaty of Waitangi
+#country_event = {
+#
+#    id = 36940
+#    title = "EVTNAME36940"
+#    desc = "EVTDESC36940"
+#    news = yes
+#    news_desc_long = "EVTDESC36940_NEWS_LONG"
+#    news_desc_medium = "EVTDESC36940_NEWS_MEDIUM"
+#    news_desc_short = "EVTDESC36940_NEWS_SHORT"
+#    picture = "Waitangi"
+#
+#    trigger = {
+#        NOT = { has_global_flag = treaty_of_waitangi }
+#        owns = 2509 #Auckland
+#        year = 1840
+#    }
+#
+#    fire_only_once = yes
+#
+#    mean_time_to_happen =  {
+#        months = 5
+#        modifier = {
+#            factor = 0.75 #increase likelihood to happen
+#            year = 1842
+#        }
+#        modifier = {
+#            factor = 0.95 #increase likelihood to happen
+#            year = 1845
+#        }
+#    }
+#
+#    option = {
+#        name = "EVTOPTA36940"
+#        set_global_flag = treaty_of_waitangi
+#        prestige = 5
+#        ENG_2509 = { add_core = THIS add_core = NZL } #North Island
+#        ENG_2513 = { add_core = THIS add_core = NZL } #South Island
+#        any_pop = {
+#            limit = { has_pop_culture = maori }
+#            militancy = -3
+#        }
+#    }
+#}
 
 #The Flagstaff War
 country_event = {
