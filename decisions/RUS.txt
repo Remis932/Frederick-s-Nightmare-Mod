@@ -172,8 +172,10 @@ political_decisions = {
 		set_country_flag = influence_in_manchuria
 		CHI_1479 = {add_core = RCH}
 		CHI_1552 = {add_core = RCH}
-		CHI_1479 = {secede_province = RCH}
-		CHI_1552 = {secede_province = RCH}
+		1481 = {add_core = RCH}
+		release = RCH
+		CHI_1479 = {owner = {country_event = {id = 2300103 days = 1}}}
+		CHI_1552 = {owner = {country_event = {id = 2300103 days = 1}}}
 		create_vassal = RCH
 		}
 		ai_will_do = { factor = 1 }

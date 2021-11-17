@@ -26,3 +26,32 @@ country_event = {
 			capital = 1555
 		}
 	}
+	
+country_event = {
+    id = 2300103 #rippus
+    title = "Establishment of Russian Manchuria" 
+    desc = "Russian Authorities have claimed new land!"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = yes
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "Good for Russia."
+			any_owned ={
+			limit = {is_core = RCH}
+			secede_province = RCH
+			}
+			RUS = {create_vassal = RCH}
+			RCH = {civilized = yes}
+			RUS = {diplomatic_influence = {
+					who = RCH
+					value = 100
+			}}
+		}
+	}
