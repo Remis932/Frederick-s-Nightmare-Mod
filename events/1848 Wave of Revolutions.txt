@@ -535,7 +535,7 @@ country_event = {
 		overlord = {release_vassal = EPI}
 		define_general = {
 					name = "Al Albania"
-					personality = gallant
+					personality = implacable
 					background = weakest_albanian
 				}
         add_country_modifier = {
@@ -680,7 +680,7 @@ country_event = {
         name = "For God!"
 		define_general = {
 					name = "Achelous "Leonidas" "
-					personality = gallant
+					personality = implacable
 					background = spartan
 				}
 		set_global_flag = morean_start

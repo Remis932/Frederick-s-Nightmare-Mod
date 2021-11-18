@@ -2617,6 +2617,11 @@ siberian_frontier = {
 	assimilation_rate = 1.25
 	icon = 19
 }
+kiruna_mine = {
+	local_RGO_output = 0.45
+	poor_everyday_needs = -0.05
+	icon = 13
+}
 tatar_autonomy = {
 	local_RGO_output = -0.25
 	pop_militancy_modifier = -0.02 

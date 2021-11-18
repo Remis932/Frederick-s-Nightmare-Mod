@@ -1317,99 +1317,99 @@ country_event = {
     }
 }
 
-country_event = {
+#country_event = {
+#
+#    id = 36929
+#    news = yes
+#    news_desc_long = "EVTDESC36929_NEWS_LONG"
+#    news_desc_medium = "EVTDESC36929_NEWS_MEDIUM"
+#    news_desc_short = "EVTDESC36929_NEWS_SHORT"
+#
+#    trigger = {
+#        OR = {
+#            tag = ENG
+#            tag = ENL
+#        }
+#        year = 1879
+#        owns = 270
+#        owns = 269
+#        NOT = {
+#            exists = SCO
+#            year = 1882
+#        }
+#    }
+#
+#    fire_only_once = yes
+#
+#    mean_time_to_happen =  {
+#        months = 6
+#
+#        modifier = {
+#            factor = 0.75 #increase likelihood to happen
+#            year = 1880
+#        }
+#
+#
+#        modifier = {
+#            factor = 0.95 #increase likelihood to happen
+#            year = 1881
+#        }
+#    }
+#
+#    title = "EVTNAME36929"
+#    desc = "EVTDESC36929"
+#    picture = "TayBridge"
+#
+#    option = {
+#        name = "EVTOPTA36929"
+#        prestige = -10
+#    }
+#}
 
-    id = 36929
-    news = yes
-    news_desc_long = "EVTDESC36929_NEWS_LONG"
-    news_desc_medium = "EVTDESC36929_NEWS_MEDIUM"
-    news_desc_short = "EVTDESC36929_NEWS_SHORT"
-
-    trigger = {
-        OR = {
-            tag = ENG
-            tag = ENL
-        }
-        year = 1879
-        owns = 270
-        owns = 269
-        NOT = {
-            exists = SCO
-            year = 1882
-        }
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen =  {
-        months = 6
-
-        modifier = {
-            factor = 0.75 #increase likelihood to happen
-            year = 1880
-        }
-
-
-        modifier = {
-            factor = 0.95 #increase likelihood to happen
-            year = 1881
-        }
-    }
-
-    title = "EVTNAME36929"
-    desc = "EVTDESC36929"
-    picture = "TayBridge"
-
-    option = {
-        name = "EVTOPTA36929"
-        prestige = -10
-    }
-}
-
-country_event = {
-
-    id = 36930
-
-    trigger = {
-        OR = {
-            tag = ENG
-            tag = ENL
-        }
-        year = 1865
-        NOT = {
-            OR = {
-            war_with = CHI
-            war_with = QNG
-            }
-            year = 1868
-        }
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen =  {
-        months = 6
-
-        modifier = {
-            factor = 0.75 #increase likelihood to happen
-            year = 1866
-        }
-
-        modifier = {
-            factor = 0.95 #increase likelihood to happen
-            year = 1867
-        }
-    }
-
-    title = "EVTNAME36930"
-    desc = "EVTDESC36930"
-    picture = "tearace"
-
-    option = {
-        name = "EVTOPTA36930"
-        prestige = 3
-    }
-}
+#country_event = {
+#
+#    id = 36930
+#
+#    trigger = {
+#        OR = {
+#            tag = ENG
+#            tag = ENL
+#        }
+#        year = 1865
+#        NOT = {
+#            OR = {
+#            war_with = CHI
+#            war_with = QNG
+#            }
+#            year = 1868
+#        }
+#    }
+#
+#    fire_only_once = yes
+#
+#    mean_time_to_happen =  {
+#        months = 6
+#
+#        modifier = {
+#            factor = 0.75 #increase likelihood to happen
+#            year = 1866
+#        }
+#
+#        modifier = {
+#            factor = 0.95 #increase likelihood to happen
+#            year = 1867
+#        }
+#    }
+#
+#    title = "EVTNAME36930"
+#    desc = "EVTDESC36930"
+#    picture = "tearace"
+#
+#    option = {
+#        name = "EVTOPTA36930"
+#        prestige = 3
+#    }
+#}
 
 country_event = {
 

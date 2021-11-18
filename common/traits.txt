@@ -184,13 +184,13 @@ personality = {
         attack = 2
     }
 	weakest_albanian = {
-		attack = 5
-		defence = 5
+		attack = 3
+		defence = 3
 		speed = 0.01
 	}
 	spartan = {
-		attack = 5
-		defence = 6
+		attack = 3
+		defence = 3
 		speed = 0.01
 	}
     unflinching = {

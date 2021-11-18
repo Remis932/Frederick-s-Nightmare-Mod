@@ -1,4 +1,8 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+rumelian;Rumelian;x
+kiruna_mine;Kiruna Mine;x
+kiruna_mine_title;Organize the Kiruna-Narvik Railway System;x
+kiruna_mine_desc; ;x
 reclaim_ruthenia_title;Reclaim Ruthenia;x
 reclaim_ruthenia_desc; ;x
 claim_orsha_title;Claim Orsha;x
@@ -40,7 +44,7 @@ integrate_the_finns_title;Integrate the Finnish;x
 integrate_the_finns_desc;As we control the Finnish heartland, we can give them a more autonomous status in our nation.;x
 claim_novgorod_title;Claim Novgorod;x
 claim_novgorod_desc;By fully embracing Swedish Imperialism, we will not be able to peacefully unify Scandinavia.;x
-baltikum_är_vårt_title;Baltikum är Vårt;x
+baltikum_är_vårt_title;Baltikum ar Vart;x
 baltikum_är_vårt_desc;The Baltics have finally been unified, under nordic rule!;x
 scandinavian_federalism_title;Scandinavian Federalism;x
 scandinavian_federalism_desc;Our advantageous position allows us to unite the Northern Countries into one single federation.;x
@@ -459,6 +463,7 @@ IBE_absolute_monarchy;Iberian Union;x
 IBE_hms_government;Iberian Union;x
 IBE_prussian_constitutionalism;Iberian Union;x
 BIT;Bourbon Italy;x
+BIT_democracy;Italia;x
 BIT_ADJ;Italian;x
 BIT_absolute_monarchy;Bourbon Italy;x
 BIT_hms_government;Bourbon Italy;x
