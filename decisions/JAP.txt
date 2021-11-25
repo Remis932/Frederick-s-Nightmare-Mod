@@ -28,7 +28,7 @@ political_decisions = {
 				}
 			inherit = TKG
         }
-        
+       ai_will_do = { factor = 1 } 
     }
 	
 	send_students_to_foreign_countries = {
@@ -52,7 +52,7 @@ political_decisions = {
             set_country_flag = send_students_to_foreign_countries
 			
         }
-        
+         ai_will_do = { factor = 1 }
     }
 	
 	japan_korea_annexation_treaty = {
@@ -71,7 +71,7 @@ political_decisions = {
         effect = {
 			inherit = KOR
         }
-        
+         ai_will_do = { factor = 1 }
     }
 
 }

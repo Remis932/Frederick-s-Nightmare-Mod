@@ -2043,6 +2043,14 @@ american_cultures = {
         Davis Lane Posey Scales Warner Imboden Jenkins
         }
     }
+	
+    union = USA
+}
+
+
+neo_european_cultures = {
+    leader = european
+    is_overseas = no
 	texan = {
         color = {153 110 80}
         primary = TEX
@@ -2060,12 +2068,6 @@ american_cultures = {
         "von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee" "von Tirpitz" "von Waldeck und Pyrmont" "von Wettin"
         "von Wrangel" "von Zieten" "zur Lippe" "von Roon" }
     }
-    union = USA
-}
-
-neo_european_cultures = {
-    leader = european
-    is_overseas = no
     boer = {
         color = {220 145 0}
         first_names = { Sarel Rudolf Andries Hendrik Piet Racheltjie Dirkie Siener Koos Danie Christiaan Louis Petrus Paul Eugene Joubert

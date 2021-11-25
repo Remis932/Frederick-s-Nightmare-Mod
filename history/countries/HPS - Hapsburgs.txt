@@ -3,7 +3,6 @@ primary_culture = south_german
 culture = czech
 culture = hungarian
 culture = croat
-culture = carpato_german
 religion = catholic
 government = absolute_monarchy
 plurality = 10.0

@@ -271,7 +271,7 @@
     farmers = {
         culture = croat
         religion = catholic
-        size = 16300
+        size = 26300
     }
 
     farmers = {
@@ -301,7 +301,7 @@
     serfs = {
         culture = serb
         religion = orthodox
-        size = 10225
+        size = 3225
     }
 
     ######Jews
@@ -421,7 +421,7 @@
     farmers = {
         culture = croat
         religion = catholic
-        size = 11325
+        size = 20325
     }
 
     clergymen = {
@@ -445,7 +445,7 @@
     serfs = {
         culture = serb
         religion = orthodox
-        size = 10225
+        size = 3225
     }
 }
 #Varadzin (68000/17000 POPS)
@@ -530,24 +530,24 @@
     soldiers = {
         culture = croat
         religion = catholic
-        size = 100
+        size = 1000
     }
 
     farmers = {
         culture = croat
         religion = catholic
-        size = 2675
+        size = 5675
     }
 
     clergymen = {
-        culture = serb
-        religion = orthodox
+        culture = croat
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = serb
-        religion = orthodox
+        culture = south_german
+        religion = catholic
         size = 250
     }
 
@@ -560,7 +560,7 @@
     serfs = {
         culture = serb
         religion = orthodox
-        size = 4625
+        size = 1625
     }
 
     clergymen = {
@@ -578,7 +578,7 @@
     soldiers = {
         culture = czech
         religion = catholic
-        size = 100
+        size = 1000
     }
 
     farmers = {
@@ -1005,27 +1005,27 @@
         size = 2125
     }
 
-    clergymen = {
-        culture = serb
-        religion = orthodox
+    aristocrats = {
+        culture = north_italian
+        religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = serb
-        religion = orthodox
+        culture = croat
+        religion = catholic
         size = 300
     }
 
     soldiers = {
-        culture = serb
-        religion = orthodox
+        culture = croat
+        religion = catholic
         size = 100
     }
 
     serfs = {
-        culture = serb
-        religion = orthodox
+        culture = croat
+        religion = catholic
         size = 6550
     }
 }

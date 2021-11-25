@@ -1,4 +1,27 @@
 political_decisions = {
+	renovate_london = {
+		potential = {
+            OR = {
+                tag = ENG
+                tag = ENL
+            }
+            NOT = {
+                has_global_flag = renovate_london
+            }
+        }
+        allow = {
+            all_core = {owned_by = THIS}
+			iron_railroad = 1
+			impressionism = 1
+        }
+
+        effect = {
+            300 = {life_rating = 5}
+			capital = 300
+            set_global_flag = renovate_london
+        }
+	
+	}
 	the_corn_laws_eng = {
         potential = {
             OR = {

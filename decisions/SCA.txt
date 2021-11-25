@@ -160,7 +160,7 @@ political_decisions = {
 	}
 	allow = {
 		306 = {owned_by = THIS}
-		integral_rail_system = 1
+		iron_railroad = 1
 		drilling_and_blasting = 1
 		money = 10000
 	 }
@@ -172,8 +172,24 @@ political_decisions = {
 		321 = {infrastructure = 3}
 		321 = {life_rating = 20}
 		306 = {infrastructure = 3}
+		any_owned = {limit = {OR = {trade_goods = iron trade_goods = coal} is_core = THIS continent = europe} add_province_modifier = {name = scandinavian_mines duration = -1}}
 	 }
 	 ai_will_do = { factor = 1 }
+	}
+	
+	lion_of_the_north = {
+	picture = "lion"
+	
+		potential = {
+			tag = SCA
+			NOT = {has_global_flag = lion_of_the_north}
+		}
+		allow = {all_core = {owned_by = THIS} is_greater_power = yes 322 = {owned_by = THIS} 372 = {owned_by = THIS}}
+		effect = {
+		set_global_flag = lion_of_the_north
+		322 = {life_rating = 5}
+		372 = {life_rating = 10}
+		}
 	}
 }
 

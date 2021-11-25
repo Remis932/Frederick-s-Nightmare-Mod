@@ -7,7 +7,7 @@ country_event = {
 
 	AND = {
 		tag = RCH
-		NOT = {vassal_of = RCH}
+		NOT = {vassal_of = RUS}
 	}
 
 	}
@@ -53,5 +53,6 @@ country_event = {
 					who = RCH
 					value = 100
 			}}
+			
 		}
 	}

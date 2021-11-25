@@ -1,4 +1,13 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+peasants_reform_title;Education Reform;x
+peasants_reform_desc; ;x
+peasants_reform;Education Reform;x
+renovate_london_title;Renovate London;x
+renovate_london_desc; ;x
+scandinavian_mines;Scandinavian Mines;x
+USA_ADJ;New English;x
+lion_of_the_north_title;Lion of the North;x
+lion_of_the_north_desc; ;x
 rumelian;Rumelian;x
 kiruna_mine;Kiruna Mine;x
 kiruna_mine_title;Organize the Kiruna-Narvik Railway System;x
@@ -149,7 +158,7 @@ EVTDESC200201; ;x
 EVTOPTA200201;Horror!;x
 AST;Tasmania;x
 AST_ADJ;Tasmanian;x
-NZL;Nye Zealand;x
+NZL;Nye Zeeland;x
 NZL_ADJ;Zeelander;x
 zeelander;Zeelander;x
 EVTNAME200102;Texan Revolt;x
@@ -459,9 +468,18 @@ ROM_hms_government;Kingdom of Dacia;x
 ROM_prussian_constitutionalism;Kingdom of Dacia;x
 IBE;Iberia;x
 IBE_ADJ;Iberian;x
-IBE_absolute_monarchy;Iberian Union;x
-IBE_hms_government;Iberian Union;x
-IBE_prussian_constitutionalism;Iberian Union;x
+IBE_absolute_monarchy_ADJ;Hispanic;x
+IBE_hms_government_ADJ;Hispanic;x
+IBE_prussian_constitutionalism_ADJ;Hispanic;x
+IBE_fascist_dictatorship_ADJ;Hispanic;x
+IBE_absolute_monarchy;Hispania;x
+IBE_hms_government;Hispania;x
+IBE_prussian_constitutionalism;Hispania;x
+IBE_fascist_dictatorship;Hispania;x
+IBE_democracy;Iberian Union;x
+IBE_bourgeois_dictatorship;Iberian Union;x
+IBE_presidential_dictatorship;Iberian Union;x
+IBE_proletarian_dictatorship;Iberian Union;x
 BIT;Bourbon Italy;x
 BIT_democracy;Italia;x
 BIT_ADJ;Italian;x

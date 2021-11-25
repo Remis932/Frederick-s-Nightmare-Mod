@@ -2565,6 +2565,10 @@ emergency_tax_measures2 = {
 ############
 #FrederickN#
 ############
+peasants_reform = {
+	education_efficiency_modifier = 0.65
+	icon = 7
+}
 epirote_independence_war = {
 	land_organisation = 0.05
 	mobilisation_economy_impact = -0.8
@@ -2616,6 +2620,10 @@ siberian_frontier = {
 	population_growth = 0.001
 	assimilation_rate = 1.25
 	icon = 19
+}
+scandinavian_mines = {
+	local_RGO_throughput = 1
+	icon = 13
 }
 kiruna_mine = {
 	local_RGO_output = 0.45

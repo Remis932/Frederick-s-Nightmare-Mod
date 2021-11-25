@@ -155,7 +155,7 @@ country_event = { #colonies in revolt
 		war = {
 				target = FROM
 				attacker_goal = { casus_belli = become_independent }
-				defender_goal = { casus_belli = add_to_sphere  }
+				defender_goal = { casus_belli = make_puppet  }
 				call_ally = yes
 			}
 		THIS = {end_war = MEX}

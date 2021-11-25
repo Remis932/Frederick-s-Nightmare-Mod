@@ -596,6 +596,7 @@ country_event = {
         random_country = {
             limit = {
                 primary_culture = south_german
+				NOT = { tag = HRE }
                 OR = {
                 tag = FROM
                 tag = SGF
@@ -722,6 +723,7 @@ country_event = {
     trigger = {
         war = no
         NOT = { tag = UBD }
+		NOT = { tag = HRE }
         has_country_flag = crown_from_the_gutter
         is_culture_group = germanic
         is_greater_power = yes
@@ -843,6 +845,7 @@ country_event = {
                 NOT = { tag = PRU }
                 NOT = { tag = UBD }
                 NOT = { tag = BAN }
+				NOT = { tag = HRE }
                 NOT = { has_country_flag = post_colonial_country }
                 OR = {
                     all_core = { owned_by = THIS }

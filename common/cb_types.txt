@@ -1440,6 +1440,7 @@ unification_humiliate_cb = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		THIS = {
+			NOT = {tag = HRE}
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
@@ -1492,6 +1493,7 @@ unification_release_puppet_cb = {
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
+			NOT = {tag = HRE}
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
 			is_greater_power = yes		
@@ -1551,6 +1553,7 @@ unification_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		THIS = {
+			NOT = {tag = HRE}
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
@@ -1619,6 +1622,7 @@ unification_annex_casus_belli = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		THIS = {
+			NOT = {tag = HRE}
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
 			is_greater_power = yes

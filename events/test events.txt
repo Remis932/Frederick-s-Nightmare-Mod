@@ -15,3 +15,47 @@ country_event = {
         }
 	
     }
+
+country_event = {
+    id = 1234567892
+    title = "Lol" 
+    desc = "Lol"
+    picture = "norwegian_storting"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+	option = {
+        name = "Lol!"
+		
+		1082 = {remove_core = MCK}
+		1082 = {remove_core = CHI}
+        }
+	
+    }
+country_event = {
+    id = 1234567893
+    title = "Lol" 
+    desc = "Lol"
+    picture = "norwegian_storting"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+	option = {
+        name = "Lol!"
+		1081 = {
+				any_pop = {
+					limit = {has_pop_culture = russian}
+					move_pop = 1553
+				}
+			}
+        }
+	
+    }
+	
+	

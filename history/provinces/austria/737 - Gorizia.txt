@@ -1,6 +1,5 @@
-owner = HRE
-controller = HRE
-add_core = HRE
+owner = VEN
+controller = VEN
 add_core = VEN
 add_core = AUS
 add_core = SLO

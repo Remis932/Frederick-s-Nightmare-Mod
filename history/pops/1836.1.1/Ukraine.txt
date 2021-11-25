@@ -163,9 +163,15 @@
     }
 
     aristocrats = {
-        culture = romanian
+        culture = daco_russian
         religion = orthodox
-        size = 2100
+        size = 1000
+    }
+
+    aristocrats = {
+        culture = daco_russian
+        religion = orthodox
+        size = 1100
     }
 
     clergymen = {

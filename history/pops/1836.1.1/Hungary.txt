@@ -47,7 +47,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 6600
+        size = 9600
     }
 
     aristocrats = {
@@ -791,7 +791,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 1800
+        size = 4800
     }
 
     clergymen = {
@@ -925,7 +925,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 23900
+        size = 26900
     }
 }
 #Kaposvar (392000/98000 POPS)
@@ -1035,7 +1035,7 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 6525
+        size = 10525
     }
 }
 #Kecskemet (108000/27000 POPS)
@@ -1145,7 +1145,13 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 800
+        size = 5800
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 1000
     }
 }
 #Felvidek Region (320000) #see Slovakia.txt and Ukraine.txt for balance of Region
@@ -1192,6 +1198,12 @@
         culture = hungarian
         religion = catholic
         size = 36525
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 8000
     }
 
     clergymen = {
@@ -1316,6 +1328,12 @@
         culture = hungarian
         religion = catholic
         size = 18725
+    }
+
+    farmers = {
+        culture = south_german
+        religion = catholic
+        size = 15725
     }
 
     aristocrats = {
@@ -1509,7 +1527,13 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 5375
+        size = 18375
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 2500
     }
 }
 #Bekescsab (328000/82000 POPS)
@@ -1625,6 +1649,6 @@
     farmers = {
         culture = south_german
         religion = catholic
-        size = 1675
+        size = 10675
     }
 }

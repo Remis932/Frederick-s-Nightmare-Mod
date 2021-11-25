@@ -337,12 +337,12 @@ substate = {
 #}
 
 #Russia - Baltic Governorate
-substate = {
-    first = RUS
-    second = UBD
-    start_date = 1836.1.1
-    end_date = 1881.1.1
-}
+#substate = {
+#    first = RUS
+#    second = UBD
+#    start_date = 1836.1.1
+#    end_date = 1881.1.1
+#}
 
 ##Russia - Abkhazia
 #vassal = {

@@ -1,4 +1,49 @@
 political_decisions = {
+	abolish_serfdom = {
+		potential = {
+			tag = RUS
+			has_country_flag = serfdom_not_abolished
+			#government = absolute_monarchy
+			debt_law = serfdom
+		}
+		allow = {
+			
+				ideological_thought = 1
+				ruling_party_ideology = liberal
+				#average_militancy = 4
+			
+		}
+		effect = {
+			political_reform = peonage
+			farmers = {
+				militancy = -2
+				consciousness = 1
+			}
+			labourers = {
+				militancy = -2
+				consciousness = 1
+			}
+			badboy = -4
+			years_of_research = 0.05
+			clr_country_flag = serfdom_not_abolished
+		}
+	}
+	peasants_reform = {
+		picture = "vassal_payment"
+		potential = {
+			tag = RUS
+			NOT = {has_country_flag =peasants_reform}
+		}
+		allow = {
+			NOT = {debt_law = serfdom}
+			biologism = 1
+		}
+		effect = {
+		add_country_modifier = {name = peasants_reform duration = 4380}
+		social_reform = low_schools
+		set_country_flag = peasants_reform
+		}
+	}
 	reclaim_ruthenia = {
 		picture =greater_ukraine
 		potential={
@@ -7,7 +52,7 @@ political_decisions = {
 			
 		}
 		allow = {
-			all_core = {owned_by = THIS}
+			RUS = {RUS_977 = {owned_by = THIS}}
 			state_n_government = 1
 		}
 		
@@ -132,6 +177,10 @@ political_decisions = {
 		1082 = {naval_base = 1}
 		1082 = {infrastructure  = 1}
 		1082 = {add_province_modifier = {name = jewel_of_the_pacific duration = 3650}}
+		1082 = {add_core = RUS}
+		1082 = {remove_core = MCK}
+		1082 = {remove_core = CHI}
+		1082 = {remove_core = QNG}
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -177,6 +226,12 @@ political_decisions = {
 		CHI_1479 = {owner = {country_event = {id = 2300103 days = 1}}}
 		CHI_1552 = {owner = {country_event = {id = 2300103 days = 1}}}
 		create_vassal = RCH
+		1081 = {
+				any_pop = {
+					limit = {has_pop_culture = russian}
+					move_pop = 1553
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
