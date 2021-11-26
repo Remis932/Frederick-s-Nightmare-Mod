@@ -114,7 +114,7 @@
     labourers = {
         culture = flemish
         religion = catholic
-        size = 50725
+        size = 75725
     }
 
     aristocrats = {
@@ -174,9 +174,8 @@
     labourers = {
         culture = wallonian
         religion = catholic
-        size = 5650
+        size = 25650
     }
-	
 }
 #Bruges (456000/114000 POPS)
 388 = {
@@ -473,11 +472,15 @@
         religion = catholic
         size = 4000
     }
-
+	labourers = {
+        culture = french
+        religion = catholic
+        size = 9875
+    }
     labourers = {
         culture = wallonian
         religion = catholic
-        size = 41200
+        size = 61200
     }
 
     clergymen = {
@@ -706,7 +709,7 @@
 	bureaucrats = {
         culture = french
         religion = catholic
-        size = 200
+        size = 500
     }
     aristocrats = {
         culture = wallonian
@@ -743,11 +746,11 @@
         religion = catholic
         size = 3100
     }
-
+	
     farmers = {
         culture = wallonian
         religion = catholic
-        size = 17800
+        size = 47800
     }
 
     farmers = {

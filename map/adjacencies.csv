@@ -2,6 +2,8 @@ From;To;Type;Through;Data;Comment
 #
 # American Straits
 #
+2773;2774;sea;860;4;Bosphorus Strait
+2772;2773;sea;859;5;Dardanelles Strait
 13;14;sea;3011;0;Vancouver Crossing
 14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle

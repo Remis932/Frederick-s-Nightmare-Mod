@@ -1,4 +1,22 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+reform_saf_title;Colonial Reform in Zuid-Afrika;x
+reform_saf_desc; ;x
+SAF;Zuid-Afrika;x
+SAF_ADJ;Boer;x
+SAF_absolute_monarchy;Zuid-Afrika;x
+SAF_hms_government;Zuid-Afrika;x
+SAF_prussian_constitutionalism;Zuid-Afrika;x
+SAF_fascist_dictatorship;Zuid-Afrika;x
+SAF_democracy;Zuid-Afrika;x
+SAF_bourgeois_dictatorship;Zuid-Afrika;x
+SAF_presidential_dictatorship;Zuid-Afrika;x
+SAF_proletarian_dictatorship;Zuid-Afrika;x
+reform_tasmania_title;Reform Tasmanian Colonial Administration;x
+reform_tasmania_desc; ;x
+integrate_picards_title;Integrate the Picards;x
+integrate_picards_desc; ;x
+integrate_wallonians_title;Integrate Wallonians;x
+integrate_wallonians_desc; ;x
 peasants_reform_title;Education Reform;x
 peasants_reform_desc; ;x
 peasants_reform;Education Reform;x
@@ -345,10 +363,10 @@ holy_city_jerusalem;Holy City of Jerusalem;x
 byz_the_holy_city_title;Holy City of Jerusalem;x
 byz_the_holy_city_desc; ;x
 turkish_compromise_title;Turkish Compromise;x
-turkish_compromise_desc; ;
+turkish_compromise_desc;Taking this will not allow us to reassert the supremacy of Greek culture.;
 reassert_greek_superiority;Greek Cultural Supremacy;x
 reassert_greek_superiority_title;Reassert the Supremacy of Greek Culture;x
-reassert_greek_superiority_desc; ;x
+reassert_greek_superiority_desc;Taking this will not allow us to create a compromise with the Turkish population.;x
 dreams_of_rome_title;Dreams of Rome;x
 dreams_of_rome_desc; ;x
 dominance_in_the_balkans_title;Dominance in the Balkans;x

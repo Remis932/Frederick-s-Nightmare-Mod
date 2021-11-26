@@ -462,6 +462,7 @@ political_decisions = {
 			856 = {add_core = BYZ}
 			855 = {add_core = BYZ}
 			857 = {add_core = BYZ}
+			826 = {add_core = BYZ}
             set_country_flag = reintegrate_peloponese
         }
         ai_will_do = { factor = 1 }
@@ -485,6 +486,7 @@ political_decisions = {
         }
 
         effect = {
+			785 = {add_core = BYZ}
 			852 = {add_core = BYZ}
 			849 = {add_core = BYZ}
 			851 = {add_core = BYZ}

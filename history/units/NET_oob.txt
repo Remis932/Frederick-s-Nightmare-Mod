@@ -79,19 +79,14 @@ army = {
 }
 
 army = {
-    name = "Suwalesi Garnizoen"
-    location = 1430
+    name = "Palembang Garnizoen"
+    location = 1399
     regiment = {
         name= "1e Infanterie Brigade"
         type = infantry
         home = 375
         }
-    }
-
-army = {
-    name = "Palembang Garnizoen"
-    location = 1399
-    regiment = {
+	regiment = {
         name= "1e Infanterie Brigade"
         type = infantry
         home = 375
