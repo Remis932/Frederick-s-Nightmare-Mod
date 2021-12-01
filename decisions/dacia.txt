@@ -15,6 +15,26 @@ political_decisions = {
 		656 = {change_province_name = "Sarmisegetuza"}
 		}
 	}
+	natural_borders = {
+	potential = {
+	tag = ROM
+	NOT = {has_country_flag = natural_borders}
+	}
+	allow = {
+	all_core = {owned_by = THIS}
+	OR = {is_secondary_power = yes
+	is_greater_power = yes
+	}
+	}
+	effect = {
+	792 = {add_core = THIS}
+	649 = {add_core = THIS}
+	650 = {add_core = THIS}
+	648 = {add_core = THIS}
+	set_country_flag = natural_borders
+	}
+	
+	}
 	overthrow_russians = {
 	potential = {
 	tag = ROM
