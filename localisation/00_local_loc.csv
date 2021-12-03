@@ -1,4 +1,9 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+el_tofo_title;El Tofo Mine;x
+el_tofo_desc; ;x
+el_tofo;El Tofo Mine;x
+united_sam_title;Unite South America;x
+united_sam_desc; ;x
 natural_borders_title;Our Natural Borders;x
 natural_borders_desc; ;x
 reform_saf_title;Colonial Reform in Zuid-Afrika;x
@@ -13,6 +18,16 @@ SAF_democracy;Zuid-Afrika;x
 SAF_bourgeois_dictatorship;Zuid-Afrika;x
 SAF_presidential_dictatorship;Zuid-Afrika;x
 SAF_proletarian_dictatorship;Zuid-Afrika;x
+SAM;United South America;x
+SAM_ADJ;South American;x
+SAM_absolute_monarchy;Empire of South America;x
+SAM_hms_government;Empire of South America;x
+SAM_prussian_constitutionalism;Empire of South America;x
+SAM_fascist_dictatorship;National South American Union;x
+SAM_democracy;United South America;x
+SAM_bourgeois_dictatorship;United South America;x
+SAM_presidential_dictatorship;United South America;x
+SAM_proletarian_dictatorship;Union of South America;x
 reform_tasmania_title;Reform Tasmanian Colonial Administration;x
 reform_tasmania_desc; ;x
 integrate_picards_title;Integrate the Picards;x

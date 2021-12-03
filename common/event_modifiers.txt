@@ -2727,6 +2727,13 @@ land_grants_tex = {
 	global_assimilation_rate = 0.2
 	icon = 19
 }
+el_tofo = {
+	local_RGO_throughput = 1
+	local_RGO_output = 0.35
+	global_immigrant_attract = 1
+	immigrant_attract = 2
+	icon = 13
+}
 texan_oil_boom = {
 	global_immigrant_attract = 2.5
 	RGO_output = 0.1
