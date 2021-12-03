@@ -2720,6 +2720,7 @@ settle_the_aegean_coast = {
 }
 reassert_greek_superiority = {
 	assimilation_rate = 2
+	icon = 3
 }
 land_grants_tex = {
 	global_immigrant_attract = 2.5
