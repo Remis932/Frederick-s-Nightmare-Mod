@@ -283,6 +283,93 @@ country_event = { #mexican-texas war
 		}  
 }
 }
+country_event = { #revolt after reform
+    id = 20010881
+	picture = "taiping_defeated"
+    title = "Trolling Iberia"
+    desc = " "
+	allow_multiple_instances = yes	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Troll"
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = status_quo }
+			defender_goal = { casus_belli = conquest }
+			call_ally = yes
+		}
+	
+		
+    }
+	
+	
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
+country_event = { #revolt after reform
+    id = 2001088
+	picture = "taiping_defeated"
+    title = "Colonial Uprising in the Americas!"
+    desc = "Our weakened position and lack of recent revolts in the region have given the inhabitants an excuse to throw their lives away to our detrement."
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Darn."
+		add_country_modifier = {name = dummy_ibe duration = 18250 }
+		any_owned = {
+			limit = {average_militancy = 5 is_core = ARG}
+			secede_province = ARG
+		}
+		any_owned = {
+			limit = {average_militancy = 5 is_core = MEX}
+			secede_province = MEX
+		}
+		any_owned = {
+			limit = {average_militancy = 5 is_core = GCO}
+			secede_province = GCO
+		}
+		any_owned = {
+			limit = {average_militancy = 5 is_core = CHL}
+			secede_province = CHL
+		}
+		any_owned = {
+			limit = {average_militancy = 5 is_core = BOL}
+			secede_province = BOL
+		}
+	THIS = {
+		any_country = {
+		limit = {OR = {primary_culture = mexican primary_culture = south_andean primary_culture = north_andean primary_culture = central_american } }
+		country_event = {id = 20010881 days = 1}
+		}
+	}
+		
+    }
+	
+	
+	trigger = {
+	has_country_flag = ibe_colonial_reform
+	any_owned_province = {
+			NOT = {controlled_by = THIS}
+			province_control_days = 7
+			is_capital = yes
+		}
+	NOT = {has_country_modifier = dummy_ibe}
+	any_owned_province = {
+	OR = {is_core = ARG is_core = MEX is_core = GCO is_core = CHL is_core = BOL is_core = BRZ}
+	average_militancy = 5
+	}
+	war_exhaustion = 75
+	}
+    
+}
 country_event = { #keep at the end of this doc
     id = 200101
 	picture = "urquiza_victory"
@@ -309,6 +396,7 @@ country_event = { #keep at the end of this doc
 		}
 		
     }
+	add_country_modifier = {name = dummy_ibe duration = 18250}
 	#THIS = {	
 	#	any_country = { 
 	#	limit = {
@@ -332,6 +420,7 @@ country_event = { #keep at the end of this doc
 	OR={tag = IBE
 	tag = SPA
 	}
+	NOT = {has_country_modifier = dummy_ibe}
 	any_owned_province = {
 			NOT = {controlled_by = THIS}
 			province_control_days = 7

@@ -11,7 +11,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 5
     }
@@ -238,7 +238,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 100
     }
@@ -678,7 +678,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 75
     }
@@ -748,7 +748,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 200
     }
@@ -1033,7 +1033,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 1
     }
@@ -1123,7 +1123,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 25
     }
@@ -1323,7 +1323,7 @@
     }
 
     bureaucrats = {
-        culture = south_andean
+        culture = peruvian
         religion = catholic
         size = 25
     }

@@ -1,0 +1,140 @@
+country_event = {
+    id = 2300102 #rippus
+    title = "Russian Authority Vanishes" 
+    desc = "no more vodka smh"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		tag = RCH
+		NOT = {vassal_of = RUS}
+	}
+
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "oh no"
+			RCH = {all_core = { remove_core = RCH }}
+			change_tag = MCK
+			change_tag_no_core_switch = MCK
+			primary_culture = manchu
+			capital = 1555
+		}
+	}
+	
+
+	
+country_event = {
+    id = 2300103 #rippus
+    title = "Establishment of Russian Manchuria" 
+    desc = "Russian Authorities have claimed new land!"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = yes
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "Good for Russia."
+			any_owned ={
+			limit = {is_core = RCH}
+			secede_province = RCH
+			}
+			RUS = {create_vassal = RCH}
+			RCH = {civilized = yes}
+			RUS = {diplomatic_influence = {
+					who = RCH
+					value = 100
+			}}
+			
+		}
+	}
+
+country_event = {
+    id = 2300104 #rippus
+    title = "The End of Colonial Exploitation" 
+    desc = " "
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		has_country_modifier = spanish_colonial_exploitation_colony
+		NOT = {vassal_of = IBE}
+		NOT = {vassal_of = SPA}
+		NOT = {substate_of = IBE}
+		NOT = {substate_of = SPA}
+	}
+
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Okay."
+			remove_country_modifier = spanish_colonial_exploitation_colony
+		}
+	}
+	
+country_event = {
+    id = 2300105 #rippus
+    title = "The End of Colonial Exploitation" 
+    desc = " "
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	AND = {
+		has_country_modifier = spanish_colonial_exploitation_ibe
+		NOT = {
+				any_country = {substate_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				any_country = {vassal_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+			}
+	}
+
+	}
+	
+	allow_multiple_instances = no
+	
+	mean_time_to_happen = {
+	days = 5
+	}
+    option = {
+        name = "Okay."
+			remove_country_modifier = spanish_colonial_exploitation_ibe
+		}
+	}
+
+#country_event = {
+#    id = 2300106 #rippus
+#    title = "The Loss of Our Colonies" 
+#    desc = " "
+#    picture = "sinking_the_esmeralda"
+#	trigger = {
+#	
+#		has_country_flag = ibe_colonial_reform
+#		NOT = {
+#		
+#		}
+#	}
+#	
+#	allow_multiple_instances = no
+#	
+#	mean_time_to_happen = {
+#	days = 5
+#	}
+#    option = {
+#        name = "Okay."
+#			remove_country_modifier = spanish_colonial_exploitation_ibe
+#		}
+#	}

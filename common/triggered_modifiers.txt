@@ -448,7 +448,6 @@ hormuz_strait = {
     icon = 16
 }
 
-
 new_world_war = {
     trigger = {
         war = yes

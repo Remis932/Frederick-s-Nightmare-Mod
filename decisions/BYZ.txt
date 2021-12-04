@@ -19,7 +19,6 @@ political_decisions = {
 	}
 	integrate_the_armenians = {
         picture = "build_teresina"
-		ai_will_do = { factor = 0 }
         potential = {
            tag = BYZ
 		   NOT={has_country_flag=integrate_the_armenians}
