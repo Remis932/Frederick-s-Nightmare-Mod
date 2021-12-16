@@ -2,7 +2,6 @@ capital = 706 #Krakow
 primary_culture = polish
 culture = lithuanian
 culture = byelorussian
-culture = ukrainian
 religion = catholic
 government = absolute_monarchy
 plurality = 0.5

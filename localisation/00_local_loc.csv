@@ -1,4 +1,17 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+form_belgium_title;Form Belgium;x
+form_belgium_ext_title;Create Belgium;x
+form_belgium_desc;Belgian lives matter!;x
+form_belgium_ext_desc;Belgian lives matter!;x
+integrate_pommerania_title;Integrate Pommerania;x
+integrate_pommerania_desc; ;x
+integrate_slovakia_title;Integrate Slovakia;x
+integrate_slovakia_desc; ;x
+integrate_bohemia_title;Integrate Bohemia;x
+integrate_bohemia_desc; ;x
+embrace_south_italians;Embrace South Italian Culture;x
+embrace_south_italians_desc; ;x
+seminole_war;Seminole War;x
 direct_colonial_exploitation_title;Direct Colonial Exploitation;x
 direct_colonial_exploitation_desc; ;x
 spanish_colonies_integration;Spanish Colonial Possesions;x
@@ -72,8 +85,8 @@ expand_into_livonia_desc; ;x
 crimea_rightful_title;Rifhtful Byzantine Claims Over Crimea;x
 crimea_rightful_desc;ye;x
 EVTDESC1234567892; ;x
-integrate_russians_title;Integrate the Russians;x
-integrate_russians_desc; ;x
+integrate_ukrainians_title;Integrate the Ukrianians;x
+integrate_ukrainians_desc; ;x
 integrate_circassia_title;Integrate Circassia;x
 integrate_circassia_desc; ;x
 RCH;Russian Manchuria;x

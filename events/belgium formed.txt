@@ -1,0 +1,23 @@
+country_event = {
+    id = 300001029 #belg
+    title = "The Creation of Belgium" 
+    desc = "okay"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = yes
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "belg hund"
+			BEL_387 = {secede_province = BEL}
+			BEL_394 = {secede_province = BEL}
+			BEL = {capital = 387}
+			
+		}
+	}
