@@ -88,8 +88,8 @@
         religion = protestant
         size = 42911
     }
-	farmers = {
-        culture = craftsmen
+	craftsmen = {
+        culture = dutch
         religion = protestant
         size = 2911
     }
