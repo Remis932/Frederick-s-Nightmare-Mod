@@ -3,6 +3,7 @@ political_decisions = {
 	picture = embrace_minority
 		potential = {
 			tag = IBE
+			NOT = {has_country_flag = embrace_south_italians}
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -11,6 +12,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 1
+			set_country_flag = embrace_south_italians
 			add_accepted_culture = south_italian
 		}
 	}

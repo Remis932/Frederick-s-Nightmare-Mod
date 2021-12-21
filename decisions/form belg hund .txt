@@ -13,6 +13,7 @@ political_decisions = {
 			394 = {owned_by = THIS}
 		}
 		effect = {
+		
 			any_owned = {
 				limit = {is_core = THIS}
 				add_core = BEL
@@ -21,6 +22,7 @@ political_decisions = {
 			BEL_394 = {add_core = BEL}
 			change_tag = BEL
 			change_tag_no_core_switch = BEL
+			381 = {add_core = BEL}
 			add_accepted_culture = wallonian
 			add_accepted_culture = flemish
 			add_accepted_culture = picard
@@ -49,6 +51,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			badboy = -5
+			381 = {add_core = BEL}
 			BEL_387 = {add_core = BEL}
 			BEL_394 = {add_core = BEL}
 			387 = {owner = {country_event = {

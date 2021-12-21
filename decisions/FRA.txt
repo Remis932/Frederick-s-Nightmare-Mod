@@ -39,7 +39,7 @@ political_decisions = {
 			is_overseas = no
 			}
 			
-			add_province_modifier={name=language_reform duration=3650}
+			add_province_modifier={name=language_reform duration=-1}
 			}
 			remove_accepted_culture = wallonian
 			remove_accepted_culture = breton
@@ -70,7 +70,74 @@ political_decisions = {
         }
         ai_will_do = { factor = 0 }
     }
-
-
-
+	
+	dissolve_native_protectorates = {
+		potential = {
+		tag = FRA
+			OR = {
+				IRO = {OR = {vassal_of = THIS substate_of = THIS}}
+				CHE = {OR = {vassal_of = THIS substate_of = THIS}}
+				GPN = {OR = {vassal_of = THIS substate_of = THIS}}
+			}
+		}
+		allow = {nationalism_n_imperialism = 1 machine_guns = 1}
+		effect = {
+			any_country = {
+				limit = {
+					OR ={
+						tag = IRO
+						tag = CHE
+						tag = GPN
+					}
+					OR = {vassal_of = THIS substate_of = THIS}
+				}
+				annex_to = THIS
+				any_owned = {
+					limit = {AND = {OR = {is_core = IRO is_core = CHE is_core = GPN} NOT = {is_core = LOU} NOT = {is_core = QUE}}}
+					add_core = LOU
+				}
+			}
+		}
+	}
+	
+	organize_louisiana = {
+		potential = {
+		tag = FRA
+			139 = {owned_by = THIS}
+			year = 1850
+		}
+		allow = {nationalism_n_imperialism = 1 year = 1890}
+			effect = {
+				release = LOU
+				create_vassal = LOU
+				LOU = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+				LOU = {add_country_modifier = { name = language_reform duration = 1650}}
+				THIS = {diplomatic_influence = {
+					who = LOU
+					value = 500
+				}}
+				set_global_flag = lou_reform
+			}
+			ai_will_do = { factor = 1 }
+	}
+	organize_canada = {
+		potential = {
+		tag = FRA
+			65 = {owned_by = THIS}
+			year = 1850
+		}
+		allow = {nationalism_n_imperialism = 1 year = 1890}
+		effect = {
+				release = QUE
+				create_vassal = QUE
+				QUE = {add_country_modifier = { name = small_immigration_boom duration = 1825 }}
+				QUE = {add_country_modifier = { name = language_reform duration = 1650}}
+				THIS = {diplomatic_influence = {
+					who = QUE
+					value = 500
+				}}
+				set_global_flag = que_reform
+			}
+			ai_will_do = { factor = 1 }
+	}
 }

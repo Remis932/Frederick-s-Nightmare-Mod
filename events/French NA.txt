@@ -1,0 +1,59 @@
+country_event = {
+    id = 3198400012
+    title = "Rip"
+    desc = "f"
+    picture = "regency"
+
+    trigger = {
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+            government = hms_government
+        }
+        OR = {
+		AND = {
+		primary_culture = iroquois
+		180 = {NOT = {owned_by = THIS}}
+		}
+		AND = {
+		primary_culture = cherokee
+		184 = {NOT = {owned_by = THIS}}
+		}
+		}
+		OR = {
+			is_vassal = yes
+			is_substate = yes
+		}
+		
+    }
+
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = "Rest in peace."
+       THIS = { overlord = { country_event = {
+							id = 3198400013
+							days = n
+							} 	
+						}
+    }
+	}
+}
+
+country_event = {
+    id = 3198400013
+    title = "Integrating a Native Protectorate"
+    desc = "a"
+    picture = "regency"
+
+    trigger = {
+	has_country_flag = impossible
+	}
+
+    option = {
+        name = "Rest in peace."
+        inherit = FROM
+    }
+}

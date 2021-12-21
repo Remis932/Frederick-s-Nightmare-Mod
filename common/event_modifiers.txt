@@ -2663,7 +2663,7 @@ persian_discipline = {
 }
 
 language_reform = {
-	assimilation_rate = 2.5
+	assimilation_rate = 5.5
 	icon = 19
 }
 recently_sacked = {

@@ -1,4 +1,24 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+appalache_destiny_title;Appalachian Destiny;x
+appalache_destiny_desc; ;x
+northern_destiny_I_title;Northern Destiny;x
+northern_destiny_I_desc; ;x
+northern_destiny_II_title;Fully Manifest our Northern Destiny;x
+northern_destiny_II_desc; ;x
+southern_destiny_I_title;Southern Destiny;x
+southern_destiny_I_desc; ;x
+southern_destiny_II_title;Fully Manifest our Southern Destiny;x
+southern_destiny_II_desc; ;x
+great_lakes_domination_title;Great Lakes Domination;x
+great_lakes_domination_desc; ;x
+great_plains_domination_title;Great Plains Domination;x
+great_lakes_domination_desc; ;x
+organize_louisiana_title;Organize Louisiana;x
+organize_louisiana_desc; ;x
+organize_canada_title;Organize Canada;x
+organize_canada_desc; ;x
+dissolve_native_protectorates_title;Abolish Native Protectorates;x
+dissolve_native_protectorates_desc;Integrate all of your protectorates in the new world.;x
 form_belgium_title;Form Belgium;x
 form_belgium_ext_title;Create Belgium;x
 form_belgium_desc;Belgian lives matter!;x
@@ -9,7 +29,7 @@ integrate_slovakia_title;Integrate Slovakia;x
 integrate_slovakia_desc; ;x
 integrate_bohemia_title;Integrate Bohemia;x
 integrate_bohemia_desc; ;x
-embrace_south_italians;Embrace South Italian Culture;x
+embrace_south_italians_title;Embrace South Italian Culture;x
 embrace_south_italians_desc; ;x
 seminole_war;Seminole War;x
 direct_colonial_exploitation_title;Direct Colonial Exploitation;x
