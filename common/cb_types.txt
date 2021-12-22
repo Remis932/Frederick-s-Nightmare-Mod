@@ -38,7 +38,8 @@
 # --------------------------------------------------------------
 
 # Order that CBs are executed in a peace treaty
-peace_order = { 
+peace_order = {
+imperial_restoration_cb 
 add_to_sphere 
 take_from_sphere 
 status_quo 
@@ -73,6 +74,129 @@ install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb 
 negotiated_transfer_cb
+}
+
+imperial_restoration = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.8
+	
+	badboy_factor = 0
+	prestige_factor = 5
+	peace_cost_factor = 0.7
+	penalty_factor = 1
+	always = yes
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		any_owned_province = {
+			OR = {
+			is_core = THIS
+			province_id = 627
+			province_id = 629
+			province_id = 630
+			province_id = 628
+			province_id = 397
+			province_id = 625
+			province_id = 626
+			province_id = 631
+			province_id = 632
+			province_id = 688
+			province_id = 689
+			province_id = 2584
+			province_id = 683
+			province_id = 682
+			province_id = 684
+			province_id = 685
+			province_id = 692
+			province_id = 691
+			province_id = 690
+			province_id = 694
+			province_id = 693
+			province_id = 696
+			province_id = 695
+			province_id = 697
+			province_id = 698
+			province_id = 699
+			province_id = 700
+			province_id = 701
+			province_id = 410
+			province_id = 409
+			province_id = 412
+			province_id = 528
+			province_id = 529
+			province_id = 530
+			province_id = 369			
+			}
+		}
+		
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			OR = {
+			is_core = THIS
+			province_id = 627
+			province_id = 629
+			province_id = 630
+			province_id = 628
+			province_id = 397
+			province_id = 625
+			province_id = 626
+			province_id = 631
+			province_id = 632
+			province_id = 688
+			province_id = 689
+			province_id = 2584
+			province_id = 683
+			province_id = 682
+			province_id = 684
+			province_id = 685
+			province_id = 692
+			province_id = 691
+			province_id = 690
+			province_id = 694
+			province_id = 693
+			province_id = 696
+			province_id = 695
+			province_id = 697
+			province_id = 698
+			province_id = 699
+			province_id = 700
+			province_id = 701
+			province_id = 410
+			province_id = 409
+			province_id = 412
+			province_id = 528
+			province_id = 529
+			province_id = 530
+			province_id = 369			
+			}
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
 }
 
 gunboat = {
@@ -431,6 +555,7 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+	THIS = {NOT = {tag = HRE}}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {

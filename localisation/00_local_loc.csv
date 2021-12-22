@@ -1,4 +1,28 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+grand_duchy_lux_title;Grand Duchy of Luxemburg;x
+grand_duchy_lux_desc; ;x
+rule_over_alsace_title;Rule Over Alsace;x
+rule_over_alsace_desc; ;x
+the_sudetenland_title;The Sudetenland;x
+the_sudetenland_desc; ;x
+the_duchy_of_holstein_title;The Duchy of Holstein;x
+the_duchy_of_holstein_desc; ;x
+the_duchy_of_silesia_title;The Duchy of Silesia;x
+the_duchy_of_silesia_desc; ;x
+the_grand_duchy_of_posen_title;The Grand Duchy of Posen;x
+the_grand_duchy_of_posen_desc; ;x
+west_prussia_title;West Prussia;x
+west_prussia_desc; ;x
+east_prussia_title;East Prussia;x
+east_prussia_desc; ;x
+reintegrate_the_lowlands_title;Reintegrate the Lowlands;x
+reintegrate_the_lowlands_desc; ;x
+duchy_of_bohemia_title;Duchy of Bohemia;x
+duchy_of_bohemia_desc; ;x
+imperial_restoration;Imperial Restoration;x
+imperial_restoration_setup;Provinces that are formally part of the HRE but not actually part of the HRE are eligible for this CB, this includes cores and certain regions of Europe.;x
+imperial_restoration_cb;Imperial Restoration;x
+imperial_restoration_short;Imperial Restoration;x
 the_question_of_texas_title;The Question of Texas;x
 the_question_of_texas_desc; ;x
 the_question_of_texas_tex_title;Petition For UCNE Annexation;x
