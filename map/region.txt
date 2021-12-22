@@ -862,9 +862,7 @@ JAP_1655 = { 1657 1656 1655 1658 1659 } #Kansai
 
 JAP_1660 = { 1664 1663 1660 2589 } #Kyushu
 
-IBE_1661 = { 1661 } #Nagasaki
-
-NET_1662 = { 1662 } #Nagasaki
+IBE_1661 = { 1661 1662 } #Nagasaki and Kagoshima
 
 JAP_1665 = { 1665 1666 1667 } #Shikoku
 
