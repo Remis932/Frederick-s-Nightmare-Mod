@@ -99,6 +99,7 @@ imperial_restoration = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = {tag = HRE}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			OR = {
