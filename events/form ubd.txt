@@ -1,0 +1,23 @@
+country_event = {
+    id = 300001129 #ubd
+    title = "The United Baltic Duchy" 
+    desc = "okay"
+    picture = "sinking_the_esmeralda"
+	trigger = {
+
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = yes
+	
+	mean_time_to_happen = {
+	days = 1
+	}
+    option = {
+        name = "Grob"
+			RUS_354 = {secede_province = UBD}
+			RUS_349 = {secede_province = UBD}
+			UBD = {capital = 354}
+			FROM = {create_vassal = UBD}
+		}
+	}
