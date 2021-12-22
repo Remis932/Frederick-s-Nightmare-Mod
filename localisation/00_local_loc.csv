@@ -1,4 +1,10 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+the_question_of_texas_title;The Question of Texas;x
+the_question_of_texas_desc; ;x
+the_question_of_texas_tex_title;Petition For UCNE Annexation;x
+the_question_of_texas_tex_desc; ;x
+ignite_texan_revolt_title;Ignite Texan Revolt;x
+ignite_texan_revolt_desc; ;x
 ainu_protection_policy_title;Ainu Protection Policy;x
 ainu_protection_policy_desc; ;x
 appalache_destiny_title;Appalachian Destiny;x
@@ -244,11 +250,11 @@ NZL;Nye Zeeland;x
 NZL_ADJ;Zeelander;x
 zeelander;Zeelander;x
 EVTNAME200102;Texan Revolt;x
-EVTDESC200102;The German Settlers, loyal to Iberia, have taken up arms against us!;x
+EVTDESC200102;The German Settlers in Texas have taken up arms against us!;x
 EVTOPTA200102;We must teach them a lesson.;x
 EVTOPTB200102;Death to Mexiko! (switch to Texas);x
 EVTNAME200103;Texas Crushed!;x
-EVTDESC200103;;x
+EVTDESC200103; ;x
 EVTNAME200103;Lesson taught.;x
 EVTNAME200101;Colonies In Revolt;x
 EVTDESC200101;With our capital in enemy hands, the backstabbing leaders of our colonies have decided to turn their back on us.;x

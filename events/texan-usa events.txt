@@ -1,0 +1,61 @@
+country_event = { #proposal from us to declare war on overlords
+    id = 5001001
+	picture = "rosistas"
+    title = "The United Commonwealth Supports Our Independence"
+    desc = "They are proposing that we declare war on our overlords and that we will be supported by them."
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Yes"
+		create_alliance = USA
+		war = {
+			target = overlord
+			attacker_goal = { casus_belli = overlord  }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+    }
+	
+	option = {
+        name = "No"
+		prestige = -2
+    }
+	
+	
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
+
+country_event = { #proposal from us to declare war on overlords
+    id = 5001002
+	picture = "rosistas"
+    title = "Texas Petitions for Annexation"
+    desc = " "
+	allow_multiple_instances = no	
+	mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Yes"
+		inherit = TEX
+		add_accepted_culture = texan
+		prestige = 1
+    }
+	
+	option = {
+        name = "No"
+		prestige = -5
+    }
+	
+	
+	trigger = {
+	has_country_flag = impossible
+	}
+    
+}
