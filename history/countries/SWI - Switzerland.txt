@@ -2,14 +2,13 @@ capital = 605
 primary_culture = south_german
 culture = french
 culture = north_italian
-culture = croat
+culture = romansh
 religion = protestant
 government = democracy
 plurality = 40.0
 nationalvalue = nv_liberty
 literacy = 0.8
 civilized = yes
-prestige = 10
 
 # Political reforms
 slavery = no_slavery

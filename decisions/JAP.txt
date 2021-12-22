@@ -73,5 +73,25 @@ political_decisions = {
         }
          ai_will_do = { factor = 1 }
     }
+	
+	ainu_protection_policy = {
+        picture = "order_to_expel_barbarians"
+		ai_will_do = { factor = 0 }
+        potential = {
+           tag = JAP
+		   
+        }
+
+        allow = {
+            war = no
+            1642 = {owned_by = THIS}
+			nationalism_n_imperialism = 1
+        }
+
+        effect = {
+			add_accepted_culture = ainu
+        }
+         ai_will_do = { factor = 1 }
+    }
 
 }

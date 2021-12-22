@@ -12,7 +12,7 @@ civilized = yes
 is_releasable_vassal = no
 
 #GreaterPowers = prestige
-prestige = 80
+prestige = 0
 
 # Political reforms
 slavery = yes_slavery
