@@ -1,0 +1,52 @@
+#country_event = {
+#    id = 999999912
+#    title = "Master of Puppets" 
+#    desc = "Okay"
+#    picture = "norwegian_storting"
+#	trigger = {
+#	has_country_flag = new_overlord
+#	}
+#	mean_time_to_happen = {
+#	days = 1
+#	}
+#	allow_multiple_instances = no
+#	
+#	option = {
+#        name = "Okay."
+#		any_country = {
+#		limit = {has_country_flag = transfer_to_new_overlord }
+#		THIS = {country_event = {
+#				id = 999999913
+#				days = 1
+#			}
+#			}
+#		}
+#        
+#		any_country = {
+#		limit = {has_country_flag = transfer_to_new_overlord }
+#		clr_country_flag = transfer_to_new_overlord
+#		}
+#		clr_country_flag = new_overlord
+#		}
+#	
+#    }
+#
+#country_event = {
+#    id = 999999913
+#    title = "Master of Puppets" 
+#    desc = "Okay"
+#    picture = "norwegian_storting"
+#	trigger = {
+#	has_country_flag = impossible
+#	}
+#	mean_time_to_happen = {
+#	days = 1
+#	}
+#	allow_multiple_instances = no
+#	
+#	option = {
+#        name = "Okay."
+#		FROM = {create_vassal = THIS}
+#		}
+#	
+#    }
