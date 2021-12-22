@@ -16,4 +16,20 @@ political_decisions = {
 			add_accepted_culture = south_italian
 		}
 	}
+	
+	abolish_the_knight_hospitalliers={
+	picture = embrace_minority
+		potential = {
+			MLT = {in_sphere = THIS}
+			NOT = {has_global_flag = abolish_the_knight_hospitalliers}
+		}
+		allow = {
+			iron_steamers = 1
+		}
+		effect = {
+			prestige = 1
+			set_global_flag = abolish_the_knight_hospitalliers
+			MLT = {any_owned = {limit = {is_core = MLT} add_core = THIS}}
+		}
+	}
 }

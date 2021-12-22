@@ -1,6 +1,8 @@
 capital = 652
 primary_culture = south_german
 culture = hungarian
+culture = serb
+culture = romanian
 religion = catholic
 government = democracy
 plurality = 0.0

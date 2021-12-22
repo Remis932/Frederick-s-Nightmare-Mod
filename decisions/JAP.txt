@@ -65,7 +65,13 @@ political_decisions = {
 
         allow = {
             war = no
-            KOR = {vassal_of = THIS}
+          OR = {  
+			KOR = {vassal_of = THIS}
+		AND = {
+			KOR = {in_sphere = THIS}
+			AND = {is_vassal = no is_substate = no}
+		  }
+		  }
         }
 
         effect = {

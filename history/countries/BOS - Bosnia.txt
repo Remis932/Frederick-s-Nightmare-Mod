@@ -1,5 +1,6 @@
 capital = 783
 primary_culture = bosniak
+culture = croat
 religion = sunni
 government = absolute_monarchy
 plurality = 0.08
