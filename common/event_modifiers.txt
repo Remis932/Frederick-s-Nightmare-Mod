@@ -2709,6 +2709,20 @@ hong_kong_buildup = {
 	immigrant_attract = 1.5
 	icon = 19
 }
+settle_outer_manchuria = {
+	immigrant_attract = 0.8
+	population_growth = 0.001
+	assimilation_rate = 0.4
+	icon = 19
+}
+growth_of_tokyo = {
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	immigrant_attract = 2
+	population_growth = 0.004
+	icon = 19
+}
 rome_renovated = {
 	poor_life_needs = -0.1
 	middle_life_needs = -0.1

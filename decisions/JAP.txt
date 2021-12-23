@@ -1,7 +1,7 @@
 political_decisions = {
 	finish_off_ezo = {
         picture = "yamagata_aritomo"
-		ai_will_do = { factor = 0 }
+		
         potential = {
            tag = JAP
 		   NOT={has_country_flag=finish_off_ezo}
@@ -33,7 +33,7 @@ political_decisions = {
 	
 	send_students_to_foreign_countries = {
         picture = "petrograd_city"
-		ai_will_do = { factor = 0 }
+		
         potential = {
            tag = JAP
 		   NOT={has_country_flag=send_students_to_foreign_countries}
@@ -57,7 +57,7 @@ political_decisions = {
 	
 	japan_korea_annexation_treaty = {
         picture = "order_to_expel_barbarians"
-		ai_will_do = { factor = 0 }
+		
         potential = {
            tag = JAP
 		   
@@ -82,10 +82,10 @@ political_decisions = {
 	
 	ainu_protection_policy = {
         picture = "order_to_expel_barbarians"
-		ai_will_do = { factor = 0 }
+		
         potential = {
            tag = JAP
-		   
+		   NOT = {has_country_flag = ainu_protection_policy}
         }
 
         allow = {
@@ -96,6 +96,97 @@ political_decisions = {
 
         effect = {
 			add_accepted_culture = ainu
+			set_country_flag = ainu_protection_policy
+        }
+         ai_will_do = { factor = 1 }
+    }
+	
+	the_eastern_capital = {
+        picture = "order_to_expel_barbarians"
+		
+        potential = {
+           tag = JAP
+		   NOT = {has_country_flag = the_eastern_capital}
+        }
+
+        allow = {
+            war = no
+            1649 = {owned_by = THIS}
+			iron_railroad = 1
+        }
+
+        effect = {
+			capital = 1649
+			1649 = {change_province_name = "Tokyo"}
+			1649 = {
+				add_province_modifier = {
+					name = growth_of_tokyo
+					duration = 1825
+				}
+			}
+			set_country_flag = the_eastern_capital
+        }
+         ai_will_do = { factor = 1 }
+    }
+	
+	assert_control_over_our_sea = {
+        picture = "order_to_expel_barbarians"
+		
+        potential = {
+           tag = JAP
+		   has_country_flag = the_eastern_capital
+		   NOT = {has_country_flag = assert_control_over_our_sea}
+        }
+
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+			all_core = {owned_by = THIS}
+        }
+
+        effect = {
+				1082 = {add_core = THIS}
+				1083 = {add_core = THIS}
+				1086 = {add_core = THIS}
+				1678 = {add_core = THIS}
+				set_country_flag = assert_control_over_our_sea
+			}
+			
+        
+         ai_will_do = { factor = 1 }
+    }
+	
+	settle_outer_manchuria = {
+        picture = "order_to_expel_barbarians"
+        potential = {
+           tag = JAP
+		   has_country_flag = the_eastern_capital
+		   NOT = {has_country_flag = settle_outer_manchuria}
+        }
+
+        allow = {
+            war = no
+            steel_steamers = 1
+			1082 = {owned_by = THIS}
+			1083 = {owned_by = THIS}
+        }
+
+        effect = {
+			1082 = {add_province_modifier = {
+					name = settle_outer_manchuria
+					duration = 2825
+				}}
+			1083 = {add_province_modifier = {
+					name = settle_outer_manchuria
+					duration = 2825
+				}}
+			1082 = {remove_core = MCK}
+			1082 = {remove_core = CHI}
+			1082 = {remove_core = QNG}
+			1083 = {remove_core = MCK}
+			1083 = {remove_core = CHI}
+			1083 = {remove_core = QNG}
+			set_country_flag = settle_outer_manchuria
         }
          ai_will_do = { factor = 1 }
     }

@@ -151,7 +151,7 @@ political_decisions = {
 	
 	}
 	
-	jewel_of_the_pacific= {
+	 _of_the_pacific= {
 	picture = "kwangchowan_china"
 	potential={
 	has_country_flag =new_frontiers
