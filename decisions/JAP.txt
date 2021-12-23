@@ -60,7 +60,8 @@ political_decisions = {
 		
         potential = {
            tag = JAP
-		   
+		   NOT = {has_country_flag = japan_korea_annexation_treaty}
+		   exists = KOR
         }
 
         allow = {
@@ -76,6 +77,7 @@ political_decisions = {
 
         effect = {
 			inherit = KOR
+			set_country_flag = japan_korea_annexation_treaty
         }
          ai_will_do = { factor = 1 }
     }
