@@ -80,7 +80,7 @@ political_decisions = {
 				GPN = {OR = {vassal_of = THIS substate_of = THIS}}
 			}
 		}
-		allow = {nationalism_n_imperialism = 1 machine_guns = 1}
+		allow = {medicine = 1}
 		effect = {
 			any_country = {
 				limit = {
@@ -106,7 +106,7 @@ political_decisions = {
 			139 = {owned_by = THIS}
 			year = 1850
 		}
-		allow = {nationalism_n_imperialism = 1 year = 1890}
+		allow = {nationalism_n_imperialism = 1 year = 1860}
 			effect = {
 				release = LOU
 				create_vassal = LOU
@@ -126,7 +126,7 @@ political_decisions = {
 			65 = {owned_by = THIS}
 			year = 1850
 		}
-		allow = {nationalism_n_imperialism = 1 year = 1890}
+		allow = {nationalism_n_imperialism = 1 year = 1860}
 		effect = {
 				release = QUE
 				create_vassal = QUE

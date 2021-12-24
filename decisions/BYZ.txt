@@ -214,7 +214,7 @@ political_decisions = {
             any_owned = {
 			limit = {is_core = TUR}
 			remove_core = TUR
-			add_province_modifier = {name = reassert_greek_superiority duration = 3650}
+			add_province_modifier = {name = reassert_greek_superiority duration = -1}
 			}
 			set_country_flag = reassert_greek_superiority
         }

@@ -3170,11 +3170,16 @@
         religion = coptic
         size = 33850
     }
+	farmers = {
+        culture = armenian
+        religion = orthodox
+        size = 15850
+    }
 	
 	farmers = {
         culture = greek
         religion = orthodox
-        size = 3850
+        size = 20850
     }
 
     aristocrats = {
