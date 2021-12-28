@@ -37,7 +37,7 @@ country_event = {
 		war = {
 			target = FRA
 			attacker_goal = { casus_belli = become_independent }
-			defender_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
 			call_ally = yes
 		}
         #government = hms_government
@@ -198,7 +198,7 @@ country_event = {
 		war = {
 			target = FRA
 			attacker_goal = { casus_belli = become_independent }
-			defender_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
 			call_ally = yes
 		}
 		set_global_flag = rip_bourbon_france

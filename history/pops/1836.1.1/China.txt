@@ -8515,7 +8515,7 @@
     clergymen = {
         culture = manchu
         religion = mahayana
-        size = 850
+        size = 1050
     }
 
     artisans = {
@@ -8527,13 +8527,13 @@
     soldiers = {
         culture = manchu
         religion = mahayana
-        size = 1200
+        size = 9000
     }
 
     labourers = {
         culture = manchu
         religion = mahayana
-        size = 27550
+        size = 270550
     }
 
     clergymen = {

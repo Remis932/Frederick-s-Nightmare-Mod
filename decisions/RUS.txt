@@ -39,7 +39,7 @@ political_decisions = {
 			biologism = 1
 		}
 		effect = {
-		add_country_modifier = {name = peasants_reform duration = 4380}
+		THIS = {add_country_modifier = {name = peasants_reform duration = 4380}}
 		social_reform = low_schools
 		set_country_flag = peasants_reform
 		}
@@ -151,7 +151,7 @@ political_decisions = {
 	
 	}
 	
-	 _of_the_pacific= {
+	jewel_of_the_pacific = {
 	picture = "kwangchowan_china"
 	potential={
 	has_country_flag =new_frontiers

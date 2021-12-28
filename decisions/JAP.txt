@@ -9,7 +9,10 @@ political_decisions = {
 
         allow = {
             war = no
-            1642 = {owned_by = THIS}
+            OR = {
+			1642 = {owned_by = THIS}
+			TKG = {in_sphere = THIS}
+			}
         }
 
         effect = {

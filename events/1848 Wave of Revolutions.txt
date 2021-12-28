@@ -643,6 +643,7 @@ country_event = {
 	tag = BYZ
 	BYZ = {neighbour = MEA}
 	exists = MEA
+	is_vassal = no
 	MEA = {NOT = {war_with = VEN}}
 	NOT = {has_global_flag = morean_revolt_won}
 	}

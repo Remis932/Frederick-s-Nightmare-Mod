@@ -189,6 +189,7 @@ political_decisions = {
         effect = {
             prestige = -2
 			add_accepted_culture = turkish
+			add_accepted_culture = rumelian
 			set_country_flag = turkish_compromise
         }
         ai_will_do = { factor = 1 } 

@@ -71,32 +71,64 @@ political_decisions = {
         ai_will_do = { factor = 0 }
     }
 	
-	dissolve_native_protectorates = {
+	dissolve_native_protectorates_gpn = {
 		potential = {
 		tag = FRA
-			OR = {
-				IRO = {OR = {vassal_of = THIS substate_of = THIS}}
-				CHE = {OR = {vassal_of = THIS substate_of = THIS}}
+			NOT = {has_country_flag = dissolve_native_protectorates_gpn}
+			
 				GPN = {OR = {vassal_of = THIS substate_of = THIS}}
-			}
+			
 		}
-		allow = {medicine = 1}
+		allow = {state_n_government = 1}
 		effect = {
-			any_country = {
-				limit = {
-					OR ={
-						tag = IRO
-						tag = CHE
-						tag = GPN
-					}
-					OR = {vassal_of = THIS substate_of = THIS}
-				}
-				annex_to = THIS
+			set_country_flag = dissolve_native_protectorates_gpn
+				inherit = GPN
 				any_owned = {
 					limit = {AND = {OR = {is_core = IRO is_core = CHE is_core = GPN} NOT = {is_core = LOU} NOT = {is_core = QUE}}}
 					add_core = LOU
 				}
 			}
+		
+	}
+	dissolve_native_protectorates_iro = {
+		potential = {
+		tag = FRA
+			NOT = {has_country_flag = dissolve_native_protectorates_iro}
+				IRO = {OR = {vassal_of = THIS substate_of = THIS}}
+				
+			
+		}
+		allow = {state_n_government = 1}
+		effect = {
+		set_country_flag = dissolve_native_protectorates_iro
+			inherit = IRO
+				
+				any_owned = {
+					limit = {AND = {OR = {is_core = IRO is_core = CHE is_core = GPN} NOT = {is_core = LOU} NOT = {is_core = QUE}}}
+					add_core = LOU
+				}
+			
+		}
+	}
+	dissolve_native_protectorates_che = {
+		potential = {
+		tag = FRA
+			NOT = {has_country_flag = dissolve_native_protectorates_che}
+				
+				CHE = {OR = {vassal_of = THIS substate_of = THIS}}
+			
+			
+		}
+		allow = {state_n_government = 1}
+		effect = {
+		set_country_flag = dissolve_native_protectorates_che
+			inherit = CHE
+				
+				any_owned = {
+					limit = {AND = {OR = {is_core = IRO is_core = CHE is_core = GPN} NOT = {is_core = LOU} NOT = {is_core = QUE}}}
+					add_core = LOU
+				}
+			
 		}
 	}
 	
