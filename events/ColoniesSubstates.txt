@@ -536,3 +536,45 @@ country_event = {
       }
         
     }
+	
+	country_event = {
+
+    id = 496000 #cede to lou and quebec
+    title = "Our Territory Partitioned!" #Territory Ceded
+    desc = "soy"
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "NO!!!!! (soy)" #Grant Province
+		any_owned = {
+		limit={
+				is_core = FRA
+
+			}
+        
+		secede_province = FRA
+		}
+	
+        any_owned = {
+		limit={
+				is_core = LOU
+
+			}
+        
+		secede_province = LOU
+		}
+		any_owned = {
+		limit={
+				is_core = QUE
+
+			}
+        
+		secede_province = QUE
+		}
+      }
+        
+    }

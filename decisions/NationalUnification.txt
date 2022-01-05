@@ -1089,6 +1089,7 @@ political_decisions = {
                 exists = GER
                 exists = NGF
                 tag = UBD
+				tag = HRE
             }
             revolution_n_counterrevolution = 1
         }
@@ -1181,9 +1182,11 @@ political_decisions = {
                 exists = SGF
                 exists = GER
                 tag = AUS
+				tag = HPS
                 tag = KUK
                 tag = DNB
 				tag = HPS
+				tag = HRE
             }
             revolution_n_counterrevolution = 1
         }

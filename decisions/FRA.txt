@@ -131,6 +131,49 @@ political_decisions = {
 			
 		}
 	}
+	partition_natives = {
+		potential = {
+		tag = FRA
+			AND = {
+			LOU = {vassal_of = THIS}
+			QUE = {vassal_of = THIS}
+			
+			}
+			OR = {
+			AND = {
+				OR = {
+				IRO = {substate_of = THIS}
+				IRO = {vassal_of = THIS}
+				
+				}
+				IRO = {any_owned_province = {OR={is_core = LOU is_core = QUE}}}
+			}
+			AND = {
+				OR = {
+				GPN = {substate_of = THIS}
+				GPN = {vassal_of = THIS}
+				
+				}
+				GPN = {any_owned_province = {OR={is_core = LOU is_core = QUE}}}
+			}
+			AND = {
+				OR = {
+				CHE = {substate_of = THIS}
+				CHE = {vassal_of = THIS}
+				
+				}
+				CHE = {any_owned_province = {OR={is_core = LOU is_core = QUE}}}
+			}
+			}
+		}
+		allow = { }
+			effect = {
+				
+					any_country={limit = {OR = {substate_of = THIS vassal_of = THIS} OR = {tag = IRO tag=CHE tag = GPN}}country_event = {id=496000}}
+				
+			}
+			ai_will_do = { factor = 1 }
+	}
 	
 	organize_louisiana = {
 		potential = {

@@ -86,12 +86,14 @@ political_decisions = {
 		any_country = { limit = {in_sphere = THIS OR = {primary_culture = danish primary_culture = swedish primary_culture = norwegian primary_culture = finnish primary_culture = zeelander}} 
 		annex_to = THIS
 		}
+		
 		change_tag = SCA
 		change_tag_no_core_switch = SCA
 		add_accepted_culture = swedish
 		add_accepted_culture = danish
 		add_accepted_culture = norwegian
 		add_accepted_culture = zeelander
+		inherit = DEN
 	 }
 	 ai_will_do = { factor = 1 }
 	}
