@@ -253,7 +253,7 @@ political_decisions = {
 	el_tofo = {
 		picture = essen_ruhr
 		potential = {
-		NOT = {has_global_flag = el_tofo_mines}
+		NOT = {has_country_flag = el_tofo_mines}
 			OR = {	
 				capital_scope = {continent = south_america}
 				tag = IBE
@@ -265,7 +265,7 @@ political_decisions = {
 			drilling_and_blasting = 1
 		}
 		effect = {
-			set_global_flag = el_tofo_mines
+			set_country_flag = el_tofo_mines
 			2322 = {add_province_modifier = {name = el_tofo duration = -1}}
 			2322 = {add_province_modifier = {name = recently_built_city duration = 3650}}
 		}
