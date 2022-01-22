@@ -375,7 +375,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 300
+        size = 500
     }
 
     artisans = {
@@ -393,7 +393,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33100
+        size = 55100
     }
 
     soldiers = {
@@ -417,7 +417,7 @@
     farmers = {
         culture = bulgarian
         religion = orthodox
-        size = 4800
+        size = 8800
     }
 
     aristocrats = {
@@ -429,7 +429,7 @@
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 100
+        size = 300
     }
 
     artisans = {

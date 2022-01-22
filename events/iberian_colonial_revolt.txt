@@ -439,10 +439,10 @@ country_event = { #keep at the end of this doc
 		}
 		any_sphere_member = {
 			NOT = {tag = THIS}
-			substate_of_of = THIS 
+			substate_of = THIS 
 			OR = {
-			capital_scope = { continent = north_america }
-			capital_scope = { continent = south_america}
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america}
 			}
 			NOT = {TAG = PEU}
 			NOT = {TAG = TEX}
@@ -450,24 +450,33 @@ country_event = { #keep at the end of this doc
 
 		any_substate = {
 			NOT = {tag = THIS}
-			substate_of_of = THIS 
+			substate_of = THIS 
 			OR = {
-			capital_scope = { continent = north_america }
-			capital_scope = { continent = south_america}
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america}
 			}
 			NOT = {TAG = PEU}
 			NOT = {TAG = TEX}
 		}
+		AND = {MEX = 	{NOT = {war_with = THIS}}
+		   MEX = {substate_of = THIS }
+		}
+		AND = {ARG = 	{NOT = {war_with = THIS}}
+			ARG = {substate_of = THIS }
+		}
+		AND = {GCO = 	{NOT = {war_with = THIS}}
+			GCO = {substate_of = THIS }
+		}
 	}
 	
 	AND = {MEX = 	{NOT = {war_with = THIS}}
-		   MEX = {in_sphere = THIS}
+		  OR = { MEX = {substate_of = THIS } MEX = {vassal_of = THIS}}
 	}
 	AND = {ARG = 	{NOT = {war_with = THIS}}
-		   ARG = {in_sphere = THIS}
+		   OR = { ARG = {substate_of = THIS } ARG = {vassal_of = THIS}}
 	}
 	AND = {GCO = 	{NOT = {war_with = THIS}}
-		   GCO = {in_sphere = THIS}
+		   OR = { GCO = {substate_of = THIS } GCO = {vassal_of = THIS}}
 	}
 	
 

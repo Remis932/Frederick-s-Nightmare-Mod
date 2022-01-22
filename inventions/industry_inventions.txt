@@ -912,7 +912,7 @@ coke = {
     }
     effect = {
         rgo_goods_output = {
-            coal = 0.5
+            coal = 1
         }
     }
 }
@@ -978,7 +978,7 @@ advanced_ore_roasting_processes = {
     }
     effect = {
         rgo_goods_output = {
-            iron = 0.4
+            iron = 0.6
         }
     }
 }
@@ -1043,7 +1043,7 @@ advanced_ore_grinding_processes = {
     }
     effect = {
         rgo_goods_output = {
-            iron = 0.25
+            iron = 0.5
         }
     }
 }

@@ -2680,7 +2680,7 @@ sarmisegetuza = {
 	rich_life_needs = -0.1
 	local_RGO_output = 0.1
 	assimilation_rate = 0.5
-	population_growth = 0.002
+	population_growth = 0.005
 	icon = 7
 }
 jewel_of_the_pacific = {
@@ -2829,4 +2829,9 @@ alaskan_gold_rush = {
 alaskan_gold_rush_country = {
     global_immigrant_attract = 5
     icon = 9
+}
+
+aquila_coal = {
+	mine_rgo_eff = 0.5
+	icon = 9
 }

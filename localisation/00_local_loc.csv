@@ -1,4 +1,7 @@
 Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+aquila_coal;Aquila Coal Mine;x
+natural_borders_II_title;Reclaim Moesia;x
+natural_borders_II_desc; ;x
 partition_natives_title;Partition Natives;x
 partition_natives_desc; ;x
 new_slavia_title;New Slavia;x
@@ -545,10 +548,13 @@ german_boom;German Boom;x
 GPN;Great Plains Nation;x
 GPN_ADJ;Dakota;x
 HPS;Austria;x
-HPS_ADJ;Hapsburg;x
-HPS_absolute_monarchy;Hapsburg Empire;x
-HPS_prussian_constitutionalism;Hapsburg Empire;x
-HPS_hms_government;Hapsburg Empire;x
+HPS_ADJ;Austrian;x
+HPS_absolute_monarchy_ADJ;Habsburg;x
+HPS_prussian_constitutionalism_ADJ;Hapbburg;x
+HPS_hms_government_ADJ;Hapbburg;x
+HPS_absolute_monarchy;Habsburg Empire;x
+HPS_prussian_constitutionalism;Hapbburg Empire;x
+HPS_hms_government;Hapbburg Empire;x
 SVF;Iran;x
 SVF_ADJ;Afsharid;x
 SVF_absolute_monarchy;Afsharid Empire;x

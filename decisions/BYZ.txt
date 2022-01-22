@@ -192,7 +192,7 @@ political_decisions = {
 			add_accepted_culture = rumelian
 			set_country_flag = turkish_compromise
         }
-        ai_will_do = { factor = 1 } 
+        ai_will_do = { factor = 0 } 
     }
 	
 	reassert_greek_superiority = {

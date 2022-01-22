@@ -644,11 +644,10 @@
         religion = sunni
         size = 3000
     }
-
-    soldiers = {
-        culture = turkish
-        religion = sunni
-        size = 1100
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 2000
     }
 
     farmers = {
@@ -736,11 +735,10 @@
     }
 
     soldiers = {
-        culture = turkish
-        religion = sunni
-        size = 800
+        culture = greek
+        religion = orthodox
+        size = 1100
     }
-
     farmers = {
         culture = turkish
         religion = sunni
@@ -810,7 +808,11 @@
         religion = sunni
         size = 1150
     }
-
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
     bureaucrats = {
         culture = turkish
         religion = sunni
@@ -963,6 +965,11 @@
         religion = orthodox
         size = 325
     }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
 	aristocrats = {
         culture = greek
         religion = orthodox
@@ -1047,7 +1054,11 @@
         religion = sunni
         size = 325
     }
-
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
     farmers = {
         culture = turkish
         religion = sunni
@@ -1223,6 +1234,37 @@
 }
 #Eskisehir (140000/35000 POPS)
 868 = {
+	aristocrats = {
+        culture = rumelian
+        religion = sunni
+        size = 875
+    }
+
+    clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 1350
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 1000
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 4939
+    }
+	
+	
     aristocrats = {
         culture = turkish
         religion = sunni
@@ -1352,7 +1394,11 @@
         religion = sunni
         size = 3000
     }
-
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
     soldiers = {
         culture = turkish
         religion = sunni
@@ -1363,11 +1409,6 @@
         culture = turkish
         religion = sunni
         size = 30350
-    }
-	farmers = {
-        culture = turkish
-        religion = orthodox
-        size = 10350
     }
 
     aristocrats = {
@@ -1415,7 +1456,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 14750
+        size = 28750
     }
 
     aristocrats = {
@@ -1918,12 +1959,65 @@
 #under the rule of Ottoman Empire in 1836
 #Ankara (240000/60000 POPS)
 876 = {
+	aristocrats = {
+        culture = rumelian
+        religion = sunni
+        size = 325
+    }
+
+    clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 110
+    }
+
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 550
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 175
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 4900
+    }
     aristocrats = {
         culture = turkish
         religion = sunni
         size = 700
     }
+	
+	clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 110
+    }
 
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 800
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 500
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 1125
+    }
+	
     bureaucrats = {
         culture = turkish
         religion = sunni
@@ -2039,7 +2133,31 @@
         religion = sunni
         size = 675
     }
+	
+	clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 100
+    }
 
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 850
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 1000
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 6250
+    }
+	
     clergymen = {
         culture = turkish
         religion = sunni
@@ -2282,6 +2400,39 @@
 #under the rule of Ottoman Empire in 1836
 #Kastamonu (296000/74000 POPS)
 880 = {
+	aristocrats = {
+        culture = rumelian
+        religion = sunni
+        size = 1100
+    }
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
+    clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 125
+    }
+
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 900
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 450
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 8425
+    }
     aristocrats = {
         culture = greek
         religion = orthodox
@@ -2293,7 +2444,42 @@
         religion = orthodox
         size = 125
     }
+	 bureaucrats = {
+        culture = rumelian
+        religion = sunni
+        size = 400
+    }
 
+    officers = {
+        culture = rumelian
+        religion = sunni
+        size = 300
+    }
+
+    clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 340
+    }
+
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 5550
+    }
+
+    soldiers = {
+        culture = rumelian
+        religion = sunni
+        size = 3600
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 16083
+    }
+	
     officers = {
         culture = turkish
         religion = sunni
@@ -2331,7 +2517,7 @@
 	farmers = {
         culture = turkish
         religion = orthodox
-        size = 22825
+        size = 24825
     }
 
     aristocrats = {
@@ -2367,17 +2553,45 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 33825
+        size = 40825
     }
 }
 #Bolu (96000/24000 POPS)
 881 = {
+	soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
+    }
+	bureaucrats = {
+		culture = greek
+		religion = orthodox
+		size = 1000
+	}
+    clergymen = {
+        culture = rumelian
+        religion = sunni
+        size = 200
+    }
+
+    artisans = {
+        culture = rumelian
+        religion = sunni
+        size = 2600
+    }
+
+    farmers = {
+        culture = rumelian
+        religion = sunni
+        size = 17600
+    }
+	
     aristocrats = {
         culture = turkish
         religion = sunni
         size = 250
     }
-
+	
     clergymen = {
         culture = turkish
         religion = sunni
@@ -2437,9 +2651,9 @@
     }
 
     soldiers = {
-        culture = turkish
-        religion = sunni
-        size = 1100
+        culture = greek
+        religion = orthodox
+        size = 1000
     }
 
     bureaucrats = {
@@ -2456,7 +2670,7 @@
 
     clergymen = {
         culture = turkish
-        religion = sunni
+        religion = orthodox
         size = 350
     }
 
@@ -2469,7 +2683,12 @@
     farmers = {
         culture = turkish
         religion = sunni
-        size = 30025
+        size = 25025
+    }
+	farmers = {
+        culture = turkish
+        religion = orthodox
+        size = 5025
     }
 
     farmers = {
@@ -2511,7 +2730,7 @@
     farmers = {
         culture = greek
         religion = orthodox
-        size = 13225
+        size = 23225
     }
 
     aristocrats = {
@@ -2632,10 +2851,10 @@
         size = 1250
     }
 
-    soldiers = {
-        culture = turkish
-        religion = sunni
-        size = 1100
+   soldiers = {
+        culture = greek
+        religion = orthodox
+        size = 1000
     }
 
     farmers = {
