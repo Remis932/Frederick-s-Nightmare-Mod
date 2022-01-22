@@ -608,13 +608,7 @@
     farmers = {
         culture = mexican
         religion = catholic
-        size = 350
-    }
-
-    farmers = {
-        culture = yankee
-        religion = protestant
-        size = 200
+        size = 450
     }
 
     aristocrats = {
@@ -1000,8 +994,8 @@
 #Las Vegas (4000/1000 POPS)
 96 = {
     aristocrats = {
-        culture = native_american_minor
-        religion = animist
+        culture = mexican
+        religion = catholic
         size = 10
     }
 
@@ -1021,6 +1015,16 @@
         culture = native_american_minor
         religion = animist
         size = 900
+    }
+	bureaucrats = {
+        culture = mexican
+        religion = catholic
+        size = 1
+    }
+	farmers = {
+        culture = mexican
+        religion = catholic
+        size = 100
     }
 }
 #Utah Region (16000)

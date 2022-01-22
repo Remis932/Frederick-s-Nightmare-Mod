@@ -10,7 +10,7 @@ country_event = {
 		days = 1
 	}
 	title = "He woke up!"
-	desc = "Our prayers to RNGesus have been answered"
+	desc = "EVTDESC800000"
 	immediate = {
 		define_general = {
 			name = "Joe Biden"

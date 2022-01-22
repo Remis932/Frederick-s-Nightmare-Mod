@@ -898,6 +898,21 @@
         religion = animist
         size = 850
     }
+	bureaucrats = {
+        culture = mexican
+        religion = catholic
+        size = 1
+    }
+	farmers = {
+        culture = mexican
+        religion = catholic
+        size = 100
+    }
+	soldiers = {
+		culture = mexican
+		religion = catholic
+		size = 5
+	}
 }
 #Matamoros (28000/7000 POPS)
 2149 = {
