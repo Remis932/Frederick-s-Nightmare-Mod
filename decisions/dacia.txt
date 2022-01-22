@@ -84,7 +84,7 @@ political_decisions = {
 	dacian_oil = {
 	picture = tea_production
 	potential = {
-	tag = ROM
+	OR = {tag = ROM tag = DNB}
 	year = 1872
 	667 = {owned_by = THIS}
 	672 = {owned_by = THIS}
@@ -104,8 +104,11 @@ political_decisions = {
 	wallachian_agriculture = {
 	picture = tea_production
 	potential = {
-	tag = ROM
-	NOT = {has_global_flag = wallachian_agriculture}
+	OR = {tag = ROM
+		  tag = DNB
+		  tag = WAL
+	}
+	NOT = {has_country_flag = wallachian_agriculture}
 	}
 	allow = {
 	NOT = {debt_law = serfdom}
@@ -114,7 +117,7 @@ political_decisions = {
 	}
 	effect = {
 	WAL_665 = {add_province_modifier = {name = wallachian_agriculture duration = 7300}}
-	set_global_flag = wallachian_agriculture
+	set_country_flag = wallachian_agriculture
 	}
 	}
 }

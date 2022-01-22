@@ -191,6 +191,8 @@ political_decisions = {
 		set_global_flag = lion_of_the_north
 		322 = {life_rating = 5}
 		372 = {life_rating = 10}
+		322 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+		372 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
 		}
 	}
 }

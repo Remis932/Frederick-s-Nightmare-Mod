@@ -688,3 +688,43 @@ country_event = {
         }
 	
     }
+	
+	country_event = {
+    id = 184800115
+    title = "New Overlords." 
+    desc = " "
+    picture = "commodore_perry"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+    option = {
+        name = "Ok."
+		HUN = {create_vassal = EPI}
+        }
+	
+	
+    }
+	
+	country_event = {
+    id = 184800116
+    title = "Hungarian Takeover" 
+    desc = " "
+    picture = "commodore_perry"
+	trigger = {
+	has_country_flag = impossible
+	}
+	
+	allow_multiple_instances = no
+	
+    option = {
+        name = "Ok."
+		any_country = {any_owned = {limit = {is_core = HPS} remove_core = HPS}}	
+		any_country = {any_owned = {limit = {OR = {is_core = LUZ is_core = AUS is_core = LUZ is_core = RHI is_core = PML is_core = PZN is_core = SLS is_core = WES is_core = BOH}} remove_core = HUN}}
+		HUN = {inherit = HPS}
+        }
+	
+	
+    }

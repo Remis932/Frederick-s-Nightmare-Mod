@@ -53,7 +53,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 46750
+        size = 66750
     }
 
     serfs = {
@@ -145,7 +145,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 45675
+        size = 65675
     }
 
     serfs = {

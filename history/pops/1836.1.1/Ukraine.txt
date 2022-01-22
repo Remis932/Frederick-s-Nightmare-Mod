@@ -195,7 +195,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 43800
+        size = 63800
     }
 
     serfs = {
