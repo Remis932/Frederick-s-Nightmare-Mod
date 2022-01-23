@@ -1121,7 +1121,7 @@
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 124500
+        size = 144500
     }
 }
 #under the rule of Modena in 1836

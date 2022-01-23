@@ -2841,3 +2841,8 @@ aquila_coal = {
 	mine_rgo_eff = 0.5
 	icon = 9
 }
+
+settle_tuaregs = {
+	assimilation_rate = 1
+	icon = 19
+}

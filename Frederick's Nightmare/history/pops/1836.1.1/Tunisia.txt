@@ -11,7 +11,7 @@
     bureaucrats = {
         culture = maghrebi
         religion = sunni
-        size = 350
+        size = 450
     }
 
     officers = {
@@ -23,7 +23,7 @@
     clergymen = {
         culture = maghrebi
         religion = sunni
-        size = 1200
+        size = 2400
     }
 
     artisans = {
@@ -59,7 +59,7 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 76425
+        size = 96425
     }
 
     slaves = {

@@ -1,7 +1,6 @@
 owner = FRA
 controller = FRA
 add_core = QUE
-add_core = NEN
 trade_goods = coal
 life_rating = 31
 colonial = 2

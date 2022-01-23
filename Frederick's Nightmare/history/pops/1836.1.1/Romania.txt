@@ -1013,7 +1013,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 44575
+        size = 52575
     }
 
     serfs = {
@@ -1079,7 +1079,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size = 4900
+        size = 5900
     }
 
     clergymen = {
@@ -1103,7 +1103,7 @@
     farmers = {
         culture = south_german
         religion = protestant
-        size = 1850
+        size = 3850
     }
 
     clergymen = {
