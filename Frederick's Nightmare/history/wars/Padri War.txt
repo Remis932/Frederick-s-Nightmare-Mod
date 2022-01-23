@@ -1,6 +1,6 @@
 name = "Padri War"
 
-2000.1.1 = {
+1835.12.12 = {
     add_attacker = NET
     add_defender = ATJ
 
@@ -10,7 +10,7 @@ name = "Padri War"
     # country - 3rd party
     # state_province_id - target state capital
     war_goal = {
-        casus_belli = humiliate
+        casus_belli = conquest
         actor = NET
         receiver = ATJ
     }
