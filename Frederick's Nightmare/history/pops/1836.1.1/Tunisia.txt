@@ -49,6 +49,12 @@
         religion = sunni
         size = 3000
     }
+	
+	soldiers = {
+        culture = turkish
+        religion = sunni
+        size = 3000
+    }
 
     soldiers = {
         culture = maghrebi
@@ -60,6 +66,11 @@
         culture = maghrebi
         religion = sunni
         size = 96425
+    }
+	 farmers = {
+        culture = turkish
+        religion = sunni
+        size = 1425
     }
 
     slaves = {
@@ -121,7 +132,7 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 58575
+        size = 68575
     }
 
     slaves = {
@@ -159,7 +170,7 @@
     soldiers = {
         culture = maghrebi
         religion = sunni
-        size = 1100
+        size = 3000
     }
 
     farmers = {
@@ -203,7 +214,7 @@
     farmers = {
         culture = maghrebi
         religion = sunni
-        size = 40225
+        size = 50225
     }
 
     slaves = {
