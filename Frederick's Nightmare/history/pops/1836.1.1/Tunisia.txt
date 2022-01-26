@@ -31,6 +31,11 @@
         religion = sunni
         size = 10000
     }
+	artisans = {
+        culture = south_italian
+        religion = catholic
+        size = 2000
+    }
 
     artisans = {
         culture = maghrebi
