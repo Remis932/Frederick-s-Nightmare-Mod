@@ -578,3 +578,56 @@ country_event = {
       }
         
     }
+	
+	country_event = {
+
+    id = 496001 #cede to bourbon italy
+    title = "Giving Land to Italy" #Territory Ceded
+    desc = "The French sure are generous."
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "Hurrah!" #Grant Province
+		any_owned = {
+		limit={
+				NOT = {is_core = FRA}
+				OR = {is_core = ITA is_core = BIT}
+			}
+        
+		secede_province = BIT
+		}
+	
+        
+      }
+        
+    }
+	country_event = {
+
+    id = 496002 #cede to normal italy
+    title = "Giving Land to Italy" #Territory Ceded
+    desc = "The French sure are generous."
+    picture = "theatre"
+	is_triggered_only = yes
+    mean_time_to_happen = {
+	days = 1
+	
+	}
+    option = {
+        name = "Hurrah!" #Grant Province
+		any_owned = {
+		limit={
+				NOT = {is_core = FRA}
+				OR = {is_core = ITA is_core = BIT}
+			}
+        
+		secede_province = ITA
+		}
+	
+        
+      }
+        
+    }

@@ -215,4 +215,31 @@ political_decisions = {
 			}
 			ai_will_do = { factor = 1 }
 	}
+	
+	secede_to_bitaly = {
+		potential = {
+			BIT = {vassal_of = THIS}
+			THIS = {any_owned_province = {OR={is_core = ITA is_core = BIT} NOT = {is_core = FRA}}}
+		}
+		allow = { }
+			effect = {
+				
+				country_event = {id=496001}
+				
+			}
+			ai_will_do = { factor = 1 }
+	}
+	secede_to_italy = {
+		potential = {
+			ITA = {vassal_of = THIS}
+			THIS = {any_owned_province = {OR={is_core = ITA is_core = BIT} NOT = {is_core = FRA}}}
+		}
+		allow = { }
+			effect = {
+				
+				country_event = {id=496002}
+				
+			}
+			ai_will_do = { factor = 1 }
+	}
 }

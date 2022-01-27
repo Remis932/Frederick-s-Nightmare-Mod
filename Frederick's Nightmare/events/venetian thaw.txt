@@ -26,10 +26,10 @@ country_event = {
     trigger = {
 	tag = VEN
 	NOT = {has_global_flag = rip_venice}
-	NOT={AUS_736 = {owned_by=VEN}}
-	NOT={AUS_736 = {owned_by=VEN}}
-	NOT={AUS_733 = {owned_by=VEN}}
-	NOT={AUS_729 = {owned_by=VEN}}
+	#NOT={AUS_736 = {owned_by=VEN}}
+	#NOT={AUS_736 = {owned_by=VEN}}
+	#NOT={AUS_733 = {owned_by=VEN}}
+	NOT={729 = {owned_by=VEN}}
     }
 
     
@@ -57,10 +57,10 @@ country_event = {
 	NOT = {tag = VEN}
 	NOT = {has_country_flag = rip_venice_good}
 	has_global_flag = rip_venice
-	AUS_736 = {owned_by=THIS}
-	AUS_736 = {owned_by=THIS}
-	AUS_733 = {owned_by=THIS}
-	AUS_729 = {owned_by=THIS}
+	#AUS_736 = {owned_by=THIS}
+	#AUS_736 = {owned_by=THIS}
+	#AUS_733 = {owned_by=THIS}
+	729 = {owned_by=THIS}
     }
 
     
